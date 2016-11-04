@@ -1,6 +1,7 @@
 /*! Source: https://leetcode.com/problems/longest-substring-without-repeating-characters/
  *! Author: qwchen
  *! Date  : 2016-10-31
+ * Solution 为该文件最优的方案
  */
 
 #include <iostream>

@@ -1,6 +1,7 @@
 /*! Source: https://leetcode.com/problems/two-sum/
  *! Author: qwchen
  *! Date  : 2016-10-30
+ * Solution 为该文件最优的方案
  */
 
 #include <iostream>
@@ -8,6 +9,33 @@
 #include <unordered_map>
 
 using namespace std;
+
+/*
+ * 解法二：
+ *     用一个hash表，以数组的值作为key，数组的下标作为value。
+ *     与解法一不同，解法一是对数组进行两次遍历：一次构建hash表；一次对于每个元素，从hash表中寻找是否存在与其和等于target的值
+ *     解法二只需要遍历数组一次；对于每一个元素，其前面的元素都已经存在hash表中；对于当前元素，如果能从hash找到与其和等于target的值，
+ *     则将hash表中的元素及当前元素下标返回，否则将当前元素放到hash表中。
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
+ */
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        vector<int> indices;
+        unordered_map<int, int> mapping;
+        for (int i = 0; i < nums.size(); i++){
+            int gap = target - nums[i];
+            if (mapping.find(gap) != mapping.end()){
+                indices.push_back(mapping[gap]);
+                indices.push_back(i);
+                break;
+            }
+            mapping[nums[i]] = i; 
+        }
+        return indices;
+    }
+};
 
 /* 
  * 解法一：
@@ -17,7 +45,7 @@ using namespace std;
  * 时间复杂度：平均：O(n)，最坏O(n^2)
  * 空间复杂度：O(n)
  */
-class Solution {
+class Solution1 {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         vector<int> indices;
@@ -48,38 +76,13 @@ public:
     }
 };
 
-/*
- * 解法二：
- *     用一个hash表，以数组的值作为key，数组的下标作为value。
- *     与解法一不同，解法一是对数组进行两次遍历：一次构建hash表；一次对于每个元素，从hash表中寻找是否存在与其和等于target的值
- *     解法二只需要遍历数组一次；对于每一个元素，其前面的元素都已经存在hash表中；对于当前元素，如果能从hash找到与其和等于target的值，
- *     则将hash表中的元素及当前元素下标返回，否则将当前元素放到hash表中。
- * 时间复杂度：O(n)
- * 空间复杂度：O(n)
- */
-class Solution2 {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int> indices;
-        unordered_map<int, int> mapping;
-        for (int i = 0; i < nums.size(); i++){
-            int gap = target - nums[i];
-            if (mapping.find(gap) != mapping.end()){
-                indices.push_back(mapping[gap]);
-                indices.push_back(i);
-                break;
-            }
-            mapping[nums[i]] = i; 
-        }
-        return indices;
-    }
-};
+
 
 void testSolution() {
     vector<int> nums = {3, 2, 4};
     vector<int> indices;
     
-    Solution s;
+    Solution1 s;
     indices = s.twoSum(nums, 6);
     for (int i : indices){
         cout << i << " ";

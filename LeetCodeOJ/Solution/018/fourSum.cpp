@@ -1,6 +1,7 @@
 /*! Source: https://leetcode.com/problems/4sum/
  *! Author: qwchen
  *! Date  : 2016-11-01
+ * Solution 为该文件最优的方案
  */
 
 #include <iostream>
@@ -11,51 +12,6 @@
 #include <algorithm>
 
 using namespace std;
-
-
-/* [Time Limit Exceeded]
- * 用一个unordered_map缓存所有的两数之和，key是两数之和，value是一个set，不重复的保存和为该key的数对pair。(O(n^2))
- * 将问题转化为两个数之和的问题。由001题的方法，可以求两个数之和时间复杂度可以降到O(n)。
- * 但是，当出现所有的两个数之和等于同一个数，而target又等于这个数的两倍时，时间复杂度为O(n^3)
- * 时间复杂度：平均情况：O(n^2)，最坏情况：O(n^3)
- * 空间复杂度：O(n^2)
- * 不过测试用例可能出现有O(n^3)的测试，结果超时。
- */
-class Solution {
-public:
-    vector<vector<int>> fourSum(vector<int>& nums, int target) {
-        unordered_map<int, set<pair<int, int>>> mapping; // 用于缓存所有两数之和，key是两数之和，value是一个set，不重复的保存和为该key的数对pair。
-        set<vector<int>> value_set;
-        vector<int> vec;
-        int numSize = nums.size();
-        for (int i = 0; i < numSize; i++){
-            for (int j = i+1; j < numSize; j++){
-                mapping[nums[i] + nums[j]].insert(make_pair(i, j));  // 都是 i < j
-            }
-        }
-        for(auto it = mapping.begin(); it != mapping.end(); it++){
-            int gap = target - it->first;
-            if(it->first <= gap && mapping.find(gap) != mapping.end()){ // 为了避免重复，只需要比较it->first <= gap
-                for (auto left: mapping[it->first]){
-                    for (auto right: mapping[gap]){
-                        set<int> unique = {left.first, left.second, right.first, right.second}; // 去重
-                        if (unique.size() == 4){ // =4说明没有重复元素
-                            vec = {nums[left.first], nums[left.second], nums[right.first], nums[right.second]};
-                            sort(vec.begin(), vec.end()); // 结果集合内要求排序
-                            value_set.insert(vec);
-                        }
-                    }
-                }
-            }
-        }
-        vector<vector<int>> result;
-        for (auto i: value_set){
-            result.push_back(i);
-        }
-        return result;
-    }
-};
-
 
 /* [Runtim beats 93.29% of cpp submissions]
  * 有点类似暴力解法，思路简单，不过多加了一些规则(即考虑特殊情况)，而且在最后求两个数之和时，由于本身已经排好序，因此用左右夹逼法。
@@ -69,7 +25,7 @@ public:
  * 时间复杂度：O(n^3)，加上一些规则后，n^3前面的系数很小
  * 空间复杂度：O(1)
  */
-class Solution2{
+class Solution{
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
         // 当长度不足时，直接返回
@@ -173,6 +129,50 @@ private:
 };
 
 
+/* [Time Limit Exceeded]
+ * 用一个unordered_map缓存所有的两数之和，key是两数之和，value是一个set，不重复的保存和为该key的数对pair。(O(n^2))
+ * 将问题转化为两个数之和的问题。由001题的方法，可以求两个数之和时间复杂度可以降到O(n)。
+ * 但是，当出现所有的两个数之和等于同一个数，而target又等于这个数的两倍时，时间复杂度为O(n^3)
+ * 时间复杂度：平均情况：O(n^2)，最坏情况：O(n^3)
+ * 空间复杂度：O(n^2)
+ * 不过测试用例可能出现有O(n^3)的测试，结果超时。
+ */
+class Solution1 {
+public:
+    vector<vector<int>> fourSum(vector<int>& nums, int target) {
+        unordered_map<int, set<pair<int, int>>> mapping; // 用于缓存所有两数之和，key是两数之和，value是一个set，不重复的保存和为该key的数对pair。
+        set<vector<int>> value_set;
+        vector<int> vec;
+        int numSize = nums.size();
+        for (int i = 0; i < numSize; i++){
+            for (int j = i+1; j < numSize; j++){
+                mapping[nums[i] + nums[j]].insert(make_pair(i, j));  // 都是 i < j
+            }
+        }
+        for(auto it = mapping.begin(); it != mapping.end(); it++){
+            int gap = target - it->first;
+            if(it->first <= gap && mapping.find(gap) != mapping.end()){ // 为了避免重复，只需要比较it->first <= gap
+                for (auto left: mapping[it->first]){
+                    for (auto right: mapping[gap]){
+                        set<int> unique = {left.first, left.second, right.first, right.second}; // 去重
+                        if (unique.size() == 4){ // =4说明没有重复元素
+                            vec = {nums[left.first], nums[left.second], nums[right.first], nums[right.second]};
+                            sort(vec.begin(), vec.end()); // 结果集合内要求排序
+                            value_set.insert(vec);
+                        }
+                    }
+                }
+            }
+        }
+        vector<vector<int>> result;
+        for (auto i: value_set){
+            result.push_back(i);
+        }
+        return result;
+    }
+};
+
+
 void testSolution(){
     vector<int> s = {1, 0, -1, 0, -2, 2};
     int target = 0;
@@ -194,8 +194,7 @@ void testSolution(){
     int target = -236727523;
     */
     Solution solution;
-    Solution2 solution2;
-    vector<vector<int>> result = solution2.fourSum(s, target);
+    vector<vector<int>> result = solution.fourSum(s, target);
     cout << "[" << endl;
     for (int i = 0; i < result.size(); i++){
         cout << "[" << result[i][0] << ", " << result[i][1] << ", " << result[i][2] << ", " << result[i][3] << "]" << endl;
