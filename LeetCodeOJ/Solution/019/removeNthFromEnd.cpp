@@ -2,6 +2,7 @@
  *! Author: qwchen
  *! Date  : 2016-11-04
  * Solution 为该文件最优的方案
+ * test数据来自LeetCode，只用于测试是否语法错误，完整的测试见LeetCode。
  */
 
 #include <iostream>
