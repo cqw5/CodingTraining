@@ -10,7 +10,8 @@
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./Solution/019/removeNthFromEnd.cpp)|Linked List|Easy
 |021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./Solution/021/mergeTwoLists.cpp)|Linked List|Easy|
 |023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[C++](./Solution/023/mergeKLists.cpp)|Linked List/heap|Hard|
-|024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[C++](./Solution/024/swapPairs.cpp)|Linked List|Easy
-
+|024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[C++](./Solution/024/swapPairs.cpp)|Linked List|Easy|
+|072|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[C++](./Solution/072/minDistance.cpp)|DP|Hard|
+|120|[Triangle](https://leetcode.com/problems/triangle/)|[C++](./Solution/120/minimumTotal.cpp)|DP|Medium|
 
 
