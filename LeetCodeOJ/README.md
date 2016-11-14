@@ -18,7 +18,9 @@
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./Solution/102/levelOrder.cpp)|Tree|Easy|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[C++](./Solution/103/zigzagLevelOrder.cpp)|Tree|Medium|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[C++](./Solution/104/maxDepth.cpp)|Tree|Easy|
-|111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[C++](./Solution/111/minDepth.cpp)|Teee|Easy|
+|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[C++](./Solution/105/buildTree.cpp)|Tree|Medium|
+|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[C++](./Solution/106/buildTree.cpp)|Tree|Medium|
+|111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[C++](./Solution/111/minDepth.cpp)|Tree|Easy|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[C++](./Solution/114/flatten.cpp)|Tree|Medium|
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[C++](./Solution/120/minimumTotal.cpp)|DP|Medium|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./Solution/144/preorderTraversal.cpp)|Tree/Stack|Medium|
