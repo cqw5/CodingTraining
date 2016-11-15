@@ -1,4 +1,7 @@
-
+/*! Author: qwchen
+ *! Date: 2016-11-15
+ * 从排序矩阵中查找从小到大的第k个数。
+ */
 
 #include <iostream>
 #include <vector>
