@@ -26,3 +26,4 @@
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./Solution/144/preorderTraversal.cpp)|Tree/Stack|Medium|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[C++](./Solution/145/postorderTraversal.cpp)|Tree/Stack|Hard|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[C++](./Solution/236/lowestCommonAncestor.cpp)|Tree|Medium|
+|378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./Solution/378kthSmallest.cpp)|Binary Search/Heap|Medium|
