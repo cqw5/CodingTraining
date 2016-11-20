@@ -29,6 +29,7 @@
 |25|二叉树中和为某一值的路径|[C++](./Solution/25/findPath.cpp)|举例让抽象具体化|
 |26|复杂链表的复制|[C++](./Solution/26/clone.cpp)|分解让复杂问题简单|
 |27|二叉搜索树与双向链表|[C++](./Solution/27/convert.cpp)|分解让复杂问题简单|
+|28|字符串的排列|[C++](./Solution/28/permutation.cpp)|分解让复杂问题简单|
 |31|连续子数组的最大和|[C++](./Solution/31/greatestSumOfSubarrays.cpp)|时间效率/动态规划|
 
 
