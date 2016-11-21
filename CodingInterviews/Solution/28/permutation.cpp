@@ -1,6 +1,6 @@
 /*! Author: qwchen
  *! Date  : 2016-11-20
- * 字符串排列
+ *  28. 字符串排列
  */
 
 #include <iostream>
