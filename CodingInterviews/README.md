@@ -31,7 +31,7 @@
 |27|二叉搜索树与双向链表|[C++](./Solution/27/convert.cpp)|分解让复杂问题简单|
 |28|字符串的排列|[C++](./Solution/28/permutation.cpp)|分解让复杂问题简单|
 |28.1|字符串的组合|[C++](./Solution/28/combination.cpp)|分解让复杂问题简单|
-|28.2|八皇后问题|[C++](./Solution/28/combination.cpp)|分解让复杂问题简单|
+|28.2|八皇后问题|[C++](./Solution/28/queueChess.cpp)|分解让复杂问题简单|
 |31|连续子数组的最大和|[C++](./Solution/31/greatestSumOfSubarrays.cpp)|时间效率/动态规划|
 
 
