@@ -35,5 +35,6 @@
 |29|数组中出现次数超过一半的数字|[C++](./Solution/29/moreThanHalfNum.cpp)|时间效率|
 |30|最小的K个数|[C++](./Solution/30/getLeastNumbers.cpp)|时间效率|
 |31|连续子数组的最大和|[C++](./Solution/31/greatestSumOfSubarrays.cpp)|时间效率/动态规划|
+|32|整数中1出现的次数（从1到n整数中1出现的次数）|[C++](./Solution/32/numberOf1Between1AndN.cpp)|时间效率|
 
 
