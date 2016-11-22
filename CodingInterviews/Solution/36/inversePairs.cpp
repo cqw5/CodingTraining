@@ -66,12 +66,12 @@ private:
 
 
 void testSolution() {
-	vector<int> arr = {7, 5, 6, 4};
-	Solution sol;
-	cout << sol.InversePairs(arr) << endl;
+    vector<int> arr = {7, 5, 6, 4};
+    Solution sol;
+    cout << sol.InversePairs(arr) << endl;
 }
 
 int main() {
-	testSolution();
-	return 0;
+    testSolution();
+    return 0;
 }
