@@ -61,7 +61,7 @@ public:
         if (index <= 0) {
             return 0;
         }
-		vector<int> uglyArray = {1};
+        vector<int> uglyArray = {1};
         int uglyCount = 1;
         int index2 = 0,
             index3 = 0,
@@ -92,14 +92,14 @@ private:
 
 
 void testSolution() {
-	Solution2 sol;
-	cout << sol.getUglyNumber(4) << endl;    // 4
-	cout << sol.getUglyNumber(100) << endl;  // 1536
-	cout << sol.getUglyNumber(1000) << endl; // 51200000
+    Solution2 sol;
+    cout << sol.getUglyNumber(4) << endl;    // 4
+    cout << sol.getUglyNumber(100) << endl;  // 1536
+    cout << sol.getUglyNumber(1000) << endl; // 51200000
 }
 
 int main() {
-	testSolution();
-	return 0;
+    testSolution();
+    return 0;
 }
 
