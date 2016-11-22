@@ -37,5 +37,5 @@
 |31|连续子数组的最大和|[C++](./Solution/31/greatestSumOfSubarrays.cpp)|时间效率/动态规划|
 |32|整数中1出现的次数（从1到n整数中1出现的次数）|[C++](./Solution/32/numberOf1Between1AndN.cpp)|时间效率|
 |33|把数组排成最小的数|[C++](./Solution/33/printMinNumber.cpp)|时间效率|
-
+|34|丑数|[C++](./Solution/34/getUglyNumber.cpp)|时间空间效率的平衡|
 
