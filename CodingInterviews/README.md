@@ -39,5 +39,5 @@
 |33|把数组排成最小的数|[C++](./Solution/33/printMinNumber.cpp)|时间效率|
 |34|丑数|[C++](./Solution/34/getUglyNumber.cpp)|时间空间效率的平衡|
 |35|第一个只出现一次的字符位置|[C++](./Solution/35/firstNotRepeatingChar.cpp)|时间空间效率的平衡|
-
+|36|两个链表的第一个公共结点|[C++](./Solution/36/inversePairs.cpp)|时间空间效率的平衡|
 
