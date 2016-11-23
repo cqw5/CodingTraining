@@ -42,5 +42,6 @@
 |36|数组中的逆序对|[C++](./Solution/36/inversePairs.cpp)|时间空间效率的平衡|
 |37|两个链表的第一个公共结点|[C++](./Solution/37/findFirstCommonNode.cpp)|时间空间效率的平衡|
 |38|数字在排序数组中出现的次数|[C++](./Solution/38/getNumberOfK.cpp)|知识迁移能力|
-
+|39|二叉树的深度|[C++](./Solution/39/treeDepth.cpp)|知识迁移能力|
+|40|平衡二叉树|[C++](./Solution/40/isBalanced.cpp)|知识迁移能力|
 
