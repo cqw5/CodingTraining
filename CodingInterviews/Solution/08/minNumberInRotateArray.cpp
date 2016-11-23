@@ -24,53 +24,57 @@ public:
         if (rotateArray.size() == 0){
             throw new range_error("array must be not null");
         }
-        // 数组长度为0
+        // 数组长度为1
         if (rotateArray.size() == 1){
             return rotateArray[0];
         }
         int low = 0;
         int high = rotateArray.size() - 1;
         int mid = 0;
-        while(low + 1 < high){
+        while(low < high){
             mid = (low + high) / 2;
-            if (rotateArray[low] == rotateArray[mid] && rotateArray[high] == rotateArray[mid]){
-        		return minNumber(rotateArray, low, high);        
+            // 刚好找到
+            if (rotateArray[mid] > rotateArray[mid+1]) {
+                return rotateArray[mid+1];
             }
-            if (rotateArray[low] <= rotateArray[mid]){
-                low = mid;
-            } else if (rotateArray[high] >= rotateArray[mid]){
+            // 这种情况只能从头到尾遍历了
+            if (rotateArray[low] == rotateArray[mid] && rotateArray[high] == rotateArray[mid]){
+                return minNumber(rotateArray, low, high);        
+            }
+            if (rotateArray[mid] < rotateArray[low]){
                 high = mid;
+            } 
+            else if (rotateArray[mid] > rotateArray[high]){
+                low = mid;
             }
         }
-        return rotateArray[high];
+        return rotateArray[low];
     }
 
 private:
-	// 遍历搜索low到high之间的元素
     int minNumber(vector<int>& rotateArray, int low, int high){
-        int minNum = rotateArray[low];
-        for (low++; low <= high; low++){
-            if (rotateArray[low] < minNum){
-                minNum = rotateArray[low];
+        for (int i = low; i < high; i++) {
+            if (rotateArray[i] > rotateArray[i+1]) {
+                return rotateArray[i+1];                
             }
         }
-        return minNum;
+        return rotateArray[low];
     }
 };
 
 void testSolution(){
-	vector<vector<int>> array = {
-		{3, 4, 5, 1, 2}, // min 1
-		{1, 1, 1, 0, 1}  // min 0
-	};
-	Solution sol;
-	for (auto a: array){
-		cout << sol.minNumberInRotateArray(a) << endl;
-	}
+    vector<vector<int>> array = {
+        {3, 4, 5, 1, 2}, // min 1
+        {1, 1, 1, 0, 1}  // min 0
+    };
+    Solution sol;
+    for (auto a: array){
+        cout << sol.minNumberInRotateArray(a) << endl;
+    }
 }
 
 int main(){
-	testSolution();
-	return 0;
+    testSolution();
+    return 0;
 }
 
