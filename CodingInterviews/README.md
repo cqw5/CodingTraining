@@ -41,4 +41,6 @@
 |35|第一个只出现一次的字符位置|[C++](./Solution/35/firstNotRepeatingChar.cpp)|时间空间效率的平衡|
 |36|数组中的逆序对|[C++](./Solution/36/inversePairs.cpp)|时间空间效率的平衡|
 |37|两个链表的第一个公共结点|[C++](./Solution/37/findFirstCommonNode.cpp)|时间空间效率的平衡|
+|38|数字在排序数组中出现的次数|[C++](./Solution/38/getNumberOfK.cpp)|知识迁移能力|
+
 
