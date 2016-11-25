@@ -46,3 +46,4 @@
 |39.2|平衡二叉树|[C++](./Solution/39/isBalanced.cpp)|知识迁移能力|
 |40|数组中只出现一次的数字|[C++](./Solution/40/findNumsAppearOnce.cpp)|知识迁移能力|
 |41.1|和为S的两个数字|[C++](./Solution/41/findNumbersWithSum.cpp)|知识迁移能力|
+|41.2|和为S的连续正数序列|[C++](./Solution/41/findContinuousSequence.cpp)|知识迁移能力|
