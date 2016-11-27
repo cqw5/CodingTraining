@@ -52,6 +52,7 @@
 |43|n个骰子的点数|[C++](./Solution/43/diceProbiluty.cpp)|抽象建模能力|
 |44|扑克牌顺子|[C++](./Solution/44/IsContinuous.cpp)|抽象建模能力|
 |45|孩子们的游戏(圆圈中最后剩下的数)|[C++](./Solution/45/lastRemaining.cpp)|抽象建模能力|
+|49|把字符串转换成整数|[C++](./Solution/49/StrToInt.cpp)|综合|
 
 
 

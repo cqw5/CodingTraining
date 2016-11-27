@@ -26,7 +26,7 @@ public:
         }
         int current = 0;
         while(numbers.size() > 1) {
-            current = (current + m - 1) % numbers.size();  // 对数组长度取模取模
+            current = (current + m - 1) % numbers.size();  // 对数组长度取模
             numbers.erase(numbers.begin() + current);
         }
         return numbers[0];
