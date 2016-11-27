@@ -49,6 +49,7 @@
 |41.2|和为S的连续正数序列|[C++](./Solution/41/findContinuousSequence.cpp)|知识迁移能力|
 |42.1|翻转单词顺序列|[C++](./Solution/42/reverseSentence.cpp)|知识迁移能力|
 |42.2|左旋转字符串|[C++](./Solution/42/leftRotateString.cpp)|知识迁移能力|
+|43|n个骰子的点数|[C++](./Solution/43/diceProbiluty.cpp)|抽象建模能力|
 
 
 
