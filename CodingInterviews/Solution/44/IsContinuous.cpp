@@ -1,3 +1,7 @@
+/*! Author: qwchen
+ *! Date  : 2016-11-27
+ *  44. 扑克牌顺子
+ */
 
 #include <iostream>
 #include <vector>
