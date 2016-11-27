@@ -47,3 +47,9 @@
 |40|数组中只出现一次的数字|[C++](./Solution/40/findNumsAppearOnce.cpp)|知识迁移能力|
 |41.1|和为S的两个数字|[C++](./Solution/41/findNumbersWithSum.cpp)|知识迁移能力|
 |41.2|和为S的连续正数序列|[C++](./Solution/41/findContinuousSequence.cpp)|知识迁移能力|
+|42.1|翻转单词顺序列|[C++](./Solution/42/reverseSentence.cpp)|知识迁移能力|
+|42.2|左旋转字符串|[C++](./Solution/42/leftRotateString.cpp)|知识迁移能力|
+
+
+
+
