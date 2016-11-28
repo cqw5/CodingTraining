@@ -53,8 +53,8 @@
 |44|扑克牌顺子|[C++](./Solution/44/IsContinuous.cpp)|抽象建模能力|
 |45|孩子们的游戏(圆圈中最后剩下的数)|[C++](./Solution/45/lastRemaining.cpp)|抽象建模能力|
 |49|把字符串转换成整数|[C++](./Solution/49/StrToInt.cpp)|综合|
-|51|数组中重复数字|[C++](./Solution/51/duplicate.cpp)|数组
-|52|构建乘积数组|[C++](./Solution/52/multiply.cpp)|数组
-
+|51|数组中重复数字|[C++](./Solution/51/duplicate.cpp)|数组|
+|52|构建乘积数组|[C++](./Solution/52/multiply.cpp)|数组|
+|55|字符流中第一个不重复的字符|[C++](./Solution/55/firstAppearingOnce.cpp)|字符串|
 
 
