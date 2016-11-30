@@ -56,5 +56,6 @@
 |51|数组中重复数字|[C++](./Solution/51/duplicate.cpp)|数组|
 |52|构建乘积数组|[C++](./Solution/52/multiply.cpp)|数组|
 |55|字符流中第一个不重复的字符|[C++](./Solution/55/firstAppearingOnce.cpp)|字符串|
+|56|链表中环的入口结点|[C++](./Solution/56/entryNodeOfLoop.cpp)|链表|
 
 
