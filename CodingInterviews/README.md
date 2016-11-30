@@ -34,7 +34,7 @@
 |28.2|八皇后问题|[C++](./Solution/28/queueChess.cpp)|分解让复杂问题简单|
 |29|数组中出现次数超过一半的数字|[C++](./Solution/29/moreThanHalfNum.cpp)|时间效率|
 |30|最小的K个数|[C++](./Solution/30/getLeastNumbers.cpp)|时间效率|
-|31|连续子数组的最大和|[C++](./Solution/31/greatestSumOfSubarrays.cpp)|时间效率/动态规划|
+|31|连续子数组的最大和|[C++](./Solution/31/greatestSumOfSubarrays.cpp)|时间效率/动态规划|[](http://)
 |32|整数中1出现的次数（从1到n整数中1出现的次数）|[C++](./Solution/32/numberOf1Between1AndN.cpp)|时间效率|
 |33|把数组排成最小的数|[C++](./Solution/33/printMinNumber.cpp)|时间效率|
 |34|丑数|[C++](./Solution/34/getUglyNumber.cpp)|时间空间效率的平衡|
@@ -57,5 +57,5 @@
 |52|构建乘积数组|[C++](./Solution/52/multiply.cpp)|数组|
 |55|字符流中第一个不重复的字符|[C++](./Solution/55/firstAppearingOnce.cpp)|字符串|
 |56|链表中环的入口结点|[C++](./Solution/56/entryNodeOfLoop.cpp)|链表|
-
+|57|删除链表中重复的结点|[C++](./Solution/57/deleteDuplication.cpp)|链表|
 
