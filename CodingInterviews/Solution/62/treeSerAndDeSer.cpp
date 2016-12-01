@@ -78,7 +78,6 @@ public:
         return root;
     }
 
-
 private:
     // 将字符串转化为数字
     int str2num(string s) {
