@@ -58,4 +58,8 @@
 |55|字符流中第一个不重复的字符|[C++](./Solution/55/firstAppearingOnce.cpp)|字符串|
 |56|链表中环的入口结点|[C++](./Solution/56/entryNodeOfLoop.cpp)|链表|
 |57|删除链表中重复的结点|[C++](./Solution/57/deleteDuplication.cpp)|链表|
+|58|二叉树的下一个结点|[C++](./Solution/58/getNext.cpp)|树|
+
+
+
 
