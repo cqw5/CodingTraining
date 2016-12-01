@@ -1,9 +1,8 @@
 /*! Author: qwchen
  *! Date  : 2016-12-01
- *  60. 按之字形顺序打印二叉树
+ *  60. 把二叉树打印成多行
  *  题目描述
- *    请实现一个函数按照之字形打印二叉树，即第一行按照从左到右的顺序打印，第二层按照从右至左的顺序打印，第三行按照从左到右的顺序打印，
- *    其他行以此类推。
+ *    从上到下按层打印二叉树，同一层结点从左至右输出。每一层输出一行。
  */
 
 /*
@@ -19,9 +18,8 @@ struct TreeNode {
 
 /*
  * 思路：
- *   使用两个栈left2right和right2left实现
- *   奇数层节点存放在栈left2right中，出栈时，对于每个元素，先将其左孩子入到right2left，再将其右孩子入到right2left
- *   偶数层节点存放在栈right2left中，出栈时，对于每个元素，先将其右孩子入到left2right，再将其左孩子入到left2right
+ *   跟二叉树的标准层次遍历一样，使用一个队列，并使用nullptr指针来分割队列中二叉树的每一层
+ *   用一个局部的数组保存一层的元素，遇到nullptr指针就将局部数组的元素加到结果中，并局部数组
  */
 class Solution {
 public:
@@ -30,43 +28,28 @@ public:
         if (pRoot == nullptr) {
             return result;
         }
-        stack<TreeNode*> left2right;
-        stack<TreeNode*> right2left;
-        left2right.push(pRoot);
+        queue<TreeNode*> q;
+        q.push(pRoot);
+        q.push(nullptr);
         vector<int> layer;
-        while (!left2right.empty() || !right2left.empty()) {
-            while (!left2right.empty()) {
-            	TreeNode* top = left2right.top();
-                layer.push_back(top->val);
-                if (top->left != nullptr) {
-                    right2left.push(top->left);
-                }
-                if (top->right != nullptr) {
-                    right2left.push(top->right);
-                }
-                left2right.pop();
+        while(!q.empty()) {
+            TreeNode* front = q.front();
+            q.pop();
+            if (front != nullptr) {
+                layer.push_back(front->val);
+                if (front->left != nullptr)  q.push(front->left);
+                if (front->right != nullptr) q.push(front->right);
             }
-            if (layer.size() > 0) {
-                result.push_back(layer);
-                layer.clear();
-            }
-            while (!right2left.empty()) {
-				TreeNode* top = right2left.top();
-                layer.push_back(top->val);
-                if (top->right != nullptr) {
-                    left2right.push(top->right);
+            else {
+                if (!q.empty()) {
+                    result.push_back(layer);
+                    layer.clear();
+                    q.push(nullptr);
                 }
-                if (top->left != nullptr) {
-                    left2right.push(top->left);
-                }
-                right2left.pop();
-            }
-            if (layer.size() > 0) {
-                result.push_back(layer);
-                layer.clear();
             }
         }
+        result.push_back(layer);
         return result;
     }
-    
 };
+
