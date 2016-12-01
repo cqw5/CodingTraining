@@ -60,6 +60,6 @@
 |57|删除链表中重复的结点|[C++](./Solution/57/deleteDuplication.cpp)|链表|
 |58|二叉树的下一个结点|[C++](./Solution/58/getNext.cpp)|树|
 |59|对称的二叉树|[C++](./Solution/59/isSymmetrical.cpp)|树|
-
+|60|按之字形顺序打印二叉树|[C++](./Solution/60/print.cpp)|树|
 
 
