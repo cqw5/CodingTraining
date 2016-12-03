@@ -67,6 +67,6 @@
 |64|数据流中的中位数|[C++](./Solution/64/streamMedian.cpp)|树|
 |65|滑动窗口的最大值|[C++](./Solution/65/maxInWindows.cpp)|栈和队列|
 |66|矩阵中的路径|[C++](./Solution/66/hasPath.cpp)|回溯法|
-
+|67|机器人的运动范围|[C++](./Solution/67/movingCount.cpp)|回溯法|
 
 
