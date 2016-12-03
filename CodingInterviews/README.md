@@ -64,5 +64,5 @@
 |61|按之字形顺序打印二叉树|[C++](./Solution/61/print.cpp)|树|
 |62|序列化二叉树|[C++](./Solution/62/treeSerAndDeSer.cpp)&ensp;[Python](./Solution/62/treeSerAndDeSer.py)|树|
 |63|二叉搜索树的第k个结点|[C++](./Solution/63/kthNode.cpp)&ensp;[Python](./Solution/63/kthNode.py)|树|
-
+|64|数据流中的中位数|[C++](./Solution/64/streamMedian.cpp)|树|
 
