@@ -61,11 +61,12 @@ private:
 };
 
 void testSolution() {
-	Solution sol;
-	cout << sol.movingCount(18, 100, 100) << endl;
+    Solution sol;
+    cout << sol.movingCount(18, 100, 100) << endl;
 }
 
 int main() {
-	testSolution();
-	return 0;
+    testSolution();
+    return 0;
 }
+
