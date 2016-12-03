@@ -22,7 +22,7 @@ public:
         if (matrix == NULL || rows <= 0 || cols <= 0 || str == NULL) {
             return false;
         }
-    	bool *visited = new bool[rows * cols];
+        bool *visited = new bool[rows * cols];
         for (int i = 0; i < rows * cols; i++) {
             visited[i] = false;
         }
