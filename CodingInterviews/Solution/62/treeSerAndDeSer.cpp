@@ -40,20 +40,18 @@ public:
         if (root == nullptr) {
             return seq;
         }
-        seq = serialize2(root);
+        serialize(seq, root);
+        return seq;
     }
 
-    vector<string> serialize2(TreeNode* root) {
+    void serialize(vector<string>& seq, TreeNode* root) {
         if (root == nullptr) {
-            return {"$"};
+            seq.push_back("$");
+            return;
         }
-        vector<string> seq;
         seq.push_back(num2str(root->val));
-        vector<string> left = serialize2(root->left);
-        seq.insert(seq.end(), left.begin(), left.end());
-        vector<string> right = serialize2(root->right);
-        seq.insert(seq.end(), right.begin(), right.end());
-        return seq;
+        serialize(seq, root->left);
+        serialize(seq, root->right);
     }
 
     // 将二叉树反序列化
@@ -62,19 +60,19 @@ public:
             return nullptr;
         }
         int i = 0;
-        return deserialize2(seq, i);
+        return deserialize(seq, i);
     }
 
     // 注意i是传引用
-    TreeNode* deserialize2(vector<string> seq, int &i) {
+    TreeNode* deserialize(vector<string>& seq, int &i) {
         if (i >= seq.size() || seq[i] == "$") {
             i++;
             return nullptr;
         }
         TreeNode* root = new TreeNode(str2num(seq[i]));
         i++;
-        root->left = deserialize2(seq, i);
-        root->right = deserialize2(seq, i);
+        root->left = deserialize(seq, i);
+        root->right = deserialize(seq, i);
         return root;
     }
 

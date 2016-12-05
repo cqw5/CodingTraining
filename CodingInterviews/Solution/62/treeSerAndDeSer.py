@@ -17,16 +17,16 @@ class Solution:
     def Serialize(self, root):
         if root is None:
             return None
-        list_str = self.Serialize2(root)
+        list_str = []
+        self.Serialize2(list_str, root)  # 利用Python复杂数据类型默认传引用的特点
         return ','.join(list_str)
                 
-    def Serialize2(self, root):
+    def Serialize2(self, list_str, root):
         if root is None:
-            return ['#'];
-        list_str = [str(root.val)]
-        list_str.extend(self.Serialize2(root.left))
-        list_str.extend(self.Serialize2(root.right))
-        return list_str
+            return list_str.append('#')
+        list_str.append(str(root.val))
+        self.Serialize2(list_str, root.left)
+        self.Serialize2(list_str, root.right)
     
     def Deserialize(self, s):
         if s is None:
