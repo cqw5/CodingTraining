@@ -5,12 +5,12 @@
 
 /*
 struct TreeNode {
-	int val;
-	struct TreeNode *left;
-	struct TreeNode *right;
-	TreeNode(int x) :
-			val(x), left(NULL), right(NULL) {
-	}
+    int val;
+    struct TreeNode *left;
+    struct TreeNode *right;
+    TreeNode(int x) :
+            val(x), left(NULL), right(NULL) {
+    }
 };*/
 class Solution {
 public:
@@ -19,7 +19,7 @@ public:
         if (root == nullptr) {
             return levelOrder;
         }
-		queue<TreeNode*> q;
+        queue<TreeNode*> q;
         q.push(root);
         while (!q.empty()) {
             TreeNode* out = q.front();
