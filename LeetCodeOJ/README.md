@@ -12,6 +12,7 @@
 |023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[C++](./Solution/023/mergeKLists.cpp)|Linked List/heap|Hard|
 |024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[C++](./Solution/024/swapPairs.cpp)|Linked List|Easy|
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Solution/053/maxSubArray.cpp)|DP|Medium|
+|061|[Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./Solution/061/rotateRight.cpp)|Linked List|Medium|
 |072|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[C++](./Solution/072/minDistance.cpp)|DP|Hard|
 |094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./Solution/094/inorderTraversal.cpp)|Tree/Stack|Medium|
 |097|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|[C++](./Solution/097/isInterleave.cpp)|DP|Hard|
