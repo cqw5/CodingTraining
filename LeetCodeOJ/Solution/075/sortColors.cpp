@@ -1,3 +1,9 @@
+/*! Source: https://leetcode.com/problems/sort-colors/
+ *! Author: qwchen
+ *! Date  : 2016-12-11
+ * Solution 为该文件最优的方案
+ */
+
 /*
  * 思路：箱子排序
  * 时间复杂度：O(n)
@@ -44,3 +50,4 @@ public:
         }
     }
 };
+

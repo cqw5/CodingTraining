@@ -14,13 +14,13 @@
 |027|[Remove Element](https://leetcode.com/problems/remove-element/)|[C++](./Solution/027/removeElement.cpp)|Array|Easy|
 |034|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)|[C++](./Solution/034/searchRange.cpp)|Array|Medium|
 |035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[C++](./Solution/035/searchInsert.cpp)|Array|Medium|
-|053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Solution/053/maxSubArray.cpp)|DP|Medium|
+|053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Solution/053/maxSubArray.cpp)|DP/Array|Medium|
 |061|[Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./Solution/061/rotateRight.cpp)|Linked List|Medium|
 |072|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[C++](./Solution/072/minDistance.cpp)|DP|Hard|
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Solution/075/sortColors.cpp)|Array/Sort|Medium|
 |086|[Partition List](https://leetcode.com/problems/partition-list/)|[C++](./Solution/086/partition.cpp)|Linked List|Medium|
 |094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./Solution/094/inorderTraversal.cpp)|Tree/Stack|Medium|
-|097|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|[C++](./Solution/097/isInterleave.cpp)|DP|Hard|
+|097|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|[C++](./Solution/097/isInterleave.cpp)|DP/String|Hard|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./Solution/102/levelOrder.cpp)|Tree|Easy|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[C++](./Solution/103/zigzagLevelOrder.cpp)|Tree|Medium|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[C++](./Solution/104/maxDepth.cpp)|Tree|Easy|
