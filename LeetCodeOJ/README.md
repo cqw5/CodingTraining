@@ -20,6 +20,7 @@
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Solution/075/sortColors.cpp)|Array/Sort|Medium|
 |086|[Partition List](https://leetcode.com/problems/partition-list/)|[C++](./Solution/086/partition.cpp)|Linked List|Medium|
 |094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./Solution/094/inorderTraversal.cpp)|Tree/Stack|Medium|
+|095|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[C++](./Solution/095/generateTrees.cpp)|Tree/DP|Medium|
 |097|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|[C++](./Solution/097/isInterleave.cpp)|DP/String|Hard|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./Solution/102/levelOrder.cpp)|Tree|Easy|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[C++](./Solution/103/zigzagLevelOrder.cpp)|Tree|Medium|
