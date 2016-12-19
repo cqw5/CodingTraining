@@ -8,6 +8,7 @@
 |003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C++](./Solution/003/longestSubstringWithoutRepeatingCharacters.cpp)|Hash|Medium|
 |006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[C++](./Solution/006/convert.cpp)|String|Easy|
 |007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C++](./Solution/007/reverse.cpp)|Math|Easy|
+|008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./Solution/008/myAtoi.cpp)|Math/String|Easy|
 |018|[4Sum](https://leetcode.com/problems/4sum/)|[C++](./Solution/018/fourSum.cpp)|Hash/Array|Hard|
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./Solution/019/removeNthFromEnd.cpp)|Linked List|Easy|
 |021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./Solution/021/mergeTwoLists.cpp)|Linked List|Easy|
