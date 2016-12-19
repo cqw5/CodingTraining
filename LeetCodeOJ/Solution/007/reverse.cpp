@@ -1,7 +1,7 @@
 /*! Source: https://leetcode.com/problems/reverse-integer/
  *! Author: qwchen
  *! Date  : 2016-12-19
- * 数组翻转
+ * 数字翻转
  */
 
 /*
