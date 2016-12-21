@@ -11,6 +11,7 @@
 |008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./Solution/008/myAtoi.cpp)|Math/String|Easy|
 |009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[C++](./Solution/009/isPalindrome.cpp)|Math|Easy|
 |014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[C++](./Solution/014/longestCommonPrefix.cpp)|String|Easy|
+|015|[3Sum](https://leetcode.com/problems/3sum/)|[C++](./Solution/015/threeSum.cpp)|Array|Medium|
 |017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[C++](./Solution/017/letterCombinations.cpp)|String|Medium|
 |018|[4Sum](https://leetcode.com/problems/4sum/)|[C++](./Solution/018/fourSum.cpp)|Hash/Array|Hard|
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./Solution/019/removeNthFromEnd.cpp)|Linked List|Easy|
@@ -23,6 +24,7 @@
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Solution/053/maxSubArray.cpp)|DP/Array|Medium|
 |061|[Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./Solution/061/rotateRight.cpp)|Linked List|Medium|
 |072|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[C++](./Solution/072/minDistance.cpp)|DP|Hard|
+|074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C++](./Solution/074/searchMatrix.cpp)|Array/BinarySearch|
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Solution/075/sortColors.cpp)|Array/Sort|Medium|
 |086|[Partition List](https://leetcode.com/problems/partition-list/)|[C++](./Solution/086/partition.cpp)|Linked List|Medium|
 |094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./Solution/094/inorderTraversal.cpp)|Tree/Stack|Medium|
