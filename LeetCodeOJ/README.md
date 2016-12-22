@@ -42,6 +42,7 @@
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[C++](./Solution/120/minimumTotal.cpp)|DP|Medium|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[C++](./Solution/124/maxPathSum.cpp)|Tree|Hard|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[C++](./Solution/136/singleNumber.cpp)|Hash Table/Bit Manipulation|Easy|
+|143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[C++](./Solution/143/reorderList.cpp)|Linked List|Medium|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./Solution/144/preorderTraversal.cpp)|Tree/Stack|Medium|
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[C++](./Solution/145/postorderTraversal.cpp)|Tree/Stack|Hard|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[C++](./Solution/147/insertionSortList.cpp)|Linked List/Sort|Medium|
