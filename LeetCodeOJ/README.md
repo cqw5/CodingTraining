@@ -15,6 +15,7 @@
 |017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[C++](./Solution/017/letterCombinations.cpp)|String|Medium|
 |018|[4Sum](https://leetcode.com/problems/4sum/)|[C++](./Solution/018/fourSum.cpp)|Hash/Array|Hard|
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./Solution/019/removeNthFromEnd.cpp)|Linked List|Easy|
+|020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./Solution/020/isValid.cpp)|String/Stack|Easy|
 |021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./Solution/021/mergeTwoLists.cpp)|Linked List|Easy|
 |023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[C++](./Solution/023/mergeKLists.cpp)|Linked List/heap|Hard|
 |024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[C++](./Solution/024/swapPairs.cpp)|Linked List|Easy|
