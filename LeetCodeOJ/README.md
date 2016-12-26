@@ -27,7 +27,7 @@
 |062|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Solution/062/uniquePaths.cpp)|Array/DP|Medium|
 |063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[C++](./Solution/063/uniquePathsWithObstacles.cpp)|Array/DP|Medium|
 |067|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Solution/067/addBinary.cpp)|Math/String|Easy|
-|071|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Solution/071/simplifyPath.cpp)|Stack/String|Medium|
+|071|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Solution/071/simplifyPath.cpp) [Python](./Solution/071/simplifyPath.py)|Stack/String|Medium|
 |072|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[C++](./Solution/072/minDistance.cpp)|DP|Hard|
 |074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C++](./Solution/074/searchMatrix.cpp)|Array/BinarySearch|Medium|
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Solution/075/sortColors.cpp)|Array/Sort|Medium|
