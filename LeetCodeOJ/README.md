@@ -22,6 +22,7 @@
 |027|[Remove Element](https://leetcode.com/problems/remove-element/)|[C++](./Solution/027/removeElement.cpp)|Array|Easy|
 |034|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)|[C++](./Solution/034/searchRange.cpp)|Array|Medium|
 |035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[C++](./Solution/035/searchInsert.cpp)|Array|Medium|
+|039|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[C++](./Solution/039/combinationSum.cpp)|Array/Backtracking|Medium|
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Solution/053/maxSubArray.cpp)|DP/Array|Medium|
 |061|[Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./Solution/061/rotateRight.cpp)|Linked List|Medium|
 |062|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Solution/062/uniquePaths.cpp)|Array/DP|Medium|
