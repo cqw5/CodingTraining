@@ -55,6 +55,7 @@
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[C++](./Solution/147/insertionSortList.cpp)|Linked List/Sort|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[C++](./Solution/148/sortList.cpp)|Linked List/Sort|Medium|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[C++](./Solution/160/getIntersectionNode.cpp)|Linked List|Easy|
+|202|[Happy Number](https://leetcode.com/problems/happy-number/)|[C++](./Solution/202/isHappy.cpp)|Hash Table/Math|Easy|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[C++](./Solution/208/Trie.cpp)|Trie|Medium|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[C++](./Solution/215/findKthLargest.cpp)|Divide and Conquer|Medium|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[C++](./Solution/236/lowestCommonAncestor.cpp)|Tree|Medium|
