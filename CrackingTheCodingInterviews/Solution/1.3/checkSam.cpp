@@ -18,7 +18,7 @@
  * 时间复杂度：O(n)
  * 空间复杂度：O(1)
  */
-class Same {
+class Solution {
 public:
     bool checkSam(string stringA, string stringB) {
         if (stringA.size() != stringB.size()) return false;
