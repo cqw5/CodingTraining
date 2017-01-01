@@ -9,3 +9,4 @@
 |1.5|基本字符串压缩|[C++](./Solution/1.5/zipString.cpp)|数组与字符串|
 |1.6|像素翻转|[C++](./Solution/1.6/transformImage.cpp)|数组与字符串|
 |1.7|清除行列|[C++](./Solution/1.7/clearZero.cpp)|数组与字符串|
+|1.8|翻转子串|[C++](./Solution/1.7/checkReverseEqual.cpp)|数组与字符串|
