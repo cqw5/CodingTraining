@@ -1,6 +1,6 @@
 /*! Author: qwchen
  *! Date  : 2017-01-01
- *! 字符串与数组: 1.3
+ *! 字符串与数组: 1.5
  *! 题目描述:
  *    利用字符重复出现的次数，编写一个方法，实现基本的字符串压缩功能。
  *    比如，字符串“aabcccccaaa”经压缩会变成“a2b1c5a3”。若压缩后的字符串没有变短，则返回原先的字符串。
@@ -19,7 +19,7 @@
  * 时间复杂度：O(n)
  * 空间复杂度：O(n)
  */ 
-class Zipper {
+class Solution {
 public:
     string zipString(string str) {
         if (str.size() == 0) return str;
