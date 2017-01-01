@@ -10,3 +10,4 @@
 |1.6|像素翻转|[C++](./Solution/1.6/transformImage.cpp)|数组与字符串|
 |1.7|清除行列|[C++](./Solution/1.7/clearZero.cpp)|数组与字符串|
 |1.8|翻转子串|[C++](./Solution/1.8/checkReverseEqual.cpp)|数组与字符串|
+|2.1|移除未排序链表的重复元素|[C++](./Solution/2.1/deleteDups.cpp)|链表|
