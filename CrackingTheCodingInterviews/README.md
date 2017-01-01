@@ -6,5 +6,6 @@
 |1.2|原串翻转|[C++](./Solution/1.2/reverseString.cpp)|数组与字符串|
 |1.3|确定两串乱序同构|[C++](./Solution/1.3/checkSam.cpp)|数组与字符串|
 |1.4|空格替换|[C++](./Solution/1.4/replaceSpace.cpp)|数组与字符串|
+|1.5|基本字符串压缩|[C++](./Solution/1.5/zipString.cpp)|数组与字符串|
 
 
