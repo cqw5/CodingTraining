@@ -7,5 +7,5 @@
 |1.3|确定两串乱序同构|[C++](./Solution/1.3/checkSam.cpp)|数组与字符串|
 |1.4|空格替换|[C++](./Solution/1.4/replaceSpace.cpp)|数组与字符串|
 |1.5|基本字符串压缩|[C++](./Solution/1.5/zipString.cpp)|数组与字符串|
-
+|1.6|像素翻转|[C++](./Solution/1.6/transformImage.cpp)|数组与字符串|
 
