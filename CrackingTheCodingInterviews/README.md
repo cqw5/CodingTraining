@@ -14,3 +14,4 @@
 |2.2|链表中倒数第k个结点|[C++](./Solution/2.2/findKthToTail.cpp)|链表|
 |2.3|访问单个节点的删除|[C++](./Solution/2.3/removeNode.cpp)|链表|
 |2.4|链表分割|[C++](./Solution/2.4/partition.cpp)|链表|
+|2.5|链式A+B|[C++](./Solution/2.5/plusAB.cpp)|链表|
