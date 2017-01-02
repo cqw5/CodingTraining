@@ -16,5 +16,6 @@
 |2.4|链表分割|[C++](./Solution/2.4/partition.cpp)|链表|
 |2.5|链式A+B|[C++](./Solution/2.5/plusAB.cpp)|链表|
 |2.6|链表中环的入口结点|[C++](./Solution/2.6/entryNodeOfLoop.cpp)|链表|
+|2.7|回文链表|[C++](./Solution/2.7/isPalindrome.cpp)|链表|
 
 
