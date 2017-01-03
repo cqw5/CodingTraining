@@ -17,5 +17,6 @@
 |2.5|链式A+B|[C++](./Solution/2.5/plusAB.cpp)|链表|
 |2.6|链表中环的入口结点|[C++](./Solution/2.6/entryNodeOfLoop.cpp)|链表|
 |2.7|回文链表|[C++](./Solution/2.7/isPalindrome.cpp)|链表|
+|3.2|包含min方法的栈|[C++](./Solution/3.2/stackWithMin.cpp)|栈和队列|
 
 
