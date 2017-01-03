@@ -4,7 +4,8 @@
  *！题目描述：
  *    设计一个栈，除了push和pop方法，还支持min方法，可以返回栈中的最小值。push、pop和min三个方法的时间复杂度都为O(1)
  *！Solution
- *    解法1和解法2的时间复杂度都为O(1)，但是解法2更节省空间，解法2更优。
+ *    解法1、解法2、解法3的时间复杂度都为O(1)，解法2不用对每个元素都创建对象，更节省空间，解法2比解法1更优
+ *    解法3是对解法2做了改进，解法3是最优解法
  */
 
 // 这道题要注意考察的核心是min方法，因此可以直接继承stack来简化代码
@@ -75,9 +76,45 @@ private:
     stack<int> minStack;
 };
 
+
+/*
+ * 解法3：
+ *   用一个辅助栈，来存到当前最小的元素。
+ *   对解法2做了改进，新来的元素，只有小于等于min元素，才将其push到辅助栈；pop元素时，只有pop的元素刚好是min元素，才pop辅助栈
+ */
+class StackWithMin3: public stack<int> {
+public:
+    // 重写push方法，原始栈和辅助栈都要push
+    void push(int theValue) {
+        stack<int>::push(theValue);
+        if (theValue <= min()) {
+            minStack.push(theValue);
+        }
+    }
+
+    // 重写pop方法，原始栈和辅助栈都要pop
+    void pop() {
+        if (stack<int>::empty()) {
+            throw new range_error("out of range");
+        }
+        if (stack<int>::top() == min()) {
+            minStack.pop();
+        }
+        stack<int>::pop();
+    }
+
+    int min() {
+        return minStack.empty()? INT_MAX: minStack.top();
+    }
+
+private:
+    stack<int> minStack;
+};
+
 void test() {
-    StackWithMin1 s;
+    // StackWithMin1 s;
     // StackWithMin2 s;
+    StackWithMin3 s;
     s.push(5); 
     cout << s.min() << endl;
     s.push(6); cout << s.min() << endl;
