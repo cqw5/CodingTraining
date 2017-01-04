@@ -20,5 +20,6 @@
 |3.2|包含min方法的栈|[C++](./Solution/3.2/stackWithMin.cpp)|栈和队列|
 |3.3|集合栈|[C++](./Solution/3.3/setOfStacks.cpp)|栈和队列|
 |3.5|用两个栈实现队列|[C++](./Solution/3.5/myQueue.cpp)|栈和队列|
+|3.6|双栈排序|[C++](./Solution/3.6/twoStacksSort.cpp)|栈和队列|
 
 
