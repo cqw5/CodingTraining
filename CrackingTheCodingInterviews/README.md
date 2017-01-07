@@ -21,5 +21,6 @@
 |3.3|集合栈|[C++](./Solution/3.3/setOfStacks.cpp)|栈和队列|
 |3.5|用两个栈实现队列|[C++](./Solution/3.5/myQueue.cpp)|栈和队列|
 |3.6|双栈排序|[C++](./Solution/3.6/twoStacksSort.cpp)|栈和队列|
-
+|3.7|猫狗收容所|[C++](./Solution/3.7/animalQueue.cpp)|栈和队列|
+|4.1|二叉树平衡检查|[C++](./Solution/4.1/isBalance.cpp)|树|
 

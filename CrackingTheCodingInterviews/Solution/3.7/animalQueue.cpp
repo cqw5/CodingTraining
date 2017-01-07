@@ -1,3 +1,7 @@
+/*! Author: qwchen
+ *! Date  : 2017-01-05
+ *! 栈和队列: 3.7 猫狗收容所
+ */
 
 #include <iostream>
 #include <string>
