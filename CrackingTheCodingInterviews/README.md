@@ -24,4 +24,8 @@
 |3.7|猫狗收容所|[C++](./Solution/3.7/animalQueue.cpp)|栈和队列|
 |4.1|二叉树平衡检查|[C++](./Solution/4.1/isBalance.cpp)|树|
 |4.2|有向路径检查|[C++](./Solution/4.2/checkPath.cpp)|图|
+|4.3|高度最小的BST的高度|[C++](./Solution/4.3/buildMinimalBST.cpp)|树|
+
+
+
 
