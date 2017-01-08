@@ -27,6 +27,9 @@
 |4.3|高度最小的BST的高度|[C++](./Solution/4.3/buildMinimalBST.cpp)|树|
 |4.4|输出单层结点|[C++](./Solution/4.4/getTreeLevel.cpp)|树|
 |4.5|检查是否为BST|[C++](./Solution/4.5/checkBST.cpp)|树|
+|4.6|寻找下一个结点|[C++](./Solution/4.6/findSucc.cpp)|树|
+
+
 
 
 
