@@ -28,6 +28,7 @@
 |4.4|输出单层结点|[C++](./Solution/4.4/getTreeLevel.cpp)|树|
 |4.5|检查是否为BST|[C++](./Solution/4.5/checkBST.cpp)|树|
 |4.6|寻找下一个结点|[C++](./Solution/4.6/findSucc.cpp)|树|
+|4.7|树的公共祖先节点|[C++](../LeeCodeOJ/Solution/236/lowestCommonAncestor.cpp)|树|
 
 
 
