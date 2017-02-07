@@ -30,6 +30,7 @@
 |4.6|寻找下一个结点|[C++](./Solution/4.6/findSucc.cpp)|树|
 |4.7|树的公共祖先节点|[C++](../LeetCodeOJ/Solution/236/lowestCommonAncestor.cpp)|树|
 |4.8|判断小树是否为大树的子树|[C++](./Solution/4.8/containsTree.cpp)|树|
+|4.9|二叉树中和为给定值得所有路径|[C++](./Solution/4.9/findSunPaths.cpp)|树|
 
 
 
