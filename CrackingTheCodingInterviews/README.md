@@ -34,6 +34,8 @@
 |5.1|二进制插入|[C++](./Solution/5.1/binInsert.cpp)|位运算|
 |5.2|二进制小数|[C++](./Solution/5.2/binDecimal.cpp)|位运算|
 |5.4|整数转化|[C++](./Solution/5.4/calcCost.cpp)|位运算|
+|5.5|奇偶位交换|[C++](./Solution/5.5/exchange.cpp)|位运算|
+
 
 
 
