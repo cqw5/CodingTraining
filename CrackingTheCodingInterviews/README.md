@@ -32,7 +32,7 @@
 |4.8|判断小树是否为大树的子树|[C++](./Solution/4.8/containsTree.cpp)|树|
 |4.9|二叉树中和为给定值的所有路径|[C++](./Solution/4.9/findSunPaths.cpp)|树|
 |5.1|二进制插入|[C++](./Solution/5.1/binInsert.cpp)|位运算|
-
+|5.2|二进制小数|[C++](./Solution/5.2/binDecimal.cpp)|位运算|
 
 
 
