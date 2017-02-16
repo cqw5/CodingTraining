@@ -40,6 +40,7 @@
 |7.4|加法运算替代|[C++](./Solution/7.4/addSubstitution.cpp)|数学基础|
 |7.5|平分的直线|[C++](./Solution/7.5/bipartition.cpp)|计算几何|
 |7.6|穿点最多的直线|[C++](./Solution/7.6/denseLine.cpp)|计算几何|
+|7.7|第k个数|[C++](./Solution/7.7/findKth.cpp)|数学基础|
 
 
 
