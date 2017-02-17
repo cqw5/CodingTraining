@@ -41,6 +41,9 @@
 |7.5|平分的直线|[C++](./Solution/7.5/bipartition.cpp)|计算几何|
 |7.6|穿点最多的直线|[C++](./Solution/7.6/denseLine.cpp)|计算几何|
 |7.7|第k个数|[C++](./Solution/7.7/findKth.cpp)|数学基础|
+|9.1|上楼梯|[C++](./Solution/9.1/countWays.cpp)|递归和动态规划|
+|9.2.1|机器人走方格I|[C++](./Solution/9.2.1/robotCountWay1.cpp)|递归和动态规划|
+|9.2.2|机器人走方格II|[C++](./Solution/9.2.2/robotCountWay2.cpp)|递归和动态规划|
 
 
 
