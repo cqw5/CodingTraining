@@ -44,7 +44,8 @@
 |9.1|上楼梯|[C++](./Solution/9.1/countWays.cpp)|递归和动态规划|
 |9.2.1|机器人走方格I|[C++](./Solution/9.2.1/robotCountWay1.cpp)|递归和动态规划|
 |9.2.2|机器人走方格II|[C++](./Solution/9.2.2/robotCountWay2.cpp)|递归和动态规划|
-
+|9.3.1|魔术索引I|[C++](./Solution/9.3.1/findMagicIndex1.cpp)|递归和动态规划|
+|9.3.2|魔术索引II|[C++](./Solution/9.3.2/findMagicIndex2.cpp)|递归和动态规划|
 
 
 
