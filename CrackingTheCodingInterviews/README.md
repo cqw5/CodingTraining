@@ -47,7 +47,9 @@
 |9.3.1|魔术索引I|[C++](./Solution/9.3.1/findMagicIndex1.cpp)|递归和动态规划|
 |9.3.2|魔术索引II|[C++](./Solution/9.3.2/findMagicIndex2.cpp)|递归和动态规划|
 |9.4|集合的子集|[C++](./Solution/9.4/getSubsets.cpp)|递归和动态规划|
-|9.5|字符串排列|[C++](./Solutiom/9.5/getPermutation.cpp)|递归和动态规划|
+|9.5|字符串排列|[C++](./Solution/9.5/getPermutation.cpp)|递归和动态规划|
+|9.6.1|合法括号序列判断|[C++](./Solution/9.6.1/chkParenthesis.cpp)|递归和动态规划|
+|9.6.2|括号的所有可能组合|[C++](./Solution/9.6.2/generateParens.cpp)|递归和动态规划|
 
 
 
