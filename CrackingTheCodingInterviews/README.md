@@ -55,6 +55,7 @@
 |9.9|n皇后问题|[C++](./Solution/9.9/nQueens.cpp)|递归和动态规划|
 |9.10|堆箱子|[C++](./Solution/9.10/getHeightOfBox.cpp)|递归和动态规划|
 |10.1|约瑟夫问题I|[C++](./Solution/10.1/Joseph.cpp)|链表|
+|10.2|约瑟夫问题II|[C++](./Solution/10.2/Joseph.cpp)|链表|
 
 
 
