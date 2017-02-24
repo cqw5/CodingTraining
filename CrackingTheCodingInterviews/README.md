@@ -59,6 +59,7 @@
 |11.1|有序数组合并|[C++](./Solution/11.1/mergeList.cpp)|排序和查找|
 |11.2|变位词排序|[C++](./Solution/11.2/sortStrings.cpp)|排序和查找|
 |11.3|元素查找|[C++](./Solution/11.3/findElement.cpp)|排序和查找|
+|11.5|找出字符串|[C++](./Solution/11.5/findString.cpp)|排序和查找|
 
 
 
