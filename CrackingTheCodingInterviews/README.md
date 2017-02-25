@@ -61,7 +61,8 @@
 |11.3|元素查找|[C++](./Solution/11.3/findElement.cpp)|排序和查找|
 |11.5|找出字符串|[C++](./Solution/11.5/findString.cpp)|排序和查找|
 |11.6|矩阵元素查找|[C++](./Solution/11.6/findElement.cpp)|排序和查找|
-
+|11.7.1|叠罗汉I|[C++](./Solution/11.7.1/getHeight.cpp)|排序和查找|
+|11.7.2|叠罗汉II|[C++](./Solution/11.7.2/getHeight.cpp)|排序和查找|
 
 
 
