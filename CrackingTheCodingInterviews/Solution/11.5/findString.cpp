@@ -8,6 +8,54 @@
  */
 
 /*
+ * 思路（推荐）
+ *   此题是二分查找的变形，多了一些空字符串。
+ *   还是应用二分查找的方法，但是当str[mid]==""时，我们要寻找mid左右最近的一个非空的字符串，让mid指向那个字符串
+ * 时间复杂度：O(logn)
+ * 空复复杂度：O(1)
+ */
+class Finder {
+public:
+    int findString(vector<string> str, int n, string x) {
+        if (n <= 0) return -1;
+        return find(str, x, 0 , n-1);
+    }
+
+private:
+    int find(vector<string> str, string x, int first, int last) {
+        int mid;
+        while (first <= last) {
+            mid = (first + last) / 2;
+            // 若mid为空字符串，寻找离它最近的非空字符串
+            if (str[mid] == "") {
+                int low  = mid - 1;
+                int high = mid + 1;
+                while (true) {
+                    if (low < first && high > last) {
+                        return -1;
+                    }
+                    else if (low >= first && str[low] != "") {  // 寻找左边
+                        mid = low;
+                        break;
+                    }
+                    else if (high <= last && str[high] != "") { // 寻找右边
+                        mid = high;
+                        break;
+                    }
+                    low--;
+                    high++;
+                }
+            }
+            if (x < str[mid])      last = mid - 1;
+            else if (x > str[mid]) first = mid + 1;
+            else                   return mid;
+        }
+        return -1;
+    }
+};
+
+
+/*
  * 思路：
  *   此题是二分查找的变形，多了一些空字符串。
  *   但是当str[mid] == ""时，我们无法判断目标是在mid的左边还是右边
