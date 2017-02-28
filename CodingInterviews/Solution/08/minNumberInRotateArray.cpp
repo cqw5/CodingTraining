@@ -20,7 +20,7 @@ using namespace std;
 class Solution {
 public:
     int minNumberInRotateArray(vector<int>& rotateArray) {
-    	// 数组为空
+        // 数组为空
         if (rotateArray.size() == 0){
             throw new range_error("array must be not null");
         }
@@ -41,11 +41,12 @@ public:
             if (rotateArray[low] == rotateArray[mid] && rotateArray[high] == rotateArray[mid]){
                 return minNumber(rotateArray, low, high);        
             }
-            if (rotateArray[mid] < rotateArray[low]){
-                high = mid;
-            } 
-            else if (rotateArray[mid] > rotateArray[high]){
-                low = mid;
+            if (rotateArray[mid] <= rotateArray[high]) {
+                high = mid
+            }
+            // 到这里rotateArray[mid]肯定不会等于rotateArray[low]，不然就是rotateArray[low] == rotateArray[mid] == rotateArray[high]了
+            if (rotateArray[mid] > rotateArray[low]) { 
+                low = mid + 1;
             }
         }
         return rotateArray[low];
