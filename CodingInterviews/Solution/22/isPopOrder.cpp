@@ -39,6 +39,31 @@ public:
     }
 };
 
+class Solution {
+public:
+    bool IsPopOrder(vector<int> pushV,vector<int> popV) {
+        if (pushV.size() != popV.size()) {
+            return false;
+        }
+        int n = pushV.size();
+        stack<int> s;
+        for (int i = 0, j = 0; j < n; j++) {
+            if (!s.empty() && s.top() == popV[j]) {
+                s.pop();
+            }
+            else {
+                while (i < n && pushV[i] != popV[j]) {
+                    s.push(pushV[i]);
+                    i++;
+                }
+                if (i >= n) return false;
+                i++;
+            }
+        }
+        return true;
+    }
+};
+
 void testSolution(){
     vector<int> pushV = {1,2,3,4,5};
     vector<int> popV1 = {4,5,3,2,1};
