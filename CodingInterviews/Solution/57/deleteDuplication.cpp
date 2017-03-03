@@ -67,6 +67,49 @@ public:
     }
 };
 
+/*
+struct ListNode {
+    int val;
+    struct ListNode *next;
+    ListNode(int x) :
+        val(x), next(NULL) {
+    }
+};
+*/
+
+class Solution {
+public:
+    ListNode* deleteDuplication(ListNode* pHead)
+    {
+        if (pHead == nullptr) return nullptr;
+        ListNode dummp(0);
+        dummp.next = pHead;
+        ListNode* pre = &dummp;
+        ListNode* p = pre->next;
+        bool flag = false;
+        while (p != nullptr) {
+            while (p->next != nullptr && p->val == p->next->val) {
+                ListNode* delNode = p->next;
+                p->next = delNode->next;
+                delete delNode;
+                flag = true;
+            }
+            if (flag) {
+                ListNode* delNode = p;
+                p = p->next;
+                pre->next = p;
+                delete delNode;
+            }
+            else {
+                p = p->next;
+                pre = pre->next;
+            }
+            flag = false;
+        }
+        return dummp.next;
+    }
+};
+
 void testSolution() {
     ListNode* p7 = new ListNode(5);
     ListNode* p6 = new ListNode(4, p7);
