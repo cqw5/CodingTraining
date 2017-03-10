@@ -68,7 +68,8 @@
 |17.1|无缓存交换|[C++](./Solution/17.1/exchangeAB.cpp)|编程基础|
 |17.8|最大连续数列和|[C++](./Solution/17.8/getMaxSum.cpp)|动态规划|
 |17.9|词频统计|[C++](./Solution/17.9/getFrequency.cpp)|编程基础|
-|17.12|整数对查找|[C++](./Solution/17,12/countPairs.cpp)|编程基础|
+|17.12|整数对查找|[C++](./Solution/17.12/countPairs.cpp)|编程基础|
+|17.13|树转链表|[C++](./Solution/17.13/treeToList.cpp)|递归|
 
 
 
