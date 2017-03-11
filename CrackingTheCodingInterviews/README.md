@@ -75,7 +75,8 @@
 |18.2|完美洗牌|[C++](./Solution/18.2/shuffleArray.cpp)|数学思维|
 |18.3|等概率采样|[C++](./Solution/18.3/pickM.cpp)|数学思维|
 |18.4|2的个数|[C++](./Solution/18.4/countNumberOf2s.cpp)|数学思维|
-|18.5|单词最近距离|[C++](./Solution/getDistance.cpp)|字符串|
+|18.5|单词最近距离|[C++](./Solution/18.5/getDistance.cpp)|字符串|
+|18.7|最长合成字符串|[C++](./Solution/18.7/getLongest.cpp)|字符串和递归
 |18.14.1|下一个较大元素|[C++](./Solution/18.14/findNext.cpp)|栈|
 |18.14.2|下一个较大元素II|[C++](./Solution/18.14/findNext2.cpp)|树|
 
