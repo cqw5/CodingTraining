@@ -78,6 +78,7 @@
 |18.5|单词最近距离|[C++](./Solution/18.5/getDistance.cpp)|字符串|
 |18.7|最长合成字符串|[C++](./Solution/18.7/getLongest.cpp)|字符串和递归|
 |18.8|子串判断|[C++](./Solution/18.8/chkSubStr.cpp)|字符串及数据结构|
+|18.9|实时中位数|[C++](./Solution/18.9/getMiddle.cpp)|数据结构|
 |18.14.1|下一个较大元素|[C++](./Solution/18.14/findNext.cpp)|栈|
 |18.14.2|下一个较大元素II|[C++](./Solution/18.14/findNext2.cpp)|树|
 
