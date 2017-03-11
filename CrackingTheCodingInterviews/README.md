@@ -73,7 +73,9 @@
 |17.13|树转链表|[C++](./Solution/17.13/treeToList.cpp)|递归|
 |18.1|另类加法|[C++](./Solution/18.1/unusualAdd.cpp)|数学思维|
 |18.2|完美洗牌|[C++](./Solution/18.2/shuffleArray.cpp)|数学思维|
+|18.3|等概率采样|[C++](./Solution/18.3/pickM.cpp)|数学思维|
 |18.4|2的个数|[C++](./Solution/18.4/countNumberOf2s.cpp)|数学思维|
+
 
 
 
