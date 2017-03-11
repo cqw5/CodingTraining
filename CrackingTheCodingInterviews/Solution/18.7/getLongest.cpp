@@ -17,7 +17,7 @@
 class LongestString {
 public:
     int getLongest(vector<string> str, int n) {
-    	// 将列表元素存放到map，便于快速查找
+        // 将列表元素存放到map，便于快速查找
         unordered_map<string, bool> mapping;  
         for (int i = 0; i < n; i++) {
             mapping[str[i]] = true;
@@ -34,8 +34,8 @@ public:
         return 0;
     }
 private:
-	// isOriginalWord用于标记当前字符串是否为原始字符串，因为原始字符串肯定在mapping中，
-	// 但我们要判断是的字符串是否能有其它两个或两个以上的字符串组成
+    // isOriginalWord用于标记当前字符串是否为原始字符串，因为原始字符串肯定在mapping中，
+    // 但我们要判断是的字符串是否能有其它两个或两个以上的字符串组成
     bool canBuildWord(string s, bool isOriginalWord, map<string, bool>& mapping) {
         if (mapping[s] && !isOriginalWord) {
             return true;
