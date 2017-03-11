@@ -66,6 +66,7 @@
 |11.8|维护x的秩|[C++](./Solution/11.8/getRankOfNumber.cpp)|排序和查找|
 |11.9|数组中的逆序对|[C++](./Solution/11.9/antiOrder.cpp)|排序和查找|
 |17.1|无缓存交换|[C++](./Solution/17.1/exchangeAB.cpp)|编程基础|
+|17.6|最小调整有序|[C++](./Solution/17.6/findSegment.cpp)|排序和查找|
 |17.8|最大连续数列和|[C++](./Solution/17.8/getMaxSum.cpp)|动态规划|
 |17.9|词频统计|[C++](./Solution/17.9/getFrequency.cpp)|编程基础|
 |17.12|整数对查找|[C++](./Solution/17.12/countPairs.cpp)|编程基础|
