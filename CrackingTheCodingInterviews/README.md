@@ -72,6 +72,7 @@
 |17.12|整数对查找|[C++](./Solution/17.12/countPairs.cpp)|编程基础|
 |17.13|树转链表|[C++](./Solution/17.13/treeToList.cpp)|递归|
 |18.1|另类加法|[C++](./Solution/18.1/unusualAdd.cpp)|数学思维|
+|18.4|2的个数|[C++](./Solution/18.4/countNumberOf2s.cpp)|数学思维|
 
 
 
