@@ -38,7 +38,24 @@ private:
         sort(a, b, mid+1, high, count);
         merge(a, b, low, mid, high, count);
     }
-    
+    void merge(vector<int> &a, vector<int> &b, int low, int mid, int high, long long &count) {
+        int i = low, j = mid+1, k = low;
+        while (i <= mid && j <= high) {
+            if (a[i] <= a[j]) {
+                b[k++] = a[i++];
+            }
+            else {
+                count += mid - i + 1; // 最关键的一行，如果A[i]大于A[j]，那所有大于A[i]的也大于A[j]
+                b[k++] = a[j++];
+            }
+        }
+        while (i <= mid)  b[k++] = a[i++];
+        while (j <= high) b[k++] = a[j++];
+        for (int i = low; i <= high; i++) {
+            a[i] = b[i];
+        }
+    }
+    /*
     void merge(vector<int>& a, vector<int>& b, int low, int mid, int high, long long& count) {
         int i = mid,
             j = high,
@@ -62,6 +79,7 @@ private:
             a[i] = b[i];
         }
     } 
+    */
 };
 
 

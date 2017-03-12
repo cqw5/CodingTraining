@@ -41,14 +41,13 @@ public:
                 if (front->right != nullptr) q.push(front->right);
             }
             else {
+                result.push_back(layer);
+                layer.clear();
                 if (!q.empty()) {
-                    result.push_back(layer);
-                    layer.clear();
                     q.push(nullptr);
                 }
             }
         }
-        result.push_back(layer);
         return result;
     }
 };

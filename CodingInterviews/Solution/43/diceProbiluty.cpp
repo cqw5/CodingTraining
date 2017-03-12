@@ -28,14 +28,12 @@ public:
      * 返回数组中，数组的下标代表和的值，数组的值代表和为该下标的数出现的概率
      */
     vector<double> diceProb(int diceMaxValue, int n) {
+        vector<double> result;
+        if (n <= 0) return result;
         // 两个交替计算的辅助数组，数组的第n为表示骰子和为n出现的次数
         vector<vector<int>> count(2);
-        count[0].assign(n * diceMaxValue, 0);
-        count[1].assign(n * diceMaxValue, 0);
-        vector<double> result;
-        if (n < 1) {
-            return result;
-        }
+        count[0].assign(n * diceMaxValue + 1, 0);
+        count[1].assign(n * diceMaxValue + 1, 0);
         int flag = 0;
         // 投第1个骰子时，每种结果出现的次数为1
         for (int i = 1; i <= diceMaxValue; i++) {
@@ -49,8 +47,8 @@ public:
             }
             // 计算区间[k, k*diceMaxValue]之间
             for (int i = k; i <= k * diceMaxValue; i++) {
-                count[1-flag][i] = 0;
-                for (int j = 1; j < diceMaxValue && j <= i; j++) { // j <= i，防止数组下标访问向下越界
+                count[1-flag][i] = 0;  // 必须清0
+                for (int j = 1; j <= diceMaxValue && i-j > 0; j++) { // i-j > 0，防止数组下标访问向下越界
                     count[1-flag][i] += count[flag][i-j];
                 }
             }
@@ -62,7 +60,7 @@ public:
             totalCount *= diceMaxValue;
         }
         // 计算概率
-        for (int i = 0; i < count[flag].size(); i++) {
+        for (int i = 1; i < count[flag].size(); i++) {
             result.push_back((double)count[flag][i] / totalCount);
         }
         return result;

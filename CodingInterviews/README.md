@@ -25,7 +25,7 @@
 |21|包含min函数的栈|[C++](./Solution/21/stackWithMin.cpp)|举例让抽象具体化|
 |22|栈的压入、弹出序列|[C++](./Solution/22/isPopOrder.cpp)|举例让抽象具体化|
 |23|从上往下打印二叉树|[C++](./Solution/23/printFromTopToBottom.cpp)|举例让抽象具体化|
-|24|二叉搜索树的后序遍历序列|[C++](./Solution/24/verifySquenceOfBST.cpp)|举例让抽象具体化|
+|24|**二叉搜索树的后序遍历序列**|[C++](./Solution/24/verifySquenceOfBST.cpp)|举例让抽象具体化|
 |25|二叉树中和为某一值的路径|[C++](./Solution/25/findPath.cpp)|举例让抽象具体化|
 |26|复杂链表的复制|[C++](./Solution/26/clone.cpp)|分解让复杂问题简单|
 |27|二叉搜索树与双向链表|[C++](./Solution/27/convert.cpp)|分解让复杂问题简单|
@@ -39,7 +39,7 @@
 |33|把数组排成最小的数|[C++](./Solution/33/printMinNumber.cpp)|时间效率|
 |34|丑数|[C++](./Solution/34/getUglyNumber.cpp)|时间空间效率的平衡|
 |35|第一个只出现一次的字符位置|[C++](./Solution/35/firstNotRepeatingChar.cpp)|时间空间效率的平衡|
-|36|数组中的逆序对|[C++](./Solution/36/inversePairs.cpp)|时间空间效率的平衡|
+|36|**数组中的逆序对**|[C++](./Solution/36/inversePairs.cpp)|时间空间效率的平衡|
 |37|两个链表的第一个公共结点|[C++](./Solution/37/findFirstCommonNode.cpp)|时间空间效率的平衡|
 |38|数字在排序数组中出现的次数|[C++](./Solution/38/getNumberOfK.cpp)|知识迁移能力|
 |39.1|二叉树的深度|[C++](./Solution/39/treeDepth.cpp)|知识迁移能力|
@@ -49,14 +49,14 @@
 |41.2|和为S的连续正数序列|[C++](./Solution/41/findContinuousSequence.cpp)|知识迁移能力|
 |42.1|翻转单词顺序列|[C++](./Solution/42/reverseSentence.cpp)|知识迁移能力|
 |42.2|左旋转字符串|[C++](./Solution/42/leftRotateString.cpp)|知识迁移能力|
-|43|n个骰子的点数|[C++](./Solution/43/diceProbiluty.cpp)|抽象建模能力|
+|43|**n个骰子的点数**|[C++](./Solution/43/diceProbiluty.cpp)|抽象建模能力|
 |44|扑克牌顺子|[C++](./Solution/44/IsContinuous.cpp)|抽象建模能力|
 |45|孩子们的游戏(圆圈中最后剩下的数)|[C++](./Solution/45/lastRemaining.cpp)|抽象建模能力|
 |49|把字符串转换成整数|[C++](./Solution/49/StrToInt.cpp)|综合|
 |50.1|二叉查找树的公共祖先结点|[C++](https://github.com/cqw5/CodingTraining/blob/master/LeetCodeOJ/Solution/235/lowestCommonAncestor.cpp)|树|
 |50.2|二叉树的共祖先结点|[C++](https://github.com/cqw5/CodingTraining/blob/master/LeetCodeOJ/Solution/236/lowestCommonAncestor.cpp)|树|
 |50.3|普通树的公共祖先结点|[C++](./Solution/50/lowestCommonAncestor.cpp)|树|
-|51|数组中重复数字|[C++](./Solution/51/duplicate.cpp)|数组|
+|51|**数组中重复数字**|[C++](./Solution/51/duplicate.cpp)|数组|
 |52|构建乘积数组|[C++](./Solution/52/multiply.cpp)|数组|
 |55|字符流中第一个不重复的字符|[C++](./Solution/55/firstAppearingOnce.cpp)|字符串|
 |56|链表中环的入口结点|[C++](./Solution/56/entryNodeOfLoop.cpp)|链表|
@@ -64,8 +64,8 @@
 |58|二叉树的下一个结点|[C++](./Solution/58/getNext.cpp)|树|
 |59|对称的二叉树|[C++](./Solution/59/isSymmetrical.cpp)|树|
 |60|把二叉树打印成多行|[C++](./Solution/60/print.cpp)|树|
-|61|按之字形顺序打印二叉树|[C++](./Solution/61/print.cpp)|树|
-|62|序列化二叉树|[C++](./Solution/62/treeSerAndDeSer.cpp)&ensp;[Python](./Solution/62/treeSerAndDeSer.py)|树|
+|61|**按之字形顺序打印二叉树**|[C++](./Solution/61/print.cpp)|树|
+|62|**序列化二叉树**|[C++](./Solution/62/treeSerAndDeSer.cpp)&ensp;[Python](./Solution/62/treeSerAndDeSer.py)|树|
 |63|二叉搜索树的第k个结点|[C++](./Solution/63/kthNode.cpp)&ensp;[Python](./Solution/63/kthNode.py)|树|
 |64|数据流中的中位数|[C++](./Solution/64/streamMedian.cpp)|树|
 |65|滑动窗口的最大值|[C++](./Solution/65/maxInWindows.cpp)|栈和队列|
