@@ -8,7 +8,7 @@
 
 /*
  * 思路：
- *   暴力解法，变量2~n中的每一个数，计算其中2的个数。
+ *   暴力解法，遍历2~n中的每一个数，计算其中2的个数。
  * 结果会超时
  */
 class Count2 {
@@ -49,7 +49,7 @@ private:
 class Count2 {
 public:
     int countNumberOf2s(int n) {
-		int count = 0;
+        int count = 0;
         int len = size(n);
         for (int d = 0; d < len; d++) {
             count += countNumberOf2AtDigit(n, d);

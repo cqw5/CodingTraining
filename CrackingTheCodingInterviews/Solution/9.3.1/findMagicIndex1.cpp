@@ -18,7 +18,7 @@
 class MagicIndex {
 public:
     bool findMagicIndex(vector<int> A, int n) {
-		if (A.size() == 0 || n <= 0) return false;
+        if (A.size() == 0 || n <= 0) return false;
         int low = 0;
         int high = n - 1;
         while (low <= high) {

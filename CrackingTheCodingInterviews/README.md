@@ -45,13 +45,13 @@
 |9.2.1|机器人走方格I|[C++](./Solution/9.2.1/robotCountWay1.cpp)|递归和动态规划|
 |9.2.2|机器人走方格II|[C++](./Solution/9.2.2/robotCountWay2.cpp)|递归和动态规划|
 |9.3.1|魔术索引I|[C++](./Solution/9.3.1/findMagicIndex1.cpp)|递归和动态规划|
-|9.3.2|魔术索引II|[C++](./Solution/9.3.2/findMagicIndex2.cpp)|递归和动态规划|
-|9.4|集合的子集|[C++](./Solution/9.4/getSubsets.cpp)|递归和动态规划|
+|9.3.2|**魔术索引II**|[C++](./Solution/9.3.2/findMagicIndex2.cpp)|递归和动态规划|
+|9.4|**集合的子集**|[C++](./Solution/9.4/getSubsets.cpp)|递归和动态规划|
 |9.5|字符串排列|[C++](./Solution/9.5/getPermutation.cpp)|递归和动态规划|
 |9.6.1|合法括号序列判断|[C++](./Solution/9.6.1/chkParenthesis.cpp)|递归和动态规划|
-|9.6.2|括号的所有可能组合|[C++](./Solution/9.6.2/generateParens.cpp)|递归和动态规划|
+|9.6.2|**括号的所有可能组合**|[C++](./Solution/9.6.2/generateParens.cpp)|递归和动态规划|
 |9.7|洪水|[C++](./Solution/9.7/floodFill.cpp)|递归和动态规划|
-|9.8|硬币表示|[C++](./Solution/9.8/countWays.cpp)|递归和动态规划|
+|9.8|**硬币表示**|[C++](./Solution/9.8/countWays.cpp)|递归和动态规划|
 |9.9|n皇后问题|[C++](./Solution/9.9/nQueens.cpp)|递归和动态规划|
 |9.10|堆箱子|[C++](./Solution/9.10/getHeightOfBox.cpp)|递归和动态规划|
 |10.1|约瑟夫问题I|[C++](./Solution/10.1/Joseph.cpp)|链表|

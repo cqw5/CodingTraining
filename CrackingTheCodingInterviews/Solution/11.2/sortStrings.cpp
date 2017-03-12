@@ -20,7 +20,7 @@ class SortString {
 public:
     vector<string> sortStrings(vector<string> str, int n) {
         vector<string> res;
-		map<string, vector<string>> mapping;
+        map<string, vector<string>> mapping;
         for (int i = 0; i < n; i++) {
             string copyStr(str[i]);
             sort(copyStr.begin(), copyStr.end());
@@ -48,7 +48,7 @@ class SortString {
 public:
     vector<string> sortStrings(vector<string> str, int n) {
         vector<string> res;
-		set<string> set;
+        set<string> set;
         sort(str.begin(), str.end());
         for (int i = 0; i < n; i++) {
             string temp(str[i]);
