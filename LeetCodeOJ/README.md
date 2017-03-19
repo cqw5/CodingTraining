@@ -1,4 +1,4 @@
-## LeetCode
+# LeetCode
 
 ###Algorithms
 | ID | Title | Solution  | Tag | Difficulty |
@@ -24,10 +24,10 @@
 |035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[C++](./Solution/035/searchInsert.cpp)|Array|Medium|
 |039|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[C++](./Solution/039/combinationSum.cpp)|Array/Backtracking|Medium|
 |040|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[C++](./Solution/040/combinationSum2.cpp)|Array/Backtracking|Medium|
-|048|[Rotate Image](https://leetcode.com/problems/rotate-image/?tab=Description)|[C++](./Solution/048/rotate.cpp)|Array|Medium|
+|048|[Rotate Image](https://leetcode.com/problems/rotate-image)|[C++](./Solution/048/rotate.cpp)|Array|Medium|
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Solution/053/maxSubArray.cpp)|DP/Array|Medium|
 |054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/?tab=Description)|[C++](./Solution/054/spiralOrder.cpp)|Array|Medium|
-|058|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/#/description)|[C++](./Solution/058/lengthOfLastWord.cpp)|String|Easy|
+|058|[Length of Last Word](https://leetcode.com/problems/length-of-last-word)|[C++](./Solution/058/lengthOfLastWord.cpp)|String|Easy|
 |061|[Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./Solution/061/rotateRight.cpp)|Linked List|Medium|
 |062|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Solution/062/uniquePaths.cpp)|Array/DP|Medium|
 |063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[C++](./Solution/063/uniquePathsWithObstacles.cpp)|Array/DP|Medium|
@@ -61,10 +61,10 @@
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[C++](./Solution/202/isHappy.cpp)|Hash Table/Math|Easy|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[C++](./Solution/208/Trie.cpp)|Trie|Medium|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[C++](./Solution/215/findKthLargest.cpp)|Divide and Conquer|Medium|
-|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/?tab=Description)|[C++](./Solution/234/isPalindrome.cpp)|Linked List|Easy|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)|[C++](./Solution/234/isPalindrome.cpp)|Linked List|Easy|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[C++](./Solution/235/lowestCommonAncestor.cpp)|Tree|Easy|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[C++](./Solution/236/lowestCommonAncestor.cpp)|Tree|Medium|
-|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/?tab=Description)|[C++](./Solution/237/deleteNode.cpp)|Linked List|Easy|
+|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|[C++](./Solution/237/deleteNode.cpp)|Linked List|Easy|
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./Solution/378/kthSmallest.cpp)|Binary Search/Heap|Medium|
 
 
