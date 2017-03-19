@@ -6,12 +6,12 @@
 
 /*
 struct TreeNode {
-	int val;
-	struct TreeNode *left;
-	struct TreeNode *right;
-	TreeNode(int x) :
-			val(x), left(NULL), right(NULL) {
-	}
+    int val;
+    struct TreeNode *left;
+    struct TreeNode *right;
+    TreeNode(int x) :
+            val(x), left(NULL), right(NULL) {
+    }
 };*/
 
 /* 
@@ -20,7 +20,7 @@ struct TreeNode {
 class Solution {
 public:
     int TreeDepth(TreeNode* pRoot) {
-    	if (pRoot == nullptr) {
+        if (pRoot == nullptr) {
             return 0;
         }
         int left = TreeDepth(pRoot->left);
@@ -54,7 +54,7 @@ public:
         while (p != nullptr || !s.empty()) {
             while (p != nullptr) {
                 s.push(p);
-                if (s.size() > high) high = s.size();
+                if (s.size() > high) high = s.size();   // 更新树的高度
                 p = p->left;
             }
             if (!s.empty()) {

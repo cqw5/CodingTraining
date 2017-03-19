@@ -10,10 +10,12 @@
  */
 
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
 /*
+ * 用一维数组表示矩阵 
  * 用一个状态数组visited保存之前访问过的字符，然后再分别按上，下，左，右递归
  */
 class Solution {
@@ -62,6 +64,42 @@ private:
 
 };
 
+/*
+ * (推荐)
+ * 用二维数组表示矩阵
+ */
+class Solution2 {
+public:
+    bool hasPath(vector<vector<char>> &matrix, int rows, int cols, string &str) {
+        vector<bool> line(cols, false);
+        vector<vector<bool>> visited(rows, line);
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (hasPath(matrix, rows, cols, i, j, str, 0, visited)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+       }
+
+private:
+    bool hasPath(vector<vector<char>> &mat, int rows, int cols, int i, int j, string &str, int k, vector<vector<bool>> &visited) {
+        if (k == str.size()) return true;
+        if (i >= 0 && i < rows && j >= 0 && j < cols && mat[i][j] == str[k] && visited[i][j] == false) {
+            visited[i][j] = true;
+            if (hasPath(mat, rows, cols, i, j+1, str, k+1, visited)
+                || hasPath(mat, rows, cols, i+1, j, str, k+1, visited)
+                || hasPath(mat, rows, cols, i, j-1, str, k+1, visited)
+                || hasPath(mat, rows, cols, i-1, j, str, k+1, visited)) {
+                return true;
+            }
+            visited[i][j] = false;
+        } 
+        return false;
+    }
+};        
+/*
 void testSolution() {
     char* matrix = "abcesfcsadee";
     char* str1 = "bcced";
@@ -70,9 +108,21 @@ void testSolution() {
     cout << sol.hasPath(matrix, 3, 4, str1) << endl;
     cout << sol.hasPath(matrix, 3, 4, str2) << endl;
 }
+*/
+void testSolution2() {
+    vector<vector<char>> matrix = {{'a', 'b', 'c', 'e'}, 
+                                   {'s', 'f', 'c', 's'},
+                                   {'a', 'd', 'e', 'e'}};
+    string str1 = "bcced";
+    string str2 = "abcb";
+    Solution2 sol;
+    cout << sol.hasPath(matrix, 3, 4, str1) << endl;
+    cout << sol.hasPath(matrix, 3, 4, str2) << endl;
+}
 
 int main() {
-    testSolution();
+    // testSolution();
+    testSolution2();
     return 0;
 }
 
