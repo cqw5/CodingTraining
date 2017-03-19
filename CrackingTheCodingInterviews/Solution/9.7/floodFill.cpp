@@ -19,12 +19,48 @@
 struct Point{
     int x;  // 0 - n-1
     int y;  // 0 - m-1
+    Point() {}
     Point(int theX, int theY) {
         x = theX;
         y = theY;
     }
 };
 
+/*
+ * （推荐）
+ * 用offset数组来表示右下左上的顺时针移动
+ */
+class Flood {
+public:
+    int floodFill(vector<vector<int>> map, int n, int m) {
+        Point offset[4];
+        offset[0].x = 0, offset[0].y = 1;  // 右
+        offset[1].x = 1, offset[1].y = 0;  // 下
+        offset[2].x = 0, offset[2].y = -1; // 左
+        offset[3].x = -1, offset[3].y = 0; // 上
+        queue<Point> q;
+        Point current(0, 0);
+        map[0][0] = 2; // 距离偏移2
+        q.push(current);
+        while (!q.empty()) {
+            current = q.front();
+            for (int i = 0; i < 4; i++) {
+                Point next(current.x + offset[i].x, current.y + offset[i].y);
+                if (next.x >= 0 && next.x < n && next.y >= 0 && next.y < m 
+                    && map[next.x][next.y] == 0) {
+                    map[next.x][next.y] = map[current.x][current.y] + 1;
+                    q.push(next);
+                }
+            }
+            q.pop();
+        }
+        return map[n - 1][m - 1] - 2;
+    }
+};
+
+/*
+ * 与上面一样，四个方向分开写
+ */
 class Flood {
 public:
     int floodFill(vector<vector<int>> map, int n, int m) {
