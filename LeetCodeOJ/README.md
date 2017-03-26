@@ -3,7 +3,7 @@
 ### Algorithms
 
 | ID | Title |Title| Solution  | Tag | Difficulty |
-|:---:|:---|---|---|---|
+|:---:|:---|---|---|---|---|
 |001|[Two Sum](https://leetcode.com/problems/two-sum/)||[C++](./Solution/001/twoSum.cpp)|Hash/Array|Easy|
 |002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)||[C++](./Solution/002/addTwoNumbers.cpp)|Linked List|Medium|
 |003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||[C++](./Solution/003/longestSubstringWithoutRepeatingCharacters.cpp)|Hash|Medium|
