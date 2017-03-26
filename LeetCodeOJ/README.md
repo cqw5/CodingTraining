@@ -42,13 +42,16 @@
 |086|[Partition List](https://leetcode.com/problems/partition-list/)| |[C++](./Solution/086/partition.cpp)|Linked List|Medium|
 |094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| |[C++](./Solution/094/inorderTraversal.cpp)|Tree/Stack|Medium|
 |095|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)| |[C++](./Solution/095/generateTrees.cpp)|Tree/DP|Medium|
+|096|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees)|n个节点有多少种结构的二叉查找树|[C++](./Solution/096/numTrees.cpp)|Tree/DP|Medium|
 |097|[Interleaving String](https://leetcode.com/problems/interleaving-string/)| |[C++](./Solution/097/isInterleave.cpp)|DP/String|Hard|
+|098|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|二叉查找树判断|[C++](./Solution/098/isValidBST.cpp)|Tree/DFS|Medium|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| |[C++](./Solution/102/levelOrder.cpp)|Tree|Easy|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| |[C++](./Solution/103/zigzagLevelOrder.cpp)|Tree|Medium|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| |[C++](./Solution/104/maxDepth.cpp)|Tree|Easy|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| |[C++](./Solution/105/buildTree.cpp)|Tree|Medium|
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| |[C++](./Solution/106/buildTree.cpp)|Tree|Medium|
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| |[C++](./Solution/109/sortedListToBST.cpp)|Linked List/Tree|Medium|
+|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)|二叉平衡树判断|[C++](./Solution/110/isBalanced.cpp)|Tree/DFS|Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| |[C++](./Solution/111/minDepth.cpp)|Tree|Easy|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| |[C++](./Solution/114/flatten.cpp)|Tree|Medium|
 |120|[Triangle](https://leetcode.com/problems/triangle/)| |[C++](./Solution/120/minimumTotal.cpp)|DP|Medium|
@@ -61,13 +64,17 @@
 |148|[Sort List](https://leetcode.com/problems/sort-list/)| |[C++](./Solution/148/sortList.cpp)|Linked List/Sort|Medium|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| |[C++](./Solution/160/getIntersectionNode.cpp)|Linked List|Easy|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)| |[C++](./Solution/202/isHappy.cpp)|Hash Table/Math|Easy|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|反转链表|[C++](./Solution/206/reverseList.cpp)|LinkedList|Easy|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| |[C++](./Solution/208/Trie.cpp)|Trie|Medium|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)| |[C++](./Solution/215/findKthLargest.cpp)|Divide and Conquer|Medium|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)| |[C++](./Solution/234/isPalindrome.cpp)|Linked List|Easy|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| |[C++](./Solution/235/lowestCommonAncestor.cpp)|Tree|Easy|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| |[C++](./Solution/236/lowestCommonAncestor.cpp)|Tree|Medium|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)| |[C++](./Solution/237/deleteNode.cpp)|Linked List|Easy|
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|集合的交集I|[C++](./Solution/349/intersection.cpp)|HashTable|Easy|
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)|集合的交集II|[C++](./Solution/350/intersect.cpp)|HashTable|Easy|
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)| |[C++](./Solution/378/kthSmallest.cpp)|Binary Search/Heap|Medium|
-
+|445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii)|两个链表相加II|[C++](./Solution/445/addTwoNumbers.cpp)|Linked List|Medium|
+|524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting)|字典中最长的单词|[C++](./Solution/524/findLongestWord.cpp)|TwoPoints/Sort|Medium|
 
 
