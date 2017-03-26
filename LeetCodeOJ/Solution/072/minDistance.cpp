@@ -32,7 +32,7 @@ public:
         if (n <= 0) return m;
         if (m < n) return minDistance(word2, word1);
         vector<int> dist(n+1, 0);
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i <= n; i++) {
             dist[i] = i;
         }
         for (int i = 1; i <= m; i++) {

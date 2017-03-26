@@ -35,10 +35,11 @@
 |063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|机器人路径数II(有障碍物)|[C++](./Solution/063/uniquePathsWithObstacles.cpp)|Array/DP|Medium|
 |067|[Add Binary](https://leetcode.com/problems/add-binary/)| |[C++](./Solution/067/addBinary.cpp)|Math/String|Easy|
 |071|[Simplify Path](https://leetcode.com/problems/simplify-path/)| |[C++](./Solution/071/simplifyPath.cpp) [Python](./Solution/071/simplifyPath.py)|Stack/String|Medium|
-|072|[Edit Distance](https://leetcode.com/problems/edit-distance/)| |[C++](./Solution/072/minDistance.cpp)|DP|Hard|
+|072|[Edit Distance](https://leetcode.com/problems/edit-distance/)|编辑距离|[C++](./Solution/072/minDistance.cpp)|DP|Hard|
 |074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| |[C++](./Solution/074/searchMatrix.cpp)|Array/BinarySearch|Medium|
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors/)| |[C++](./Solution/075/sortColors.cpp)|Array/Sort|Medium|
-|083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| |[C++](./Solution/083/deleteDuplicates.cpp)|Linked List|Easy|
+|082|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)|删除链表的重复元素II|[C++](./Solution/082/deleteDuplicates.cpp)|Linked List|Medium|
+|083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|删除链表的重复元素I|[C++](./Solution/083/deleteDuplicates.cpp)|Linked List|Easy|
 |086|[Partition List](https://leetcode.com/problems/partition-list/)| |[C++](./Solution/086/partition.cpp)|Linked List|Medium|
 |094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| |[C++](./Solution/094/inorderTraversal.cpp)|Tree/Stack|Medium|
 |095|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)| |[C++](./Solution/095/generateTrees.cpp)|Tree/DP|Medium|
@@ -54,7 +55,7 @@
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)|二叉平衡树判断|[C++](./Solution/110/isBalanced.cpp)|Tree/DFS|Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| |[C++](./Solution/111/minDepth.cpp)|Tree|Easy|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| |[C++](./Solution/114/flatten.cpp)|Tree|Medium|
-|120|[Triangle](https://leetcode.com/problems/triangle/)| |[C++](./Solution/120/minimumTotal.cpp)|DP|Medium|
+|120|[Triangle](https://leetcode.com/problems/triangle/)|三角形从顶到底的最短路径和|[C++](./Solution/120/minimumTotal.cpp)|DP|Medium|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| |[C++](./Solution/124/maxPathSum.cpp)|Tree|Hard|
 |136|[Single Number](https://leetcode.com/problems/single-number/)| |[C++](./Solution/136/singleNumber.cpp)|Hash Table/Bit Manipulation|Easy|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)| |[C++](./Solution/143/reorderList.cpp)|Linked List|Medium|
@@ -70,7 +71,7 @@
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)| |[C++](./Solution/234/isPalindrome.cpp)|Linked List|Easy|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| |[C++](./Solution/235/lowestCommonAncestor.cpp)|Tree|Easy|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| |[C++](./Solution/236/lowestCommonAncestor.cpp)|Tree|Medium|
-|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)| |[C++](./Solution/237/deleteNode.cpp)|Linked List|Easy|
+|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|链表中删除结点|[C++](./Solution/237/deleteNode.cpp)|Linked List|Easy|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|集合的交集I|[C++](./Solution/349/intersection.cpp)|HashTable|Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)|集合的交集II|[C++](./Solution/350/intersect.cpp)|HashTable|Easy|
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)| |[C++](./Solution/378/kthSmallest.cpp)|Binary Search/Heap|Medium|
