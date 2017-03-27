@@ -26,7 +26,7 @@
 |22|栈的压入、弹出序列|[C++](./Solution/22/isPopOrder.cpp)|举例让抽象具体化|
 |23|从上往下打印二叉树|[C++](./Solution/23/printFromTopToBottom.cpp)|举例让抽象具体化|
 |24|**二叉搜索树的后序遍历序列**|[C++](./Solution/24/verifySquenceOfBST.cpp)|举例让抽象具体化|
-|25|二叉树中和为某一值的路径|[C++](./Solution/25/findPath.cpp)|举例让抽象具体化|
+|25|**二叉树中和为某一值的路径**|[C++](./Solution/25/findPath.cpp)|举例让抽象具体化|
 |26|复杂链表的复制|[C++](./Solution/26/clone.cpp)|分解让复杂问题简单|
 |27|二叉搜索树与双向链表|[C++](./Solution/27/convert.cpp)|分解让复杂问题简单|
 |28|字符串的排列|[C++](./Solution/28/permutation.cpp)|分解让复杂问题简单|
