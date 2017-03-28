@@ -78,6 +78,7 @@
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|集合的交集I|[C++](./Solution/349/intersection.cpp)|HashTable|Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)|集合的交集II|[C++](./Solution/350/intersect.cpp)|HashTable|Easy|
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)| |[C++](./Solution/378/kthSmallest.cpp)|Binary Search/Heap|Medium|
+|415|[Add Strings](https://leetcode.com/problems/add-strings)|两个字符串相加|[C++](./Solution/415/addStrings.cpp)|Math|Easy|
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii)|两个链表相加II|[C++](./Solution/445/addTwoNumbers.cpp)|Linked List|Medium|
 |524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting)|字典中最长的单词|[C++](./Solution/524/findLongestWord.cpp)|TwoPoints/Sort|Medium|
 

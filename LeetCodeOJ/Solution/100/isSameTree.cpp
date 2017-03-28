@@ -1,6 +1,6 @@
 /*! Source: https://leetcode.com/problems/same-tree
  *! Author: qwchen
- *! Date  : 2017-03-27
+ *! Date  : 2017-03-28
  *  判断两棵树是否相同
  */
 
