@@ -18,6 +18,7 @@
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| |[C++](./Solution/019/removeNthFromEnd.cpp)|Linked List|Easy|
 |020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| |[C++](./Solution/020/isValid.cpp)|String/Stack|Easy|
 |021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| |[C++](./Solution/021/mergeTwoLists.cpp)|Linked List|Easy|
+|022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|打印n对括号的所有有效组合|[C++](./Solution/022/generateParenthesis.cpp)|String|Medium|
 |023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| |[C++](./Solution/023/mergeKLists.cpp)|Linked List/heap|Hard|
 |024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| |[C++](./Solution/024/swapPairs.cpp)|Linked List|Easy|
 |027|[Remove Element](https://leetcode.com/problems/remove-element/)| |[C++](./Solution/027/removeElement.cpp)|Array|Easy|
