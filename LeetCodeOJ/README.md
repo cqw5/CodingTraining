@@ -37,6 +37,7 @@
 |062|[Unique Paths](https://leetcode.com/problems/unique-paths/)|机器人路径数(无障碍物)|[C++](./Solution/062/uniquePaths.cpp)|Array/DP|Medium|
 |063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|机器人路径数II(有障碍物)|[C++](./Solution/063/uniquePathsWithObstacles.cpp)|Array/DP|Medium|
 |067|[Add Binary](https://leetcode.com/problems/add-binary/)| |[C++](./Solution/067/addBinary.cpp)|Math/String|Easy|
+|070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|爬楼梯|[C++](./Solution/070/climbStairs.cpp)|DP|Easy|
 |071|[Simplify Path](https://leetcode.com/problems/simplify-path/)| |[C++](./Solution/071/simplifyPath.cpp) [Python](./Solution/071/simplifyPath.py)|Stack/String|Medium|
 |072|[Edit Distance](https://leetcode.com/problems/edit-distance/)|编辑距离|[C++](./Solution/072/minDistance.cpp)|DP|Hard|
 |074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| |[C++](./Solution/074/searchMatrix.cpp)|Array/BinarySearch|Medium|
