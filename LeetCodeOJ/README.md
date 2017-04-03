@@ -30,6 +30,7 @@
 |048|[Rotate Image](https://leetcode.com/problems/rotate-image)|矩阵旋转90°C|[C++](./Solution/048/rotate.cpp)|Array|Medium|
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|连续子数组的最大和|[C++](./Solution/053/maxSubArray.cpp)|DP/Array|Medium|
 |054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/?tab=Description)| |[C++](./Solution/054/spiralOrder.cpp)|Array|Medium|
+|055|[Jump Game](https://leetcode.com/problems/jump-game)|跳跃游戏|[C++](./Solution/055/canJump.cpp)|Array/Greedy|Medium|
 |058|[Length of Last Word](https://leetcode.com/problems/length-of-last-word)| |[C++](./Solution/058/lengthOfLastWord.cpp)|String|Easy|
 |061|[Rotate List](https://leetcode.com/problems/rotate-list/)| |[C++](./Solution/061/rotateRight.cpp)|Linked List|Medium|
 |062|[Unique Paths](https://leetcode.com/problems/unique-paths/)|机器人路径数(无障碍物)|[C++](./Solution/062/uniquePaths.cpp)|Array/DP|Medium|

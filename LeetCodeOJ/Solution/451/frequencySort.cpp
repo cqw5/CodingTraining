@@ -39,7 +39,7 @@ public:
     }
 
 private:
-	// 自定义比较函数
+    // 自定义比较函数
     static bool comp(pair<int, int> pair1, pair<int, int> pair2) {
         return pair1.second < pair2.second;
     } 
