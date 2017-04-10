@@ -61,6 +61,7 @@
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| |[C++](./Solution/109/sortedListToBST.cpp)|Linked List/Tree|Medium|
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)|二叉平衡树判断|[C++](./Solution/110/isBalanced.cpp)|Tree/DFS|Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| |[C++](./Solution/111/minDepth.cpp)|Tree|Easy|
+|112|[Path Sum](https://leetcode.com/problems/path-sum)|路径和|[C++](./Solution/112/hasPathSum.cpp)|Tree/DFS|Easy|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| |[C++](./Solution/114/flatten.cpp)|Tree|Medium|
 |120|[Triangle](https://leetcode.com/problems/triangle/)|三角形从顶到底的最短路径和|[C++](./Solution/120/minimumTotal.cpp)|DP|Medium|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| |[C++](./Solution/124/maxPathSum.cpp)|Tree|Hard|
