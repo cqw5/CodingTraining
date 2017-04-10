@@ -23,10 +23,10 @@
 class Solution {
 public:
     vector<vector<int>> pathSum(TreeNode* root, int sum) {
-        vector<vector<int>> paths;
+        vector<vector<int>> paths;  // 存放所有路径
         if (root == nullptr) return paths;
         int res = 0;
-        vector<int> path;
+        vector<int> path;  // 存到当前路径
         pathSum(root, sum, res, path, paths);
         return paths;
     }
