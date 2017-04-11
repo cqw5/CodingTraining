@@ -29,10 +29,11 @@
 |040|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| |[C++](./Solution/040/combinationSum2.cpp)|Array/Backtracking|Medium|
 |048|[Rotate Image](https://leetcode.com/problems/rotate-image)|矩阵旋转90°C|[C++](./Solution/048/rotate.cpp)|Array|Medium|
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|连续子数组的最大和|[C++](./Solution/053/maxSubArray.cpp)|DP/Array|Medium|
-|054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/?tab=Description)| |[C++](./Solution/054/spiralOrder.cpp)|Array|Medium|
+|054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/?tab=Description)|螺旋式打印矩阵|[C++](./Solution/054/spiralOrder.cpp)|Array|Medium|
 |055|[Jump Game](https://leetcode.com/problems/jump-game)|跳跃游戏|[C++](./Solution/055/canJump.cpp)|Array/Greedy|Medium|
 |056|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|合并区间|[C++](./Solution/056/merge.cpp)|Array/Sort|Medium|
 |058|[Length of Last Word](https://leetcode.com/problems/length-of-last-word)| |[C++](./Solution/058/lengthOfLastWord.cpp)|String|Easy|
+|059|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|螺旋式填充矩阵|[C++](./Solution/059/generateMatrix.cpp)|Array|Medium|
 |061|[Rotate List](https://leetcode.com/problems/rotate-list/)| |[C++](./Solution/061/rotateRight.cpp)|Linked List|Medium|
 |062|[Unique Paths](https://leetcode.com/problems/unique-paths/)|机器人路径数(无障碍物)|[C++](./Solution/062/uniquePaths.cpp)|Array/DP|Medium|
 |063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|机器人路径数II(有障碍物)|[C++](./Solution/063/uniquePathsWithObstacles.cpp)|Array/DP|Medium|

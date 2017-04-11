@@ -1,7 +1,7 @@
 /*! Source: https://leetcode.com/problems/spiral-matrix/?tab=Description
  *! Author: qwchen
  *! Date: 2017-03-12
- *  顺时针从外到内选择遍历矩阵
+ *  顺时针从外到内选择遍历矩阵（螺旋式打印矩阵）
  */
 
 /*
