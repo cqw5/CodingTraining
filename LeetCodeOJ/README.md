@@ -47,6 +47,7 @@
 |082|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)|删除链表的重复元素II|[C++](./Solution/082/deleteDuplicates.cpp)|Linked List|Medium|
 |083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|删除链表的重复元素I|[C++](./Solution/083/deleteDuplicates.cpp)|Linked List|Easy|
 |086|[Partition List](https://leetcode.com/problems/partition-list/)| |[C++](./Solution/086/partition.cpp)|Linked List|Medium|
+|088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|合并两个排序数组|[C++](./Solution/088/merge.cpp)|Array/Two Points|Easy|
 |093|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)|字符串转化为IP地址|[C++](./Solution/093/restoreIpAddresses.cpp)|String|Medium|
 |094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| |[C++](./Solution/094/inorderTraversal.cpp)|Tree/Stack|Medium|
 |095|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)| |[C++](./Solution/095/generateTrees.cpp)|Tree/DP|Medium|
@@ -60,6 +61,7 @@
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| |[C++](./Solution/104/maxDepth.cpp)|Tree|Easy|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| |[C++](./Solution/105/buildTree.cpp)|Tree|Medium|
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| |[C++](./Solution/106/buildTree.cpp)|Tree|Medium|
+|107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)|二叉树的层次遍历|[C++](./Solution/107/levelOrderBottom.cpp)|Tree/BFS|Easy|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)|将排序数组转化为平衡二叉查找树|[C++](./Solution/108/sortedArrayToBST.cpp)|Tree|Easy|
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| |[C++](./Solution/109/sortedListToBST.cpp)|Linked List/Tree|Medium|
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)|二叉平衡树判断|[C++](./Solution/110/isBalanced.cpp)|Tree/DFS|Easy|
@@ -75,7 +77,10 @@
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| |[C++](./Solution/145/postorderTraversal.cpp)|Tree/Stack|Hard|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)| |[C++](./Solution/147/insertionSortList.cpp)|Linked List/Sort|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)| |[C++](./Solution/148/sortList.cpp)|Linked List/Sort|Medium|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|旋转数组中的最小元素(无重复元素)|[C++](./Solution/153/findMin.cpp)|Array/BinarySearch|Medium|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|旋转数组中的最小元素(有重复元素)|[C++](./Solution/154/findMin.cpp)|Array/BinarySearch|Hard|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| |[C++](./Solution/160/getIntersectionNode.cpp)|Linked List|Easy|
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element)|寻找峰值|[C++](./Solution/162/findPeakElement.cpp)|Array/BinarySearch|Medium|
 |169|[Majority Element](https://leetcode.com/problems/majority-element)|数组中出现次数超过一半的数|[C++](./Solution/169/majorityElement.cpp)|Array|Easy|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)| |[C++](./Solution/202/isHappy.cpp)|Hash Table/Math|Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)|删除链表元素|[C++](./Solution/203/removeElements.cpp)|LinkedList|Easy|
