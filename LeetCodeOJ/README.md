@@ -82,6 +82,7 @@
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| |[C++](./Solution/160/getIntersectionNode.cpp)|Linked List|Easy|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element)|寻找峰值|[C++](./Solution/162/findPeakElement.cpp)|Array/BinarySearch|Medium|
 |169|[Majority Element](https://leetcode.com/problems/majority-element)|数组中出现次数超过一半的数|[C++](./Solution/169/majorityElement.cpp)|Array|Easy|
+|179|[Largest Number](https://leetcode.com/problems/largest-number)|把数组排成最大的数|[C++](./Solution/179/largestNumber.cpp)|Sort|Medium|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)| |[C++](./Solution/202/isHappy.cpp)|Hash Table/Math|Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)|删除链表元素|[C++](./Solution/203/removeElements.cpp)|LinkedList|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)|反转链表|[C++](./Solution/206/reverseList.cpp)|LinkedList|Easy|
@@ -91,6 +92,8 @@
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|二叉查找树的最低公共祖先结点|[C++](./Solution/235/lowestCommonAncestor.cpp)|Tree|Easy|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|二叉是的最低公共祖先结点|[C++](./Solution/236/lowestCommonAncestor.cpp)|Tree|Medium|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|链表中删除结点|[C++](./Solution/237/deleteNode.cpp)|Linked List|Easy|
+|240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)|杨式矩阵中找元素|[C++](./Solution/240/searchMatrix.cpp)|BinarySearch/Divide and Conquer|Medium|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram)|相同字母异序词|[C++](./Solution/242/isAnagram.cpp)|HashTable/Sort|Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string)|字符串翻转|[C++](./Solution/344/reverseString.cpp)|Easy|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|集合的交集I|[C++](./Solution/349/intersection.cpp)|HashTable|Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)|集合的交集II|[C++](./Solution/350/intersect.cpp)|HashTable|Easy|
