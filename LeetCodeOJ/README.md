@@ -98,7 +98,8 @@
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|链表中删除结点|[C++](./Solution/237/deleteNode.cpp)|Linked List|Easy|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)|杨式矩阵中找元素|[C++](./Solution/240/searchMatrix.cpp)|BinarySearch/Divide and Conquer|Medium|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram)|相同字母异序词|[C++](./Solution/242/isAnagram.cpp)|HashTable/Sort|Easy|
-|344|[Reverse String](https://leetcode.com/problems/reverse-string)|字符串翻转|[C++](./Solution/344/reverseString.cpp)|Easy|
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|寻找数组中的重复元素|[C++](./Solution/287/findDuplicate.cpp)|BinarySearch/Array|Medium|
+|344|[Reverse String](https://leetcode.com/problems/reverse-string)|字符串翻转|[C++](./Solution/344/reverseString.cpp)|String/Two Point|Easy|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|集合的交集I|[C++](./Solution/349/intersection.cpp)|HashTable|Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)|集合的交集II|[C++](./Solution/350/intersect.cpp)|HashTable|Easy|
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|排序矩阵中第k小的元素|[C++](./Solution/378/kthSmallest.cpp)|Binary Search/Heap|Medium|
