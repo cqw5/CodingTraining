@@ -93,6 +93,7 @@
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| |[C++](./Solution/208/Trie.cpp)|Trie|Medium|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)| |[C++](./Solution/215/findKthLargest.cpp)|Divide and Conquer|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|翻转二叉树|[C++](./Solution/226/invertTree.cpp)|Tree|Easy|
+|230|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|二叉查找树中第k小的数|[C++](./Solution/230/kthSmallest.cpp)|Tree/BinarySearch|Medium|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)| |[C++](./Solution/234/isPalindrome.cpp)|Linked List|Easy|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|二叉查找树的最低公共祖先结点|[C++](./Solution/235/lowestCommonAncestor.cpp)|Tree|Easy|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|二叉是的最低公共祖先结点|[C++](./Solution/236/lowestCommonAncestor.cpp)|Tree|Medium|
