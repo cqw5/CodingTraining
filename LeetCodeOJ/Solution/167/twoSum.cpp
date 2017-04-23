@@ -5,7 +5,7 @@
  */
 
 /*
- * 时间复杂度：O(n)
+ * 时间复杂度：O(n). 6ms. beats 29.26% of cpp submissions.
  * 空间复杂度：O(1)
  */
 class Solution {

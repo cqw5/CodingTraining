@@ -101,6 +101,7 @@
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|链表中删除结点|[C++](./Solution/237/deleteNode.cpp)|Linked List|Easy|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)|杨式矩阵中找元素|[C++](./Solution/240/searchMatrix.cpp)|BinarySearch/Divide and Conquer|Medium|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram)|相同字母异序词|[C++](./Solution/242/isAnagram.cpp)|HashTable/Sort|Easy|
+|258|[Add Digits](https://leetcode.com/problems/add-digits)|数根问题|[C++](./Solution/258/addDigits.cpp)|Math|Easy|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|寻找数组中的重复元素|[C++](./Solution/287/findDuplicate.cpp)|BinarySearch/Array|Medium|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)|矩阵中的最长增长路径|[C++](./Solution/329/longestIncreasingPath.cpp)|DFS/DP|Hard|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string)|字符串翻转|[C++](./Solution/344/reverseString.cpp)|String/Two Point|Easy|
