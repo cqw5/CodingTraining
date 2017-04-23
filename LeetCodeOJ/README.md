@@ -104,6 +104,7 @@
 |258|[Add Digits](https://leetcode.com/problems/add-digits)|数根问题|[C++](./Solution/258/addDigits.cpp)|Math|Easy|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number)|丑数|[C++](./Solution/263/isUgly.cpp)|Math|Easy|
 |264|[Ugly NumberII](https://leetcode.com/problems/ugly-number-ii)|丑数II|[C++](./Solution/264/nthUglyNumber.cpp)|Math|Medium|
+|268|[Missing Number](https://leetcode.com/problems/missing-number)|缺失的数|[C++](./Solution/268/missingNumber.cpp)|Array/Math/BitManipulation|Easy|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|寻找数组中的重复元素|[C++](./Solution/287/findDuplicate.cpp)|BinarySearch/Array|Medium|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)|矩阵中的最长增长路径|[C++](./Solution/329/longestIncreasingPath.cpp)|DFS/DP|Hard|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string)|字符串翻转|[C++](./Solution/344/reverseString.cpp)|String/Two Point|Easy|
