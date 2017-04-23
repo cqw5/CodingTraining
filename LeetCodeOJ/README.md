@@ -85,6 +85,7 @@
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|旋转数组中的最小元素(有重复元素)|[C++](./Solution/154/findMin.cpp)|Array/BinarySearch|Hard|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| |[C++](./Solution/160/getIntersectionNode.cpp)|Linked List|Easy|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element)|寻找峰值|[C++](./Solution/162/findPeakElement.cpp)|Array/BinarySearch|Medium|
+|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|排序数组的两数之和|[C++](./Solution/167/twoSum.cpp)|Array/TwoPoints|Easy|
 |169|[Majority Element](https://leetcode.com/problems/majority-element)|数组中出现次数超过一半的数|[C++](./Solution/169/majorityElement.cpp)|Array|Easy|
 |179|[Largest Number](https://leetcode.com/problems/largest-number)|把数组排成最大的数|[C++](./Solution/179/largestNumber.cpp)|Sort|Medium|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)| |[C++](./Solution/202/isHappy.cpp)|Hash Table/Math|Easy|
