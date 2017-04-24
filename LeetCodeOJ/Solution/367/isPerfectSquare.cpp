@@ -8,7 +8,7 @@
  * 思路：
  *   使用二分查找，查找平方等于num的数
  *   要注意两个比较大的int类型的数相加或相乘会溢出，因此要使用long long类型
- * 时间复杂度：O(logn)
+ * 时间复杂度：O(logn). 3 ms. beats 9.29% of cpp submissions.
  * 空间复杂度：O(1)
  */
 class Solution {

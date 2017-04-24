@@ -102,6 +102,7 @@
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|链表中删除结点|[C++](./Solution/237/deleteNode.cpp)|Linked List|Easy|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)|杨式矩阵中找元素|[C++](./Solution/240/searchMatrix.cpp)|BinarySearch/Divide and Conquer|Medium|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram)|相同字母异序词|[C++](./Solution/242/isAnagram.cpp)|HashTable/Sort|Easy|
+|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths)|二叉树的路径|[C++](./Solution/257/binaryTreePaths.cpp)|Tree/DFS|Easy|
 |258|[Add Digits](https://leetcode.com/problems/add-digits)|数根问题|[C++](./Solution/258/addDigits.cpp)|Math|Easy|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number)|丑数|[C++](./Solution/263/isUgly.cpp)|Math|Easy|
 |264|[Ugly NumberII](https://leetcode.com/problems/ugly-number-ii)|丑数II|[C++](./Solution/264/nthUglyNumber.cpp)|Math|Medium|
