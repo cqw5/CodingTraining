@@ -43,7 +43,8 @@
 |059|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|螺旋式填充矩阵|[C++](./Solution/059/generateMatrix.cpp)|Array|Medium|
 |061|[Rotate List](https://leetcode.com/problems/rotate-list/)| |[C++](./Solution/061/rotateRight.cpp)|Linked List|Medium|
 |062|[Unique Paths](https://leetcode.com/problems/unique-paths/)|机器人路径数(无障碍物)|[C++](./Solution/062/uniquePaths.cpp)|Array/DP|Medium|
-|063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|机器人路径数II(有障碍物)|[C++](./Solution/063/uniquePathsWithObstacles.cpp)|Array/DP|Medium|
+|063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|机器人路径数II(有障碍物)|[C++](./Solution/063/uniquePathsWithObstacles.cpp)|Array/DP|Medium|
+|064|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|最短路径和|[C++](./Solution/064/minPathSum.cpp)|Array/DP|Medium|
 |066|[Plus One](https://leetcode.com/problems/plus-one)|加1|[C++](./Solution/066/plusOne.cpp)|Array/Math|Easy|
 |067|[Add Binary](https://leetcode.com/problems/add-binary/)| |[C++](./Solution/067/addBinary.cpp)|Math/String|Easy|
 |070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|爬楼梯|[C++](./Solution/070/climbStairs.cpp)|DP|Easy|
