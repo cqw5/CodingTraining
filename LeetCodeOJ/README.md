@@ -27,12 +27,13 @@
 |035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| |[C++](./Solution/035/searchInsert.cpp)|Array|Medium|
 |039|[Combination Sum](https://leetcode.com/problems/combination-sum/)| |[C++](./Solution/039/combinationSum.cpp)|Array/Backtracking|Medium|
 |040|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| |[C++](./Solution/040/combinationSum2.cpp)|Array/Backtracking|Medium|
+|045|[Jump Game II](https://leetcode.com/problems/jump-game-ii)|跳步游戏II|[C++](./Solution/045/jump.cpp)|Array/Greedy|Hard|
 |048|[Rotate Image](https://leetcode.com/problems/rotate-image)|矩阵旋转90°C|[C++](./Solution/048/rotate.cpp)|Array|Medium|
 |049|[Group Anagrams](https://leetcode.com/problems/anagrams)|回文分组|[C++](./Solution/049/groupAnagrams.cpp)|HashTable/String|Medium|
 |050|[Pow(x, n)](https://leetcode.com/problems/powx-n)|Pow函数|[C++](./Solution/050/myPow.cpp)|BinarySearch/Math|Medium|
 |053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|连续子数组的最大和|[C++](./Solution/053/maxSubArray.cpp)|DP/Array|Medium|
 |054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/?tab=Description)|螺旋式打印矩阵|[C++](./Solution/054/spiralOrder.cpp)|Array|Medium|
-|055|[Jump Game](https://leetcode.com/problems/jump-game)|跳跃游戏|[C++](./Solution/055/canJump.cpp)|Array/Greedy|Medium|
+|055|[Jump Game](https://leetcode.com/problems/jump-game)|跳步游戏I|[C++](./Solution/055/canJump.cpp)|Array/Greedy|Medium|
 |056|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|合并区间|[C++](./Solution/056/merge.cpp)|Array/Sort|Medium|
 |058|[Length of Last Word](https://leetcode.com/problems/length-of-last-word)| |[C++](./Solution/058/lengthOfLastWord.cpp)|String|Easy|
 |059|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|螺旋式填充矩阵|[C++](./Solution/059/generateMatrix.cpp)|Array|Medium|
