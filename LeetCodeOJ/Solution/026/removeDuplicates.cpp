@@ -1,6 +1,6 @@
 /*! Source: https://leetcode.com/problems/remove-duplicates-from-sorted-array
  *! Author: qwchen
- *! Date  : 2016-12-27
+ *! Date  : 2017-4-29
  *  删除数组的重复元素
  */
 

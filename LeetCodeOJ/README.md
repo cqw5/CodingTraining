@@ -23,6 +23,7 @@
 |024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| |[C++](./Solution/024/swapPairs.cpp)|Linked List|Easy|
 |026|[Remove Duplicates from Sorted Array](Remove Duplicates from Sorted Array)| |[C++](./Solution/026/removeDuplicates.cpp)|Array|Easy|
 |027|[Remove Element](https://leetcode.com/problems/remove-element/)| |[C++](./Solution/027/removeElement.cpp)|Array|Easy|
+|031|[Next Permutation](https://leetcode.com/problems/next-permutation)|下一个排序数组|[C++](./Solution/031/nextPermutation.cpp)|Array|Medium|
 |033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|旋转数组中查找元素(对比81题) |[C++](./Solution/033/search.cpp)|Array/BinarySearch|Medium|
 |034|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)| |[C++](./Solution/034/searchRange.cpp)|Array|Medium|
 |035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| |[C++](./Solution/035/searchInsert.cpp)|Array|Medium|
