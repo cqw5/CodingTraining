@@ -21,6 +21,7 @@
 |022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|打印n对括号的所有有效组合|[C++](./Solution/022/generateParenthesis.cpp)|String|Medium|
 |023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| |[C++](./Solution/023/mergeKLists.cpp)|Linked List/heap|Hard|
 |024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| |[C++](./Solution/024/swapPairs.cpp)|Linked List|Easy|
+|026|[Remove Duplicates from Sorted Array](Remove Duplicates from Sorted Array)| |[C++](./Solution/026/removeDuplicates.cpp)|Array|Easy|
 |027|[Remove Element](https://leetcode.com/problems/remove-element/)| |[C++](./Solution/027/removeElement.cpp)|Array|Easy|
 |033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|旋转数组中查找元素(对比81题) |[C++](./Solution/033/search.cpp)|Array/BinarySearch|Medium|
 |034|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)| |[C++](./Solution/034/searchRange.cpp)|Array|Medium|
