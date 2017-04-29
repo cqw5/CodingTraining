@@ -12,7 +12,8 @@
 |008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| |[C++](./Solution/008/myAtoi.cpp)|Math/String|Easy|
 |009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)| |[C++](./Solution/009/isPalindrome.cpp)|Math|Easy|
 |014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)| |[C++](./Solution/014/longestCommonPrefix.cpp)|String|Easy|
-|015|[3Sum](https://leetcode.com/problems/3sum/)| |[C++](./Solution/015/threeSum.cpp)|Array|Medium|
+|015|[3Sum](https://leetcode.com/problems/3sum/)|3数之和|[C++](./Solution/015/threeSum.cpp)|Array|Medium|
+|016|[3Sum Closest](https://leetcode.com/problems/3sum-closest)|最接近某个数的3数之和|[C++](./Solution/016/threeSumClosest.cpp)|Array|Medium|
 |017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| |[C++](./Solution/017/letterCombinations.cpp)|String|Medium|
 |018|[4Sum](https://leetcode.com/problems/4sum/)| |[C++](./Solution/018/fourSum.cpp)|Hash/Array|Hard|
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| |[C++](./Solution/019/removeNthFromEnd.cpp)|Linked List|Easy|
