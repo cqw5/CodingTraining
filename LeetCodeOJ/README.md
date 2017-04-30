@@ -86,6 +86,7 @@
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii)|路径和II|[C++](./Solution/113/pathSum.cpp)|Tree/DFS|Medium|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| |[C++](./Solution/114/flatten.cpp)|Tree|Medium|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)|Pascal三角|[C++](./Solution/118/generate.cpp)|Array|Easy|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)|Pascal三角II|[C++](./Solution/119/getRow.cpp)|Array|Easy|
 |120|[Triangle](https://leetcode.com/problems/triangle/)|三角形从顶到底的最短路径和|[C++](./Solution/120/minimumTotal.cpp)|DP|Medium|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| |[C++](./Solution/124/maxPathSum.cpp)|Tree|Hard|
 |136|[Single Number](https://leetcode.com/problems/single-number/)| |[C++](./Solution/136/singleNumber.cpp)|Hash Table/Bit Manipulation|Easy|

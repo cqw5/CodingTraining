@@ -15,7 +15,7 @@
  * 思路：
  *   每一层，除了第一个后最后一个元素外，其他元素满足：
  *   A[i][j] = A[i-1][j-1] + A[i-1][j]
- * 时间复杂度：O(n^2)
+ * 时间复杂度：O(n^2). 3 ms. beats 7.60 % of cpp submissions.
  * 空间复杂度：O(n^2)
  */
 class Solution {
