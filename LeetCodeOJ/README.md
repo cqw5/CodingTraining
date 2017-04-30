@@ -53,7 +53,7 @@
 |073|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)|矩阵清0|[C++](./Solution/073/setZeroes.cpp)|Array|Medium|
 |074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| |[C++](./Solution/074/searchMatrix.cpp)|Array/BinarySearch|Medium|
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors)| |[C++](./Solution/075/sortColors.cpp)|Array/Sort|Medium|
-|078|[Subsets](https://leetcode.com/problems/subsets)|集合的子集|[C++](./Solution/078/subsets.cpp)|Array/Backtracking|Medium|
+|078|[Subsets](https://leetcode.com/problems/subsets)|集合的子集I(集合元素不重复)|[C++](./Solution/078/subsets.cpp)|Array/Backtracking|Medium|
 |079|[Word Search](https://leetcode.com/problems/word-search)|单词查找|[C++](./Solution/079/exist.cpp)|Array/DFS|Medium|
 |080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|删除排序数组的重复元素II|[C++](./Solution/026/removeDuplicates.cpp)|Array|Medium|
 |081|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)|从有重复的旋转数组中查找元素(对应31题)|[C++](./Solution/081/search.cpp)|Array/BinarySearch|Medium|
@@ -61,6 +61,7 @@
 |083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|删除链表的重复元素I|[C++](./Solution/083/deleteDuplicates.cpp)|Linked List|Easy|
 |086|[Partition List](https://leetcode.com/problems/partition-list/)| |[C++](./Solution/086/partition.cpp)|Linked List|Medium|
 |088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|合并两个排序数组|[C++](./Solution/088/merge.cpp)|Array/Two Points|Easy|
+|090|[Subsets II](https://leetcode.com/problems/subsets-ii)|集合的子集II(集合元素重复)|[C++](./Solution/090/subsetsWithDup.cpp)|Array/Backtracking|Medium|
 |092|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)|翻转链表II|[C++](./Solution/092/reverseBetween.cpp)|LinkedList|Medium|
 |093|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)|字符串转化为IP地址|[C++](./Solution/093/restoreIpAddresses.cpp)|String|Medium|
 |094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| |[C++](./Solution/094/inorderTraversal.cpp)|Tree/Stack|Medium|
