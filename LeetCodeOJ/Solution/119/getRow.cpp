@@ -10,7 +10,7 @@
  * 思路：
  *   每一层，除了第一个后最后一个元素外，其他元素满足：
  *   A[j] = A[j-1] + A[j], 因为只使用一个滚动数组，因此需要一个来保存中间状态
- * 时间复杂度：O(n^2). 3 ms. beats 7.60 % of cpp submissions.
+ * 时间复杂度：O(n^2). 3ms. beats 2.06 % of cpp submissions.
  * 空间复杂度：O(n)
  */
 class Solution {

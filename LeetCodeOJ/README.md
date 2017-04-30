@@ -95,6 +95,7 @@
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| |[C++](./Solution/145/postorderTraversal.cpp)|Tree/Stack|Hard|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)| |[C++](./Solution/147/insertionSortList.cpp)|Linked List/Sort|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)| |[C++](./Solution/148/sortList.cpp)|Linked List/Sort|Medium|
+|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)|最大连乘子数组|[C++](./Solution/152/maxProduct.cpp)|Array/DP|Medium|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|旋转数组中的最小元素(无重复元素)|[C++](./Solution/153/findMin.cpp)|Array/BinarySearch|Medium|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|旋转数组中的最小元素(有重复元素)|[C++](./Solution/154/findMin.cpp)|Array/BinarySearch|Hard|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| |[C++](./Solution/160/getIntersectionNode.cpp)|Linked List|Easy|
