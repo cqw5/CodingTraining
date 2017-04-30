@@ -23,7 +23,7 @@
 |022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|打印n对括号的所有有效组合|[C++](./Solution/022/generateParenthesis.cpp)|String|Medium|
 |023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| |[C++](./Solution/023/mergeKLists.cpp)|Linked List/heap|Hard|
 |024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| |[C++](./Solution/024/swapPairs.cpp)|Linked List|Easy|
-|026|[Remove Duplicates from Sorted Array](Remove Duplicates from Sorted Array)| |[C++](./Solution/026/removeDuplicates.cpp)|Array|Easy|
+|026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|删除排序数组的重复元素I|[C++](./Solution/026/removeDuplicates.cpp)|Array|Easy|
 |027|[Remove Element](https://leetcode.com/problems/remove-element/)| |[C++](./Solution/027/removeElement.cpp)|Array|Easy|
 |031|[Next Permutation](https://leetcode.com/problems/next-permutation)|下一个排序数组|[C++](./Solution/031/nextPermutation.cpp)|Array|Medium|
 |033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|旋转数组中查找元素(对比81题) |[C++](./Solution/033/search.cpp)|Array/BinarySearch|Medium|
@@ -55,6 +55,7 @@
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors)| |[C++](./Solution/075/sortColors.cpp)|Array/Sort|Medium|
 |078|[Subsets](https://leetcode.com/problems/subsets)|集合的子集|[C++](./Solution/078/subsets.cpp)|Array/Backtracking|Medium|
 |079|[Word Search](https://leetcode.com/problems/word-search)|单词查找|[C++](./Solution/079/exist.cpp)|Array/DFS|Medium|
+|080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|删除排序数组的重复元素II|[C++](./Solution/026/removeDuplicates.cpp)|Array|Medium|
 |081|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)|从有重复的旋转数组中查找元素(对应31题)|[C++](./Solution/081/search.cpp)|Array/BinarySearch|Medium|
 |082|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)|删除链表的重复元素II|[C++](./Solution/082/deleteDuplicates.cpp)|Linked List|Medium|
 |083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|删除链表的重复元素I|[C++](./Solution/083/deleteDuplicates.cpp)|Linked List|Easy|
