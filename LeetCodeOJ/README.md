@@ -16,7 +16,7 @@
 |015|[3Sum](https://leetcode.com/problems/3sum/)|3数之和|[C++](./Solution/015/threeSum.cpp)|Array|Medium|
 |016|[3Sum Closest](https://leetcode.com/problems/3sum-closest)|最接近某个数的3数之和|[C++](./Solution/016/threeSumClosest.cpp)|Array|Medium|
 |017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| |[C++](./Solution/017/letterCombinations.cpp)|String|Medium|
-|018|[4Sum](https://leetcode.com/problems/4sum/)| |[C++](./Solution/018/fourSum.cpp)|Hash/Array|Hard|
+|018|[4Sum](https://leetcode.com/problems/4sum/)|4数之和|[C++](./Solution/018/fourSum.cpp)|Hash/Array|Hard|
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| |[C++](./Solution/019/removeNthFromEnd.cpp)|Linked List|Easy|
 |020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| |[C++](./Solution/020/isValid.cpp)|String/Stack|Easy|
 |021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| |[C++](./Solution/021/mergeTwoLists.cpp)|Linked List|Easy|
@@ -25,10 +25,10 @@
 |024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| |[C++](./Solution/024/swapPairs.cpp)|Linked List|Easy|
 |026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|删除排序数组的重复元素I|[C++](./Solution/026/removeDuplicates.cpp)|Array|Easy|
 |027|[Remove Element](https://leetcode.com/problems/remove-element/)| |[C++](./Solution/027/removeElement.cpp)|Array|Easy|
-|031|[Next Permutation](https://leetcode.com/problems/next-permutation)|下一个排序数组|[C++](./Solution/031/nextPermutation.cpp)|Array|Medium|
+|031|[Next Permutation](https://leetcode.com/problems/next-permutation)|下一个排列|[C++](./Solution/031/nextPermutation.cpp)|Array|Medium|
 |033|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|旋转数组中查找元素(对比81题) |[C++](./Solution/033/search.cpp)|Array/BinarySearch|Medium|
-|034|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)| |[C++](./Solution/034/searchRange.cpp)|Array|Medium|
-|035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| |[C++](./Solution/035/searchInsert.cpp)|Array|Medium|
+|034|[Search for a Range](https://leetcode.com/problems/search-for-a-range/)|元素在有重复元素的排序数组中范围|[C++](./Solution/034/searchRange.cpp)|Array|Medium|
+|035|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|寻找插入位置|[C++](./Solution/035/searchInsert.cpp)|Array|Medium|
 |039|[Combination Sum](https://leetcode.com/problems/combination-sum/)| |[C++](./Solution/039/combinationSum.cpp)|Array/Backtracking|Medium|
 |040|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)| |[C++](./Solution/040/combinationSum2.cpp)|Array/Backtracking|Medium|
 |045|[Jump Game II](https://leetcode.com/problems/jump-game-ii)|跳步游戏II|[C++](./Solution/045/jump.cpp)|Array/Greedy|Hard|
@@ -55,7 +55,7 @@
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors)| |[C++](./Solution/075/sortColors.cpp)|Array/Sort|Medium|
 |078|[Subsets](https://leetcode.com/problems/subsets)|集合的子集I(集合元素不重复)|[C++](./Solution/078/subsets.cpp)|Array/Backtracking|Medium|
 |079|[Word Search](https://leetcode.com/problems/word-search)|单词查找|[C++](./Solution/079/exist.cpp)|Array/DFS|Medium|
-|080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|删除排序数组的重复元素II|[C++](./Solution/026/removeDuplicates.cpp)|Array|Medium|
+|080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|删除排序数组的重复元素II|[C++](./Solution/080/removeDuplicates.cpp)|Array|Medium|
 |081|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)|从有重复的旋转数组中查找元素(对应31题)|[C++](./Solution/081/search.cpp)|Array/BinarySearch|Medium|
 |082|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)|删除链表的重复元素II|[C++](./Solution/082/deleteDuplicates.cpp)|Linked List|Medium|
 |083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|删除链表的重复元素I|[C++](./Solution/083/deleteDuplicates.cpp)|Linked List|Easy|
