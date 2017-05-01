@@ -11,7 +11,7 @@
  *   使用二分查找
  *   如果nums[mid] < nums[mid+1]，则nums[mid+1: high]之间肯定有峰值。即使是递增的，那么也可以是nums[high]
  *   如果nums[mid] > nums[mid+1]，则nums[low: mid+1]之间肯定有峰值。即使是递减的，那么也可以是num[low]
- * 时间复杂度：O(n). 6 ms. beats 16.47% of cpp submissions.
+ * 时间复杂度：O(logn). 6 ms. beats 16.47% of cpp submissions.
  * 空间复杂度：O(1) 
  */
 class Solution {
