@@ -51,7 +51,7 @@
 |071|[Simplify Path](https://leetcode.com/problems/simplify-path/)| |[C++](./Solution/071/simplifyPath.cpp) [Python](./Solution/071/simplifyPath.py)|Stack/String|Medium|
 |072|[Edit Distance](https://leetcode.com/problems/edit-distance/)|编辑距离|[C++](./Solution/072/minDistance.cpp)|DP|Hard|
 |073|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)|矩阵清0|[C++](./Solution/073/setZeroes.cpp)|Array|Medium|
-|074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| |[C++](./Solution/074/searchMatrix.cpp)|Array/BinarySearch|Medium|
+|074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|杨氏矩阵查找元素|[C++](./Solution/074/searchMatrix.cpp)|Array/BinarySearch|Medium|
 |075|[Sort Colors](https://leetcode.com/problems/sort-colors)| |[C++](./Solution/075/sortColors.cpp)|Array/Sort|Medium|
 |078|[Subsets](https://leetcode.com/problems/subsets)|集合的子集I(集合元素不重复)|[C++](./Solution/078/subsets.cpp)|Array/Backtracking|Medium|
 |079|[Word Search](https://leetcode.com/problems/word-search)|单词查找|[C++](./Solution/079/exist.cpp)|Array/DFS|Medium|

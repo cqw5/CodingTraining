@@ -1,7 +1,7 @@
 /*! Source: https://leetcode.com/problems/unique-paths/
  *! Author: qwchen
  *! Date  : 2016-12-23
- *  寻找从机器人产品呢矩阵a[0][0]走到a[m][n]的所有唯一的可能路径，无障碍
+ *  寻找从机器人从矩阵a[0][0]走到a[m][n]的所有唯一的可能路径，无障碍
  * Solution 为该文件最优的方案
  */
 
