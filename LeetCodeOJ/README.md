@@ -52,7 +52,7 @@
 |072|[Edit Distance](https://leetcode.com/problems/edit-distance/)|编辑距离|[C++](./Solution/072/minDistance.cpp)|DP|Hard|
 |073|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)|矩阵清0|[C++](./Solution/073/setZeroes.cpp)|Array|Medium|
 |074|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|杨氏矩阵查找元素|[C++](./Solution/074/searchMatrix.cpp)|Array/BinarySearch|Medium|
-|075|[Sort Colors](https://leetcode.com/problems/sort-colors)| |[C++](./Solution/075/sortColors.cpp)|Array/Sort|Medium|
+|075|[Sort Colors](https://leetcode.com/problems/sort-colors)|颜色排序|[C++](./Solution/075/sortColors.cpp)|Array/Sort|Medium|
 |078|[Subsets](https://leetcode.com/problems/subsets)|集合的子集I(集合元素不重复)|[C++](./Solution/078/subsets.cpp)|Array/Backtracking|Medium|
 |079|[Word Search](https://leetcode.com/problems/word-search)|单词查找|[C++](./Solution/079/exist.cpp)|Array/DFS|Medium|
 |080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|删除排序数组的重复元素II|[C++](./Solution/080/removeDuplicates.cpp)|Array|Medium|
@@ -75,8 +75,8 @@
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| |[C++](./Solution/102/levelOrder.cpp)|Tree|Easy|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| |[C++](./Solution/103/zigzagLevelOrder.cpp)|Tree|Medium|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| |[C++](./Solution/104/maxDepth.cpp)|Tree|Easy|
-|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| |[C++](./Solution/105/buildTree.cpp)|Tree|Medium|
-|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| |[C++](./Solution/106/buildTree.cpp)|Tree|Medium|
+|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|树的先序和中序数组构建树|[C++](./Solution/105/buildTree.cpp)|Array/Tree|Medium|
+|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|树的中序和后序数组构建树|[C++](./Solution/106/buildTree.cpp)|Array/Tree|Medium|
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)|二叉树的层次遍历|[C++](./Solution/107/levelOrderBottom.cpp)|Tree/BFS|Easy|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)|将排序数组转化为平衡二叉查找树|[C++](./Solution/108/sortedArrayToBST.cpp)|Tree|Easy|
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| |[C++](./Solution/109/sortedListToBST.cpp)|Linked List/Tree|Medium|
