@@ -92,6 +92,7 @@
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| |[C++](./Solution/124/maxPathSum.cpp)|Tree|Hard|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers)|树的根节点到所有叶子结点的路径和|[C++](./Solution/129/sumNumbers.cpp)|Tree/DFS|Medium|
 |136|[Single Number](https://leetcode.com/problems/single-number/)| |[C++](./Solution/136/singleNumber.cpp)|Hash Table/Bit Manipulation|Easy|
+|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer)|复制复杂链表|[C++](./Solution/138/copyRandomList.cpp)|Linked List|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)|判断链表是否存在环|[C++](./Solution/141/hasCycle.cpp)|Linked List|Easy|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)|链表中环的入口结点|[C++](./Solution/142/detectCycledetectCycle.cpp)|Linked List|Medium|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)| |[C++](./Solution/143/reorderList.cpp)|Linked List|Medium|
