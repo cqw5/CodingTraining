@@ -129,6 +129,7 @@
 |264|[Ugly NumberII](https://leetcode.com/problems/ugly-number-ii)|丑数II|[C++](./Solution/264/nthUglyNumber.cpp)|Math|Medium|
 |268|[Missing Number](https://leetcode.com/problems/missing-number)|缺失的数|[C++](./Solution/268/missingNumber.cpp)|Array/Math/BitManipulation|Easy|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|寻找数组中的重复元素|[C++](./Solution/287/findDuplicate.cpp)|BinarySearch/Array|Medium|
+|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)|奇数偶数链表|[C++](./Solution/328/oddEvenList.cpp)|LinkedList|Medium|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)|矩阵中的最长增长路径|[C++](./Solution/329/longestIncreasingPath.cpp)|DFS/DP|Hard|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string)|字符串翻转|[C++](./Solution/344/reverseString.cpp)|String/Two Point|Easy|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|集合的交集I|[C++](./Solution/349/intersection.cpp)|HashTable|Easy|
