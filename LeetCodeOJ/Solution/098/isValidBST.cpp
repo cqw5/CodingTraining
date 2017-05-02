@@ -1,8 +1,8 @@
 /*! Source: https://leetcode.com/problems/validate-binary-search-tree
  *! Author: qwchen
  *! Date  : 2017-03-26
- *  二叉查找树
- *    空树是二叉查找树
+ *  二叉查找树验证
+ *    给定一颗二叉树，判断其是否为二叉查找树
  */
 
 /**
@@ -14,14 +14,61 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+/*
+ * 思路：
+ *   先序遍历
+ *   二叉查找树满足：当前节点的值大于左子树的最大值，小于右子树最小值。
+ *   反过来，左子树中每一个节点的值都小于当前节点，右子树中每一个节点的值都大于当前节点
+ *   因此可以使用先序遍历，并传入当前子树应该满足的最小值和最大值
+ * 时间复杂度：O(n). 9 ms. beats 50.57 % of cpp submissions.
+ * 空间复杂度：O(logn)
+ */
+class Solution {
+public:
+    bool isValidBST(TreeNode* root) {
+    	// 其实使用INT_MIN和INT_MAX就可以了，但是test中存在值大于这个范围值数，因此换成long
+        return valid(root, LONG_MIN, LONG_MAX);   
+    }
+    
+    bool valid(TreeNode* root, long minVal, long maxVal) {
+        if (root == nullptr) return true;
+        if (root->val <= minVal || root->val >= maxVal) return false;
+        return valid(root->left, minVal, root->val) && valid(root->right, root->val, maxVal);
+    }
+};
 
 /*
  * 思路：
- *   利用后序遍历来判断
+ *   中序遍历
+ *   二叉查找树的中序遍历的一个单调递增的数组。
+ *   对树进行中序遍历，用一个变量来保存前一个节点的值。必须满足前一个节点的值 < 当前节点的值
+ * 时间复杂度：O(n). 13 ms. beats 21.95 % of cpp submissions.
+ * 空间复杂度：O(logn)
+ */
+class Solution {
+public:
+    bool isValidBST(TreeNode* root) {
+        long prev = LONG_MIN;
+        return valid(root, prev);
+    }
+    
+    bool valid(TreeNode* root, long& prev) {
+        if (root == nullptr) return true;
+        if (!valid(root->left, prev)) return false;
+        if (prev >= root->val) return false;
+        else                   prev = root->val;
+        if (!valid(root->right, prev)) return false;
+        return true;
+    }
+};
+
+/*
+ * 思路：
+ *   后序遍历
  *   判断左子树的最大节点是否小于当前节点 和 右子树的最小节点是否大于当前节点，
  *     如一个不是，则这不可能是二叉查找树。
  *     否则，继续递归进行判断
- * 时间复杂度：O(n)
+ * 时间复杂度：O(n). 9 ms. beats 50.57 % of cpp submissions.
  * 空间复杂度：O(logn)，递归栈
  */
 class Solution {

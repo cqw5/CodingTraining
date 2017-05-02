@@ -13,6 +13,35 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+/*
+ * 思路：
+ *   深度优先
+ * 时间复杂度：O(n). 6 ms. beats 22.21 % of cpp submissions.
+ * 空间复杂度：O(logn)
+ */
+class Solution {
+public:
+    vector<vector<int>> levelOrderBottom(TreeNode* root) {
+        int high = maxHigh(root);
+        vector<int> layer;
+        vector<vector<int>> res(high, layer);
+        dfs(root, res, 0, high-1);
+        return res;
+    }
+    
+    int maxHigh(TreeNode* root) {
+        if (root == nullptr) return 0;
+        return max(maxHigh(root->left), maxHigh(root->right)) + 1;
+    }
+    
+    void dfs(TreeNode* root, vector<vector<int>>& res, int level, int high) {
+        if (root == nullptr) return;
+        res[high - level].push_back(root->val);
+        dfs(root->left, res, level+1, high);
+        dfs(root->right, res, level+1, high);
+    }
+};
+
 
 /*
  * 思路：
