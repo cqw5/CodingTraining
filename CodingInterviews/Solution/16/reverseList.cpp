@@ -37,6 +37,27 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    ListNode* ReverseList(ListNode* pHead) {
+        if (pHead == nullptr) return pHead;
+        ListNode* newHead = nullptr;
+        reverse(pHead, newHead);
+        pHead->next = nullptr;
+        return newHead;
+    }
+
+    ListNode* reverse(ListNode* p, ListNode* &head) {
+        if (p->next == nullptr) {
+            head = p;
+            return p;
+        }
+        ListNode* q = reverse(p->next, head);
+        q->next = p;
+        return p;
+    }
+};
+
 void testSolution(){
     ListNode* p5 = new ListNode(5);
     ListNode* p4 = new ListNode(4, p5);
@@ -50,7 +71,7 @@ void testSolution(){
         p = p->next;
     }
     cout << endl;
-    Solution sol;
+    Solution2 sol;
     head = sol.ReverseList(head);
     p = head;
     while(p != NULL){
