@@ -33,14 +33,10 @@ private:
      *              否则，返回false
      */
     bool preOrder(TreeNode* pRoot1, TreeNode* pRoot2) {
-        if (pRoot1) {
-            if (pRoot1->val == pRoot2->val && sameTree(pRoot1, pRoot2) 
-                || preOrder(pRoot1->left, pRoot2)
-                || preOrder(pRoot1->right, pRoot2)) {
-                return true;
-            }
-        }
-        return false;
+        if (pRoot1 == nullptr) return false;
+        return pRoot1->val == pRoot2->val && sameTree(pRoot1, pRoot2)
+            || preOrder(pRoot1->left, pRoot2)
+            || preOrder(pRoot1->right, pRoot2);
     }
     
     /*
@@ -52,14 +48,11 @@ private:
      *                               并且A树中该节点的右子树包含B树中该节点的右子树，返回ture；否则返回false
      */
     bool sameTree(TreeNode* pRoot1, TreeNode* pRoot2) {
-        if (pRoot2 == nullptr) {
-            return true;
-        }
-        if (pRoot1 == nullptr) {
-            return false;
-        }
+        if (pRoot2 == nullptr) return true;
+        if (pRoot1 == nullptr) return false;
         return pRoot1->val == pRoot2->val
             && sameTree(pRoot1->left, pRoot2->left)
             && sameTree(pRoot1->right, pRoot2->right);
     }
 };
+
