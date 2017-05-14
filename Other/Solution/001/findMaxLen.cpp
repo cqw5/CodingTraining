@@ -14,25 +14,25 @@
  */
 
 struct TreeNode {
-	int val;
-	TreeNode* left;
-	TreeNode* right;
-	TreeNode(int x): val(x), left(nullptr), right(nullptr) {}
-	TreeNode(int x, TreeNode* l, TreeNode* r): val(x), left(l), right(r) {}
+    int val;
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode(int x): val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode* l, TreeNode* r): val(x), left(l), right(r) {}
 };
 
 int find(TreeNode* root, int& maxLen) {
-	if (root == nullptr) return 0;
-	int lenLeft = find(root->left, maxLen);   // 当前结点的左子树的最大深度
-	int lenRight = find(root->right, maxLen); // 当前结点的右子树的最大深度
-	int curLen = 1 + lenLeft + lenRight;      // 以当前结点为根节点的树中存在的最长距离
-	if (curLen > maxLen) maxLen = curLen;     // 更新全局最长距离
-	return 1 + max(lenLeft, lenRight);        // 以某个结点开始到叶子结点的最大距离=1+max(该节点左子树的最大深度, 该节点右子树的最大深度)
+    if (root == nullptr) return 0;
+    int lenLeft = find(root->left, maxLen);   // 当前结点的左子树的最大深度
+    int lenRight = find(root->right, maxLen); // 当前结点的右子树的最大深度
+    int curLen = 1 + lenLeft + lenRight;      // 以当前结点为根节点的树中存在的最长距离
+    if (curLen > maxLen) maxLen = curLen;     // 更新全局最长距离
+    return 1 + max(lenLeft, lenRight);        // 以某个结点开始到叶子结点的最大距离=1+max(该节点左子树的最大深度, 该节点右子树的最大深度)
 }
 
 int findMaxLen(TreeNode* root) {
-	int maxLen = 0;  // 标记最大距离
-	find(root, maxLen);
-	return maxLen;
+    int maxLen = 0;  // 标记最大距离
+    find(root, maxLen);
+    return maxLen;
 }
 
