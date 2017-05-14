@@ -42,10 +42,9 @@ public:
                 return minNumber(rotateArray, low, high);        
             }
             if (rotateArray[mid] <= rotateArray[high]) {
-                high = mid
+                high = mid;
             }
-            // 到这里rotateArray[mid]肯定不会等于rotateArray[low]，不然就是rotateArray[low] == rotateArray[mid] == rotateArray[high]了
-            if (rotateArray[mid] > rotateArray[low]) { 
+            else { // 如果mid没有<=high，那么mid就在左边了
                 low = mid + 1;
             }
         }

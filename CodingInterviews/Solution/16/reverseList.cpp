@@ -17,6 +17,7 @@ struct ListNode {
     ListNode(int x, ListNode* theNext):val(x), next(theNext){}
 };
 
+// 迭代解法
 class Solution {
 public:
     ListNode* ReverseList(ListNode* pHead) {
@@ -25,7 +26,7 @@ public:
         ListNode* p = pHead;
         ListNode* q = pHead->next;
         ListNode* s = pHead->next->next;
-        pHead->next = NULL;
+        pHead->next = NULL;  // 注意需要把原本的链表的头指针的next置为nullptr
         while(s != NULL){
             q->next = p;
             p = q;
@@ -37,13 +38,14 @@ public:
     }
 };
 
+// 递归解法
 class Solution2 {
 public:
     ListNode* ReverseList(ListNode* pHead) {
         if (pHead == nullptr) return pHead;
         ListNode* newHead = nullptr;
         reverse(pHead, newHead);
-        pHead->next = nullptr;
+        pHead->next = nullptr;  // 注意需要把原本的链表的头指针的next置为nullptr
         return newHead;
     }
 
