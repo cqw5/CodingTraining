@@ -89,6 +89,7 @@
 | 118  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | Pascal三角              | [C++](./Solution/118/generate.cpp)       | Array                           | Easy       |
 | 119  | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | Pascal三角II            | [C++](./Solution/119/getRow.cpp)         | Array                           | Easy       |
 | 120  | [Triangle](https://leetcode.com/problems/triangle/) | 三角形从顶到底的最短路径和         | [C++](./Solution/120/minimumTotal.cpp)   | DP                              | Medium     |
+| 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | 买和卖股票的最佳时间            | [C++](./Solution/121/maxProfit.cpp)      | Array                           | Easy       |
 | 124  | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 二叉树中的最长路径             | [C++](./Solution/124/maxPathSum.cpp)     | Tree                            | Hard       |
 | 129  | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 树的根节点到所有叶子结点的路径和      | [C++](./Solution/129/sumNumbers.cpp)     | Tree/DFS                        | Medium     |
 | 136  | [Single Number](https://leetcode.com/problems/single-number/) |                       | [C++](./Solution/136/singleNumber.cpp)   | Hash Table/Bit Manipulation     | Easy       |
