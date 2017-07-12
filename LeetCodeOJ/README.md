@@ -110,6 +110,7 @@
 | 167  | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 排序数组的两数之和             | [C++](./Solution/167/twoSum.cpp)         | Array/TwoPoints                 | Easy       |
 | 169  | [Majority Element](https://leetcode.com/problems/majority-element) | 数组中出现次数超过一半的数         | [C++](./Solution/169/majorityElement.cpp) | Array                           | Easy       |
 | 179  | [Largest Number](https://leetcode.com/problems/largest-number) | 把数组排成最大的数             | [C++](./Solution/179/largestNumber.cpp)  | Sort                            | Medium     |
+| 189  | [Rotate Array](https://leetcode.com/problems/rotate-array) | 旋转数组                  | [C++](./Solution/189/rotate.cpp)         | Array                           | Easy       |
 | 202  | [Happy Number](https://leetcode.com/problems/happy-number/) |                       | [C++](./Solution/202/isHappy.cpp)        | Hash Table/Math                 | Easy       |
 | 203  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | 删除链表元素                | [C++](./Solution/203/removeElements.cpp) | LinkedList                      | Easy       |
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 反转链表                  | [C++](./Solution/206/reverseList.cpp)    | LinkedList                      | Easy       |
