@@ -117,6 +117,7 @@
 | 208  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) |                       | [C++](./Solution/208/Trie.cpp)           | Trie                            | Medium     |
 | 209  | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 长度最短的子数组              | [C++](./Solution/209/minSubArrayLen.cpp) | Array/TwoPoints                 | Medium     |
 | 215  | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |                       | [C++](./Solution/215/findKthLargest.cpp) | Divide and Conquer              | Medium     |
+| 216  | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | k个数之和等于n的所有组合         | [C++](./Solution/216/combinationSum3.cpp) | Array                           | Medium     |
 | 217  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 数组中的重复元素              | [C++](./Solution/217/containsDuplicate.cpp) | Array/HashTable                 | Easy       |
 | 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | 翻转二叉树                 | [C++](./Solution/226/invertTree.cpp)     | Tree                            | Easy       |
 | 230  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 二叉查找树中第k小的数           | [C++](./Solution/230/kthSmallest.cpp)    | Tree/BinarySearch               | Medium     |
