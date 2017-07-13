@@ -120,6 +120,7 @@
 | 216  | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | k个数之和等于n的所有组合         | [C++](./Solution/216/combinationSum3.cpp) | Array                           | Medium     |
 | 217  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 数组中的重复元素              | [C++](./Solution/217/containsDuplicate.cpp) | Array/HashTable                 | Easy       |
 | 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | 翻转二叉树                 | [C++](./Solution/226/invertTree.cpp)     | Tree                            | Easy       |
+| 228  | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 总结数据范围                | [C++](./Solution/228/summaryRanges.cp)   | Array                           | Medium     |
 | 230  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 二叉查找树中第k小的数           | [C++](./Solution/230/kthSmallest.cpp)    | Tree/BinarySearch               | Medium     |
 | 231  | [Power of Two](https://leetcode.com/problems/power-of-two) | 判断数是否为2的指数            | [C++](./Solution/231/isPowerOfTwo.cpp)   | Math/BitManipulation            | Easy       |
 | 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) |                       | [C++](./Solution/234/isPalindrome.cpp)   | Linked List                     | Easy       |
