@@ -60,3 +60,35 @@ private:
     vector<int> stack;
     int minElem;
 };
+
+/*
+ * 另一种思路：推荐
+ *   用两个栈，一个保存原来的元素，一个保存每一个元素对应栈中的最小数。
+ */
+class Solution {
+public:
+    void push(int value) {
+        baseStack.push(value);
+        if(minStack.empty()) {
+            minStack.push(value);
+        }
+        else{
+            minStack.push(minStack.top() < value? minStack.top(): value);
+        }
+    }
+    void pop() {
+        baseStack.pop();
+        minStack.pop();
+        
+    }
+    int top() {
+        return baseStack.top();
+    }
+    int min() {
+        return minStack.top();
+    }
+    stack<int> baseStack;
+    stack<int> minStack;
+};
+
+
