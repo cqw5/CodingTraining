@@ -69,6 +69,31 @@ public:
     }
 };
 
+
+class Solution {
+public:
+    vector<int> printMatrix(vector<vector<int> > matrix) {
+        vector<int> res;
+        int m = matrix.size();
+        if(m == 0) return res;
+        int n = matrix[0].size();
+        if(n == 0) return res;
+        int low = 0, high = m-1, left = 0, right = n-1;
+        while(true) {
+            for(int i = left; i <= right; i++) res.push_back(matrix[low][i]);
+            if(++low > high) break;
+            for(int i = low; i <= high; i++) res.push_back(matrix[i][right]);
+            if(--right < left) break;
+            for(int i = right; i >= left; i--) res.push_back(matrix[high][i]);
+            if(--high < low) break;
+            for(int i = high; i >= low; i--) res.push_back(matrix[i][left]);
+            if(++left > right) break;
+        }
+        return res;
+    }
+};
+
+
 void testSolution(){
     vector<vector<int>> matrix = {
         {1, 2, 3, 4},
