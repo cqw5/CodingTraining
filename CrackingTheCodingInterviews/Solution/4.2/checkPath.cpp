@@ -35,7 +35,8 @@ private:
         if (a == b) return true;
         mapping[a] = true;
         for (auto c: a->neighbors) {
-            if (mapping.find(c) == mapping.end()) mapping[c] = false;
+            // 注释掉下面这行代码，mapping[c]时，如果mapping中不存在key c，就会自动创建key c，并且value为默认值
+            // if (mapping.find(c) == mapping.end()) mapping[c] = false;
             if (!mapping[c] && dfs(c, b, mapping)) return true;
         }
         return false;
@@ -71,7 +72,7 @@ private:
             if (c == b) return true;
             mapping[c] = true;
             for (auto d: c->neighbors) {
-                if (mapping.find(d) == mapping.end()) mapping[d] = false;
+                // if (mapping.find(d) == mapping.end()) mapping[d] = false;
                 if (!mapping[d]) q.push(d);
             }
         }
