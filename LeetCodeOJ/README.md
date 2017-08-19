@@ -9,18 +9,18 @@
 | 003  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |                       | [C++](./Solution/003/longestSubstringWithoutRepeatingCharacters.cpp) | Hash                            | Medium     |
 | 005  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | 最长回文子串                | [C++](./Solution/005/longestPalindrome.cpp) | String                          | Medium     |
 | 006  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |                       | [C++](./Solution/006/convert.cpp)        | String                          | Easy       |
-| 007  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) |                       | [C++](./Solution/007/reverse.cpp)        | Math                            | Easy       |
+| 007  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 整数翻转                  | [C++](./Solution/007/reverse.cpp)        | Math                            | Easy       |
 | 008  | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) |                       | [C++](./Solution/008/myAtoi.cpp)         | Math/String                     | Easy       |
-| 009  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) |                       | [C++](./Solution/009/isPalindrome.cpp)   | Math                            | Easy       |
+| 009  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 回文数                   | [C++](./Solution/009/isPalindrome.cpp)   | Math                            | Easy       |
 | 011  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 能装最多水的容器              | [C++](./Solution/011/maxArea.cpp)        | Array/TwoPoints                 | Medium     |
-| 014  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) |                       | [C++](./Solution/014/longestCommonPrefix.cpp) | String                          | Easy       |
+| 014  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 字符串的最长公共前缀            | [C++](./Solution/014/longestCommonPrefix.cpp) | String                          | Easy       |
 | 015  | [3Sum](https://leetcode.com/problems/3sum/) | 3数之和                  | [C++](./Solution/015/threeSum.cpp)       | Array                           | Medium     |
 | 016  | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 最接近某个数的3数之和           | [C++](./Solution/016/threeSumClosest.cpp) | Array                           | Medium     |
 | 017  | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |                       | [C++](./Solution/017/letterCombinations.cpp) | String                          | Medium     |
 | 018  | [4Sum](https://leetcode.com/problems/4sum/) | 4数之和                  | [C++](./Solution/018/fourSum.cpp)        | Hash/Array                      | Hard       |
-| 019  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |                       | [C++](./Solution/019/removeNthFromEnd.cpp) | Linked List                     | Easy       |
-| 020  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |                       | [C++](./Solution/020/isValid.cpp)        | String/Stack                    | Easy       |
-| 021  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) |                       | [C++](./Solution/021/mergeTwoLists.cpp)  | Linked List                     | Easy       |
+| 019  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 删除链表倒数第n个结点           | [C++](./Solution/019/removeNthFromEnd.cpp) | Linked List                     | Easy       |
+| 020  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 括号匹配                  | [C++](./Solution/020/isValid.cpp)        | String/Stack                    | Easy       |
+| 021  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 合并两个排序链表              | [C++](./Solution/021/mergeTwoLists.cpp)  | Linked List                     | Easy       |
 | 022  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | 打印n对括号的所有有效组合         | [C++](./Solution/022/generateParenthesis.cpp) | String                          | Medium     |
 | 023  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |                       | [C++](./Solution/023/mergeKLists.cpp)    | Linked List/heap                | Hard       |
 | 024  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) |                       | [C++](./Solution/024/swapPairs.cpp)      | Linked List                     | Easy       |
