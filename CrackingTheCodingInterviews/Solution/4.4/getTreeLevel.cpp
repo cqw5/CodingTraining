@@ -30,7 +30,7 @@ struct ListNode {
  * 思路：
  *   对二叉树进行先序遍历，遍历到第dep层就把该层节点接到链表尾部
  *   先序遍历时，第dep层以下的节点不需要再遍历
- *   注意链表要传指针的地址，因此应该传&p，定义时应该用ListNode** p
+ *   注意链表要传引用指针
  * 时间复杂度：O(n)
  * 空间复杂度：O(m) m为第dep的节点个数
  */
@@ -39,29 +39,22 @@ public:
     ListNode* getTreeLevel(TreeNode* root, int dep) {
         ListNode dummp(0);
         ListNode* p = &dummp;
-        int curLevel = 1;
-        preOrder(root, dep, &p, curLevel);
-        p->next = nullptr;
+        dfs(root, dep, 1, p);
         return dummp.next;
     }
 
+
 private:
-    void preOrder(TreeNode* root, int dep, ListNode** p, int& curLevel) {
-        if (curLevel == dep) {
-            (*p)->next = new ListNode(root->val);
-            (*p) = (*p)->next;
+    void dfs(TreeNode* root, int dep, int level, ListNode* &p) {
+        if(root == nullptr) return;
+        if(level == dep) {
+            ListNode* q = new ListNode(root->val);
+            p->next = q;
+            p = p->next;
             return;
         }
-        if (root->left) {
-            curLevel++;
-            preOrder(root->left, dep, p, curLevel);
-            curLevel--;
-        }
-        if (root->right) {
-            curLevel++;
-            preOrder(root->right, dep, p, curLevel);
-            curLevel--;
-        }
+        dfs(root->left, dep, level+1, p);
+        dfs(root->right, dep, level+1, p);
     }
 };
 
