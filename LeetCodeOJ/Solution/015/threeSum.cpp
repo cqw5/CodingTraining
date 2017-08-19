@@ -47,3 +47,71 @@ public:
     }
 };
 
+/**
+ * 求有多少对3个数之和等于sum，不去重
+ * 如，[1,1,2,2,3,3],sum=6,则count=6
+ */
+int threeSumHaveRepeat(vector<int>& nums, int sum) {
+    int count = 0;
+    if(nums.size() < 3) return count;
+    sort(nums.begin(), nums.end());
+    for(int i = 0; i < nums.size()-2; i++) {
+        int target = sum - nums[i];
+        int low = i+1;
+        int high = nums.size() - 1;
+        while(low < high) {
+            int curSum = nums[low] + nums[high];
+            if(curSum < target) low++;
+            else if(curSum > target) high--;
+            else {
+                if(nums[low] == nums[high]) {
+                    count += (high - low + 1) * (high - low) / 2;
+                    break;
+                }
+                else {
+                    int a = low;
+                    int b = high;
+                    while(nums[low] == nums[a]) low++;
+                    while(nums[high] == nums[b]) high--;
+                    count += (low - a) * (b - high);
+                }
+            }
+        }
+    }
+}
+
+/**
+ * 求有多少对3个数之和等于sum，不去重
+ * 如，[1,1,2,2,3,3],sum=6,则count=1
+ */
+int threeSumUnRepeat(vector<int>& nums, int sum) {
+    int count = 0;
+    if(nums.size() < 3) return count;
+    sort(nums.begin(), nums.end());
+    for(int i = 0; i < nums.size() - 2; i++) {
+        int target = sum - nums[i];
+        int low = i + 1;
+        int high = nums.size() - 1;
+        while(low < high) {
+            int curSum = nums[low] +  nums[high];
+            if(curSum < target) low++;
+            else if(curSum > target) high--;
+            else {
+                if(nums[low] == nums[high]) {
+                    count++;
+                    break;
+                }
+                else {
+                    int a = low;
+                    int b = high;
+                    while(nums[low] == nums[a]) low++;
+                    while(nums[high] == nums[b]) high--;
+                    count++;
+                }
+            }
+        }
+        while(i < nums.size()-1 && nums[i] == nums[i+1]) i++;
+    }
+    return count;
+}
+
