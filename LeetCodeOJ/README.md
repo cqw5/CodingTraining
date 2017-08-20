@@ -23,9 +23,9 @@
 | 021  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 合并两个排序链表              | [C++](./Solution/021/mergeTwoLists.cpp)  | Linked List                     | Easy       |
 | 022  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | 打印n对括号的所有有效组合         | [C++](./Solution/022/generateParenthesis.cpp) | String                          | Medium     |
 | 023  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |                       | [C++](./Solution/023/mergeKLists.cpp)    | Linked List/heap                | Hard       |
-| 024  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) |                       | [C++](./Solution/024/swapPairs.cpp)      | Linked List                     | Easy       |
+| 024  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 交换链表每一对相邻的元素          | [C++](./Solution/024/swapPairs.cpp)      | Linked List                     | Easy       |
 | 026  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | 删除排序数组的重复元素I          | [C++](./Solution/026/removeDuplicates.cpp) | Array                           | Easy       |
-| 027  | [Remove Element](https://leetcode.com/problems/remove-element/) |                       | [C++](./Solution/027/removeElement.cpp)  | Array                           | Easy       |
+| 027  | [Remove Element](https://leetcode.com/problems/remove-element/) | 删除数组元素                | [C++](./Solution/027/removeElement.cpp)  | Array                           | Easy       |
 | 031  | [Next Permutation](https://leetcode.com/problems/next-permutation) | 下一个排列                 | [C++](./Solution/031/nextPermutation.cpp) | Array                           | Medium     |
 | 033  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 旋转数组中查找元素(对比81题)      | [C++](./Solution/033/search.cpp)         | Array/BinarySearch              | Medium     |
 | 034  | [Search for a Range](https://leetcode.com/problems/search-for-a-range/) | 元素在有重复元素的排序数组中范围      | [C++](./Solution/034/searchRange.cpp)    | Array                           | Medium     |
@@ -40,14 +40,14 @@
 | 054  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/?tab=Description) | 螺旋式打印矩阵               | [C++](./Solution/054/spiralOrder.cpp)    | Array                           | Medium     |
 | 055  | [Jump Game](https://leetcode.com/problems/jump-game) | 跳步游戏I                 | [C++](./Solution/055/canJump.cpp)        | Array/Greedy                    | Medium     |
 | 056  | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 合并区间                  | [C++](./Solution/056/merge.cpp)          | Array/Sort                      | Medium     |
-| 058  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) |                       | [C++](./Solution/058/lengthOfLastWord.cpp) | String                          | Easy       |
+| 058  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 字符串最后一个单词的长度          | [C++](./Solution/058/lengthOfLastWord.cpp) | String                          | Easy       |
 | 059  | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | 螺旋式填充矩阵               | [C++](./Solution/059/generateMatrix.cpp) | Array                           | Medium     |
 | 061  | [Rotate List](https://leetcode.com/problems/rotate-list/) |                       | [C++](./Solution/061/rotateRight.cpp)    | Linked List                     | Medium     |
 | 062  | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 机器人路径数(无障碍物)          | [C++](./Solution/062/uniquePaths.cpp)    | Array/DP                        | Medium     |
 | 063  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 机器人路径数II(有障碍物)        | [C++](./Solution/063/uniquePathsWithObstacles.cpp) | Array/DP                        | Medium     |
 | 064  | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | 最短路径和                 | [C++](./Solution/064/minPathSum.cpp)     | Array/DP                        | Medium     |
 | 066  | [Plus One](https://leetcode.com/problems/plus-one) | 加1                    | [C++](./Solution/066/plusOne.cpp)        | Array/Math                      | Easy       |
-| 067  | [Add Binary](https://leetcode.com/problems/add-binary/) |                       | [C++](./Solution/067/addBinary.cpp)      | Math/String                     | Easy       |
+| 067  | [Add Binary](https://leetcode.com/problems/add-binary/) | 二进制数相加                | [C++](./Solution/067/addBinary.cpp)      | Math/String                     | Easy       |
 | 070  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 爬楼梯                   | [C++](./Solution/070/climbStairs.cpp)    | DP                              | Easy       |
 | 071  | [Simplify Path](https://leetcode.com/problems/simplify-path/) |                       | [C++](./Solution/071/simplifyPath.cpp) [Python](./Solution/071/simplifyPath.py) | Stack/String                    | Medium     |
 | 072  | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 编辑距离                  | [C++](./Solution/072/minDistance.cpp)    | DP                              | Hard       |
@@ -75,7 +75,7 @@
 | 101  | [Symmetric Tree](./Solution/101/isSymmetric.cpp) | 二叉树的镜像                | [C++](./Solution/101/isSymmetric.cpp)    | Tree                            | Easy       |
 | 102  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 二叉树层次遍历               | [C++](./Solution/102/levelOrder.cpp)     | Tree                            | Easy       |
 | 103  | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | 二叉树锯齿形层次遍历            | [C++](./Solution/103/zigzagLevelOrder.cpp) | Tree                            | Medium     |
-| 104  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |                       | [C++](./Solution/104/maxDepth.cpp)       | Tree                            | Easy       |
+| 104  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 二叉树的高                 | [C++](./Solution/104/maxDepth.cpp)       | Tree                            | Easy       |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 树的先序和中序数组构建树          | [C++](./Solution/105/buildTree.cpp)      | Array/Tree                      | Medium     |
 | 106  | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 树的中序和后序数组构建树          | [C++](./Solution/106/buildTree.cpp)      | Array/Tree                      | Medium     |
 | 107  | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | 二叉树的层次遍历              | [C++](./Solution/107/levelOrderBottom.cpp) | Tree/BFS                        | Easy       |
