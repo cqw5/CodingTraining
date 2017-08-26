@@ -52,3 +52,27 @@ public:
     }
 };
 
+/*
+ * 思路：使用先序遍历。注意一定要先去树的高度
+ */
+class Solution {
+public:
+    vector<vector<int> > Print(TreeNode* pRoot) {
+        int high = maxDepth(pRoot);
+        vector<vector<int> > res(high);
+        dfs(pRoot, res, 0);
+        return res;
+    }
+    
+    int maxDepth(TreeNode* root) {
+        if(root == nullptr) return 0;
+        return max(maxDepth(root->left), maxDepth(root->right)) + 1;
+    }
+    
+    void dfs(TreeNode* pRoot, vector<vector<int> >& res, int depth) {
+        if(pRoot == nullptr) return;
+        res[depth].push_back(pRoot->val);
+        dfs(pRoot->left, res, depth+1);
+        dfs(pRoot->right, res, depth+1);
+    }
+};
