@@ -16,26 +16,40 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <climits>
 
 using namespace std;
 
+/*
+ * 连续子数组的最大和，不需要求出该连续子数组
+ */
+class Solution {
+public:
+    int findGreatestSumOfSubArray(vector<int> array) {
+        int maxSum = INT_MIN;
+        int curSum = 0;
+        for(int i = 0; i < array.size(); i++) {
+            if(curSum <= 0) curSum = array[i];
+            else            curSum += array[i];
+            maxSum = max(maxSum, curSum);
+        }
+        return maxSum;
+    }
+};
+
+
+/*
+ * 连续子数组的最大和，需要求出该子数组
+ */
 template <class T>
 class Solution {
 public:
-    /*
-     * Parament:
-     *     array: vector<T>, 原始数组
-     *     subarray: vector<T>, 和最大的连续子数组
-     * Return:
-     *     maxSun: T, 连续子数组的最大和
-     *     subarray: vector<T>, 和最大的连续子数组
-     */
     int findGreatestSumOfSubarrays(vector<T>& array, vector<T>& subarray){
         if (array.empty()) return 0; // 当数组为空，直接返回0
         int n = array.size();
         vector<T> theSum(n, 0);      // 用theSum[i]表示以第i个数字结尾的子数组的最大和
-        int maxIndex = 0;            // 记录max(theSum(i))的下标      
-        int maxSum = array[0];       // max(theSum(i))
+        int maxIndex = -1;           // 记录max(theSum(i))的下标      
+        int maxSum = INT_MIN;       // max(theSum(i))
         // 迭代求解theSum[i]
         theSum[0] = array[0];
         for(int i = 1; i < n; i++){
@@ -63,7 +77,7 @@ public:
 };
 
 void testSolution(){
-    vector<vector<int>> arrays= {
+    vector<vector<int> > arrays= {
         {1, -2, 3, 10, -4, 7, 2, -5}, // 正常情况
         {},                           // 为空
         {1, 5, 2, 4, 5, 6},           // 全为正
