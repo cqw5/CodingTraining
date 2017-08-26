@@ -1,6 +1,6 @@
 /*! Author: qwchen
  *! Date  : 2016-11-21
- *  30. 最小的k个数
+ *  30. 最小（大）的k个数
  * 此题要求当 k>元素 个数时认为是非法输入，也返回空
  */
 
@@ -11,102 +11,46 @@
 using namespace std;
 
 /*
+ * 最小的K个数
  * 思路：借鉴快速排序的paritition函数
  * 时间复杂度：O(n)
  * 空间复杂度：O(logn)
  * 缺点：会修改原始的数组
  */
-class Solution1 {
+class Solution {
 public:
     vector<int> getLeastNumbers(vector<int> input, int k) {
-        vector<int> result;
+        vector<int> res;
         if (input.size() == 0 || k == 0 || input.size() < k) {
-            return result;
+            return res;
         }
-        paritition(input, 0, input.size()-1, k-1);
+        getKMin(input, 0, input.size()-1, k-1);
         for (int i = 0; i < k; i++) {
-            result.push_back(input[i]);
+            res.push_back(input[i]);
         }
-        return result;
+        return res;
     }
 
 private:
-    void paritition(vector<int>& input, int low, int high, int k) {
-        if (low >= high) {
-            return;
-        }
-        int lt = low,
-            gt = high;
+    int paritition(vector<int>& input, int low, int high) {
         int key = input[low];
-        while(lt < gt) {
-            while(lt < gt && input[gt] >= key) {
-                gt--;
-            }
-            input[lt] = input[gt];
-            while(lt < gt && input[lt] <= key) {
-                lt++;
-            }
-            input[gt] = input[lt];
+        while(low < high) {
+            while(low < high && input[high] >= key) high--;
+            input[low] = input[high];
+            while(low < high && input[low] <= key) low++;
+            input[high] = input[low];
         }
-        input[lt] = key;
-        if (k < lt) {
-            paritition(input, low, lt-1, k);
-        }
-        else if (k > lt) {
-            paritition(input, lt+1, high, k);
-        }
+        input[low] = key;
+        return low;
+    }
+    void getKMin(vector<int>& input, int low, int high, int k) {
+        if (low >= high) return;
+        int mid = paritition(input, low, high);
+        if(k < mid)      getKMin(input, low, mid-1, k);
+        else if(k > mid) getKMin(input, mid+1, high, k);
     }
 };
 
-/*
- * 思路：借鉴三向切分快速排序的paritition函数
- * 如果数组存在大量重复元素，属于该方法比Solution1快。
- * 时间复杂度：O(n)
- * 空间复杂度：O(logn)
- * 缺点：会修改原始的数组
- */
-class Solution2 {
-public:
-    vector<int> getLeastNumbers(vector<int> input, int k) {
-        vector<int> result;
-        if (input.size() == 0 || k == 0 || input.size() < k) {
-            return result;
-        }
-        paritition(input, 0, input.size()-1, k-1);
-        for (int i = 0; i < k; i++) {
-            result.push_back(input[i]);
-        }
-        return result;
-    }
-
-private:
-    void paritition(vector<int>& input, int low, int high, int k) {
-        if (low >= high) {
-            return;
-        }
-        int lt = low,
-            mid = low+1,
-            gt = high;
-        int key = input[low];
-        while(mid <= gt) {
-            if (input[mid] > key) {
-                swap(input[mid], input[gt--]);
-            }
-            else if (input[mid] < key) {
-                swap(input[mid++], input[lt++]);
-            }
-            else {
-                mid++;
-            }
-        }
-        if (k < lt) {
-            paritition(input, low, lt-1, k);
-        }
-        else if (k > gt) {
-            paritition(input, gt+1, high, k);
-        }
-    }
-};
 
 /*
  * 思路：开辟一个堆来保存当前前k小的元素，新来一个元素时，与堆中最大的元素比较，如果新元素小于堆中最大元素，pop堆中最大元素并push新来的元素，否则跳过该新来的元素。
@@ -115,7 +59,7 @@ private:
  * 表面上看该方法的时间复杂度和空间复杂度都要比前面的方法多，但是该方法不修改原来的数组，而且还能做到只需要在内存中开辟大小为k的堆，
  * 不需要一次性把整个原始数组都加入到内存中，对于大规模数据或者流数据，该方法实际上更加适合
  */
-class Solution3 {
+class Solution {
 public:
     vector<int> getLeastNumbers(vector<int> input, int k) {
         vector<int> result;
@@ -137,6 +81,50 @@ public:
             heap.pop();
         }
         return result;
+    }
+};
+
+
+/*
+ * 最大的K个数（和最小的k个数基本一样，不同的地方只是在parition函数中
+ *    * 比较input[high] >= key时，改为input[high] <= key
+ *    * 比较input[low] <= key时，改为input[low] >= key
+ * 思路：借鉴快速排序的paritition函数
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(logn)
+ * 缺点：会修改原始的数组
+ */
+class Solution {
+public:
+    vector<int> getLeastNumbers(vector<int> input, int k) {
+        vector<int> res;
+        if (input.size() == 0 || k == 0 || input.size() < k) {
+            return res;
+        }
+        getKMax(input, 0, input.size()-1, k-1);
+        for (int i = 0; i < k; i++) {
+            res.push_back(input[i]);
+        }
+        return res;
+    }
+
+private:
+    int paritition(vector<int>& input, int low, int high) {
+        int key = input[low];
+        while(low < high) {
+            while(low < high && input[high] >= key) high--;
+            input[low] = input[high];
+            while(low < high && input[low] <= key) low++;
+            input[high] = input[low];
+        }
+        input[low] = key;
+        return low;
+    }
+    void getKMax(vector<int>& input, int low, int high, int k) {
+        if (low >= high) return;
+        int mid = paritition(input, low, high);
+        if(k < mid)      getKMax(input, low, mid-1, k);
+        else if(k > mid) getKMax(input, mid+1, high, k);
     }
 };
 
