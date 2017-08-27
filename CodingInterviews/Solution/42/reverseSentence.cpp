@@ -23,7 +23,7 @@ public:
         }
         reverseWord(str, 0, str.size()-1);
         for (int i = 0, j = 0; i < str.size() && j <= str.size(); j++) {
-            if (str[j] == ' ' || j == str.size()) {
+            if (j == str.size() || str[j] == ' ') {
                 reverseWord(str, i, j-1);
                 i = j + 1;
             }
