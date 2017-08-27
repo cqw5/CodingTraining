@@ -66,6 +66,38 @@ private:
     }
 };
 
+
+class Solution {
+public:
+    void FindNumsAppearOnce(vector<int> data, int* num1, int *num2) {
+        if(data.size() < 2) return;
+        int exclusiveOR  = 0;
+        for(int i = 0; i < data.size(); i++) {
+            exclusiveOR  ^= data[i];
+        }
+        int flag = findFlag(exclusiveOR);
+        *num1 = 0;
+        *num2 = 0;
+        for(int i = 0; i < data.size(); i++) {
+            if(data[i] & flag) {
+                *num1 ^= data[i];
+            }
+            else {
+                *num2 ^= data[i];
+            }
+        }
+    }
+    
+    int findFlag(int exclusiveOR ) {
+        int flag = 1;
+        while(exclusiveOR  & flag == 0) {
+            flag = flag << 1;
+        }
+        return flag;
+    }
+};
+
+
 void testSolution(){
     vector<int> a = {2, 4, 3, 6, 3, 2, 5, 5};
     Solution sol;
