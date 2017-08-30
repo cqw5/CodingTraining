@@ -42,19 +42,18 @@ public:
 class Solution2 {
 public:
     ListNode* ReverseList(ListNode* pHead) {
-        if (pHead == nullptr) return pHead;
-        ListNode* newHead = nullptr;
-        reverse(pHead, newHead);
-        pHead->next = nullptr;  // 注意需要把原本的链表的头指针的next置为nullptr
-        return newHead;
+        if(pHead == nullptr) return nullptr;
+        ListNode* q = reverse(pHead, pHead);
+        q->next = nullptr;   // 注意最后一个节点的next要置为nullptr
+        return pHead;
     }
-
-    ListNode* reverse(ListNode* p, ListNode* &head) {
-        if (p->next == nullptr) {
-            head = p;
+    
+    ListNode* reverse(ListNode* p, ListNode* &pHead) {
+        if(p->next == nullptr) {
+            pHead = p;
             return p;
         }
-        ListNode* q = reverse(p->next, head);
+        ListNode* q = reverse(p->next, pHead);
         q->next = p;
         return p;
     }
