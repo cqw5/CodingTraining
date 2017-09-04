@@ -13,33 +13,15 @@
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
-        if (nums.size() == 0 || target < nums[0]) {
-            return 0;
+        if(nums.size() <= 0) return -1;
+        int low = 0, high = nums.size()-1;
+        while(low <= high) {
+            int mid = (low + high) / 2;
+            if(nums[mid] < target) low = mid+1;
+            else if(nums[mid] > target) high = mid-1;
+            else return mid;
         }
-        if (target > nums.back()) {
-            return nums.size();
-        }
-        int low = 0;
-        int high = nums.size() - 1;
-        int mid = 0;
-        while (low <= high) {
-            mid = (low + high) / 2;
-            if (target < nums[mid]) {
-                high = mid - 1;
-            }
-            else if (target > nums[mid]) {
-                low = mid + 1;
-            } 
-            else {
-                break;
-            }
-        }
-        if (low <= high) {
-            return mid;
-        }
-        else {
-            return low;
-        }
+        return low;
     }
 };
 
