@@ -15,25 +15,29 @@ using namespace std;
  *   然后重新计算中值，直到两次中值得距离小于给定的精度。
  */
 double sqrtByBisection(double num) {
-	double low = 0, high = num < 1? 1: num;
-	double eps = 1e-6;
-	double mid = (low + high) / 2;
-	double last;
-	do {
-		if(mid * mid > num) {
-			high = mid;
-		}
-		else {
-			low = mid;
-		}
-		last = mid;
-		mid = (low + high) / 2;
-	}while(fabs(mid - last) > eps);
-	return mid;
+    double low = 0, high = num < 1? 1: num;
+    double eps = 1e-6;
+    double mid = (low + high) / 2;
+    double last;
+    do {
+    	double midmid = mid * mid;
+    	if(midmid == num) {
+    		return mid;
+    	}
+        if(midmid > num) {
+            high = mid;
+        }
+        else {
+            low = mid;
+        }
+        last = mid;
+        mid = (low + high) / 2;
+    }while(fabs(mid - last) > eps);
+    return mid;
 }
 
 int main() {
-	cout << sqrtByBisection(4.0) << endl;
-	return 0;
+    cout << sqrtByBisection(4.0) << endl;
+    return 0;
 }
 
