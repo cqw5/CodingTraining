@@ -10,6 +10,7 @@
 |  6   | 判断字符串是否为IP地址   | [Python](./Solution/006/vaildIP.py)      | 字符串  | 面试       |
 |  7   | 二维数组中子数组之和的最大值 | [C++](./Solution/007/maxSumOf2DArray.cpp) | 数组   | 编程之美2.15 |
 |  8   | 最大公约数          | [C++](./Solution/008/gcd.cpp)            | 数学   | 编程之美2.7  |
+|  9   | 字符串移位包含的问题     | [C++](./Solution/009/shiftStr.cpp)       | 字符串  | 编程之美3.1  |
 
 
 
