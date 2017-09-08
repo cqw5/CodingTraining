@@ -112,6 +112,7 @@
 | 169  | [Majority Element](https://leetcode.com/problems/majority-element) | 数组中出现次数超过一半的数         | [C++](./Solution/169/majorityElement.cpp) | Array                           | Easy       |
 | 179  | [Largest Number](https://leetcode.com/problems/largest-number) | 把数组排成最大的数             | [C++](./Solution/179/largestNumber.cpp)  | Sort                            | Medium     |
 | 189  | [Rotate Array](https://leetcode.com/problems/rotate-array) | 旋转数组                  | [C++](./Solution/189/rotate.cpp)         | Array                           | Easy       |
+| 199  | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | 二叉树的右视图               | [C++](./Solution/199/rightSideView.cpp)  | Tree                            | Medium     |
 | 202  | [Happy Number](https://leetcode.com/problems/happy-number/) |                       | [C++](./Solution/202/isHappy.cpp)        | Hash Table/Math                 | Easy       |
 | 203  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | 删除链表元素                | [C++](./Solution/203/removeElements.cpp) | LinkedList                      | Easy       |
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 反转链表                  | [C++](./Solution/206/reverseList.cpp)    | LinkedList                      | Easy       |
