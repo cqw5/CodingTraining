@@ -86,7 +86,7 @@
 | 112  | [Path Sum](https://leetcode.com/problems/path-sum) | 路径和                   | [C++](./Solution/112/hasPathSum.cpp)     | Tree/DFS                        | Easy       |
 | 113  | [Path Sum II](https://leetcode.com/problems/path-sum-ii) | 路径和II                 | [C++](./Solution/113/pathSum.cpp)        | Tree/DFS                        | Medium     |
 | 114  | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 二叉树转化成链表              | [C++](./Solution/114/flatten.cpp)        | Tree                            | Medium     |
-| 116  | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | 二叉树的水平指针              | [C++](./Solution/116/connect.cpp)        | Tree/DFS                        | Medium     |
+| 116  | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | 二叉树的水平指针(满二叉树)        | [C++](./Solution/116/connect.cpp)        | Tree/DFS                        | Medium     |
 | 118  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | Pascal三角              | [C++](./Solution/118/generate.cpp)       | Array                           | Easy       |
 | 119  | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | Pascal三角II            | [C++](./Solution/119/getRow.cpp)         | Array                           | Easy       |
 | 120  | [Triangle](https://leetcode.com/problems/triangle/) | 三角形从顶到底的最短路径和         | [C++](./Solution/120/minimumTotal.cpp)   | DP                              | Medium     |
