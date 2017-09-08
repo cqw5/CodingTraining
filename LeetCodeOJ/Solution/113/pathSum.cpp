@@ -51,3 +51,37 @@ public:
     }
 };
 
+
+class Solution {
+public:
+    vector<vector<int>> pathSum(TreeNode* root, int sum) {
+        vector<vector<int>> res;
+        if(root == nullptr) return res;
+        vector<int> path;
+        int cur = 0;
+        preOrder(root, sum, cur, path, res);
+        return res;
+    }
+    
+    void preOrder(TreeNode* root, int sum, int& cur, vector<int>& path, vector<vector<int>>& res) {
+        path.push_back(root->val);
+        cur += root->val;
+        if(root->left == nullptr && root->right == nullptr) {
+            if(cur == sum) {
+                res.push_back(path);
+            }
+            cur -= path.back();
+            path.pop_back();
+            return;
+        }
+        if(root->left != nullptr) {
+            preOrder(root->left, sum, cur, path, res);
+        }
+        if(root->right != nullptr) {
+            preOrder(root->right, sum, cur, path, res);
+        }
+        cur -= path.back();
+        path.pop_back();
+    }
+};
+
