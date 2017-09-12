@@ -3,7 +3,7 @@
  *! Date  : 2016-7-11
  *  买和卖股票的最佳时间II
  *  有一个数组，数组每个元素表示每个时刻的股票价格，求在何时买入何时卖出能是的受益最大，求最大的受益。
- *  只能买一次和卖一次
+ *  可以买多次和卖多次
  */
 
 /*
@@ -42,9 +42,8 @@ public:
                 }
             }
             // 注意点前面因为用到i+1，因此终止条件就是<prices.size()-1，没有考虑到最后一个元素，这里考虑最后一个元素
-            if (i == prices.size() - 1 && buy != -1 && sell == -1) {
-                sell = prices[prices.size() - 1];
-                i++;
+            if (i == prices.size() - 1 && buy != -1) {
+                sell = max(sell, prices[n-1]);
             }
             maxPro += sell - buy;
             sell = -1;
