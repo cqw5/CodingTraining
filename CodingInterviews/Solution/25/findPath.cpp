@@ -122,3 +122,32 @@ private:
 };
 
 
+class Solution {
+public:
+    vector<vector<int> > FindPath(TreeNode* root, int expectNumber) {
+        vector<vector<int>> res;
+        vector<int> path;
+        if(root == nullptr) return res;
+        preOrder(root, expectNumber, res, path);
+        return res;
+    }
+    
+    void preOrder(TreeNode* root, int len, vector<vector<int>> &res, vector<int> &path) {
+        path.push_back(root->val);
+        len -= root->val;
+        if(root->left == nullptr && root->right == nullptr) {
+            if(len == 0) res.push_back(path);
+        }
+        else {
+            if(root->left != nullptr) {
+                preOrder(root->left, len, res, path);
+                path.pop_back();
+            }
+            if(root->right != nullptr) {
+                preOrder(root->right, len, res, path);
+                path.pop_back();
+            }
+        }
+    }
+};
+
