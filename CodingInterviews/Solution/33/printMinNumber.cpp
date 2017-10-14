@@ -50,6 +50,29 @@ private:
 };
 
 
+class Solution {
+public:
+    string PrintMinNumber(vector<int> numbers) {
+        vector<string> strs;
+        for(int num: numbers) {
+            strs.push_back(to_string(num));
+        }
+        sort(strs.begin(), strs.end(), compare);
+        string res = "";
+        for(string str: strs) {
+            res += str;
+        }
+        return res;
+    }
+    
+    static bool compare(string s1, string s2) {
+        string s1s2 = s1 + s2;
+        string s2s1 = s2 + s1;
+        return s1s2 <= s2s1;
+    }
+};
+
+
 void testSolution(){
     vector<int> numbers = {3, 32, 321};
     Solution sol;
