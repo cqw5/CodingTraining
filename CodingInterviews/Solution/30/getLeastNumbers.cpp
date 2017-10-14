@@ -112,9 +112,9 @@ private:
     int paritition(vector<int>& input, int low, int high) {
         int key = input[low];
         while(low < high) {
-            while(low < high && input[high] >= key) high--;
+            while(low < high && input[high] <= key) high--;
             input[low] = input[high];
-            while(low < high && input[low] <= key) low++;
+            while(low < high && input[low] >= key) low++;
             input[high] = input[low];
         }
         input[low] = key;
