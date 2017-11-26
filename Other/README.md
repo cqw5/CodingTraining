@@ -11,6 +11,8 @@
 |  7   | 二维数组中子数组之和的最大值 | [C++](./Solution/007/maxSumOf2DArray.cpp) | 数组   | 编程之美2.15 |
 |  8   | 最大公约数          | [C++](./Solution/008/gcd.cpp)            | 数学   | 编程之美2.7  |
 |  9   | 字符串移位包含的问题     | [C++](./Solution/009/shiftStr.cpp)       | 字符串  | 编程之美3.1  |
+| 10.1 | 数据流中等概率采样1个数   | [C++](./Solution/010/equalProbSample1ofn.cpp) | 数学   | 编程珠玑     |
+| 10.2 | 数据流中等概率采样k个数   | [C++](./Solution/010/equalProbSamplekofn.cpp) | 数学   | 编程珠玑     |
 
 
 
