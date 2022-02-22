@@ -6,6 +6,60 @@
 #include <iostream>
 
 using namespace std;
+/*
+ * 思想：二叉搜索树的中序遍历为 递增序列 。将 二叉搜索树 转换成一个 “排序的循环双向链表” ，其中包含三个要素：
+ *      排序链表： 节点应从小到大排序，因此应使用 中序遍历 “从小到大”访问树的节点。
+ *      双向链表： 在构建相邻节点的引用关系时，设前驱节点 pre 和当前节点 cur，不仅应构建 pre.right = cur，也应构建 cur.left = pre。
+ *      循环链表： 设链表头节点 head 和尾节点 tail，则应构建 head.left = tail 和 tail.right = head。
+ */
+/*
+// Definition for a Node.
+class Node {
+public:
+    int val;
+    Node* left;
+    Node* right;
+
+    Node() {}
+
+    Node(int _val) {
+        val = _val;
+        left = NULL;
+        right = NULL;
+    }
+
+    Node(int _val, Node* _left, Node* _right) {
+        val = _val;
+        left = _left;
+        right = _right;
+    }
+};
+*/
+class Solution {
+public:
+    Node* treeToDoublyList(Node* root) {
+        if (root == NULL) return root;
+        inOrder(root);
+        head->left = pre;
+        pre->right = head;
+        return head;
+    }
+private:
+    Node* pre = NULL;
+    Node* head = NULL;
+    void inOrder(Node* cur) {
+        if (cur != NULL) {
+            inOrder(cur->left);
+            if (pre == NULL) head = cur;
+            else pre->right = cur;
+            cur->left = pre;
+            pre = cur;
+            inOrder(cur->right);
+        }
+    }
+    
+};
+
 
 struct TreeNode {
     int val;
