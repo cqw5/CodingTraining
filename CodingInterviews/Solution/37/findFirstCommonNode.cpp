@@ -94,7 +94,7 @@ private:
  * 时间复杂度：O(m+n)
  * 空间复杂度：O(1)
  */
-class Solution3 {
+class Solution {
 public:
     ListNode* FindFirstCommonNode(ListNode* pHead1, ListNode* pHead2) {
         if (pHead1 == nullptr || pHead2 == nullptr) {
@@ -140,7 +140,9 @@ private:
 /* 
  * 思路:
  *     两个指针，第一个先遍历A，再遍历B；第二个先遍历B，再遍历A；如果有公共节点，一点会在公共节点处相遇。
- * /
+ * 时间复杂度：O(m+n)
+ * 空间复杂度：O(1)
+ */
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
