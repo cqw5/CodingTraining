@@ -137,3 +137,21 @@ private:
     }
 };
 
+/* 
+ * 思路:
+ *     两个指针，第一个先遍历A，再遍历B；第二个先遍历B，再遍历A；如果有公共节点，一点会在公共节点处相遇。
+ * /
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode *A = headA, *B = headB;
+        while (A != B) {
+            A = A != nullptr ? A->next : headB;
+            B = B != nullptr ? B->next : headA;
+        }
+        return A;
+    }
+};
+
+
+
