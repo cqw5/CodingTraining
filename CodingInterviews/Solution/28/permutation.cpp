@@ -9,6 +9,34 @@
 
 using namespace std;
 
+/** 
+ * 回溯法：https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/mian-shi-ti-38-zi-fu-chuan-de-pai-lie-hui-su-fa-by/
+ */
+class Solution {
+public:
+    vector<string> permutation(string s) {
+        dfs(s, 0);
+        return res;
+    }
+
+private:
+    vector<string> res;
+    void dfs(string s, int x) {
+        if (x == s.size() - 1) {
+            res.push_back(s);
+            return;
+        }
+        set<char> st;
+        for (int i = x; i < s.size(); i++) {
+            if (st.find(s[i]) != st.end()) continue;
+            st.insert(s[i]);
+            swap(s[x], s[i]);
+            dfs(s, x+1);
+            swap(s[x], s[i]);
+        } 
+    }
+};
+
 /* 
  * 就是一个全排列问题
  * 递归方程：A(n) = n * A(n-1)

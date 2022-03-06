@@ -8,6 +8,30 @@
 
 using namespace std;
 
+class Solution {
+public:
+    vector<double> dicesProbability(int n) {
+        vector<double> res;
+        vector<double> pro(6, 1.0/6.0);
+        for (int i = 2; i <= n; i++) {
+            vector<double> tmp(6*i, 0.0);
+            for (int j = i-1; j < 6*i; j++) {
+                for (int k = 1; k <= 6; k++) {
+                    if (j-k >= 0 && j-k < 6*(i-1)){
+                        tmp[j] += pro[j-k];
+                    }
+                }
+                tmp[j] *= 1.0/6.0;
+            }                
+            pro = tmp;
+        }
+        for (double x: pro) {
+            if (x > 0) res.push_back(x);
+        }
+        return res;
+    }
+};
+
 /*
  * 思路：
  *   这是一个动态规划问题，存在大量重复子问题。
