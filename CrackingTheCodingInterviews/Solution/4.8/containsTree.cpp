@@ -39,3 +39,23 @@ private:
     }
 };
 
+class Solution {
+public:
+    bool checkSubTree(TreeNode* t1, TreeNode* t2) {
+        if (t2 == nullptr) return true;
+        if (t1 == nullptr) return false;
+        return (t1->val == t2->val && preOrder(t1, t2))
+                || checkSubTree(t1->left, t2)
+                || checkSubTree(t1->right, t2);
+    }
+
+private:
+    bool preOrder(TreeNode* t1, TreeNode* t2) {
+        if (t1 == nullptr && t2 == nullptr) return true;
+        if (t1 == nullptr || t2 == nullptr) return false;
+        return t1->val == t2->val 
+                && preOrder(t1->left, t2->left)
+                && preOrder(t1->right, t2->right); 
+    }
+};
+

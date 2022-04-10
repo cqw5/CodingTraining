@@ -71,9 +71,9 @@
 |    65    | 滑动窗口的最大值                             | [C++](./Solution/65/maxInWindows.cpp)                        | 栈和队列           |
 |    66    | 矩阵中的路径                                 | [C++](./Solution/66/hasPath.cpp)                             | 回溯法             |
 |    67    | 机器人的运动范围                             | [C++](./Solution/67/movingCount.cpp)                         | 回溯法             |
-|    68    | 数字序列中某一位的数字                        | [Python](./Solution/68/findNthDigit.py)                         |              |
-|    69    | 把数字翻译成字符串                           | [Python](./Solution/69/translateNum.py)                         |  动态规划        |
-|    70    | 最长不含重复字符的子字符串                    | [C++](./Solution/70/lengthOfLongestSubstring.cpp)               | 动态规划            |
+|    68    | **数字序列中某一位的数字**                    | [Python](./Solution/68/findNthDigit.py)                         |              |
+|    69    | **把数字翻译成字符串**                       | [Python](./Solution/69/translateNum.py)                         |  动态规划        |
+|    70    | **最长不含重复字符的子字符串**                | [C++](./Solution/70/lengthOfLongestSubstring.cpp)               | 动态规划            |
 
 
 

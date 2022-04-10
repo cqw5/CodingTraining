@@ -26,20 +26,19 @@ struct TreeNode {
  */
 class Balance {
 public:
-    bool isBalance(TreeNode* root) {
-        if (getHeight(root) == -1) return false;
-        else                       return true;
+    bool isBalanced(TreeNode* root) {
+        treeHigh(root);
+        return balance;
     }
-    
+
 private:
-    int getHeight(TreeNode* root) {
+    bool balance = true;
+    int treeHigh(TreeNode* root) {
         if (root == nullptr) return 0;
-        int leftHigh = getHeight(root->left);
-        if (leftHigh == -1) return -1;
-        int rightHigh = getHeight(root->right);
-        if (rightHigh == -1) return -1;
-        if (abs(leftHigh - rightHigh) > 1) return -1;
-        return max(leftHigh, rightHigh) + 1;
+        int left = treeHigh(root->left);
+        int right = treeHigh(root->right);
+        if (left - right > 1 || right - left > 1)  balance = false;
+        return max(left, right) + 1;
     }
 };
 
