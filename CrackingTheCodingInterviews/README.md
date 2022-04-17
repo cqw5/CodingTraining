@@ -66,7 +66,7 @@
 |11.8|维护x的秩|[C++](./Solution/11.8/getRankOfNumber.cpp)|排序和查找|
 |11.9|数组中的逆序对|[C++](./Solution/11.9/antiOrder.cpp)|排序和查找|
 |17.1|无缓存交换|[C++](./Solution/17.1/exchangeAB.cpp)|编程基础|
-|17.6|最小调整有序|[C++](./Solution/17.6/findSegment.cpp)|排序和查找|
+|17.6|**最小调整有序**|[C++](./Solution/17.6/findSegment.cpp)|排序和查找|
 |17.8|最大连续数列和|[C++](./Solution/17.8/getMaxSum.cpp)|动态规划|
 |17.9|词频统计|[C++](./Solution/17.9/getFrequency.cpp)|编程基础|
 |17.12|整数对查找(类似2Sum，但是有重复元素)|[C++](./Solution/17.12/countPairs.cpp)|编程基础|
@@ -79,8 +79,8 @@
 |18.7|最长合成字符串|[C++](./Solution/18.7/getLongest.cpp)|字符串和递归|
 |18.8|子串判断|[C++](./Solution/18.8/chkSubStr.cpp)|字符串及数据结构|
 |18.9|实时中位数|[C++](./Solution/18.9/getMiddle.cpp)|数据结构|
-|18.14.1|下一个较大元素|[C++](./Solution/18.14/findNext.cpp)|栈|
-|18.14.2|下一个较大元素II|[C++](./Solution/18.14/findNext2.cpp)|树|
+|18.14.1|**下一个较大元素**|[C++](./Solution/18.14/findNext.cpp)|栈|
+|18.14.2|**下一个较大元素II**|[C++](./Solution/18.14/findNext2.cpp)|树|
 
 
 

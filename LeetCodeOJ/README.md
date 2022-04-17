@@ -2,33 +2,33 @@
 
 ### Algorithms
 
-|  ID  | Title                                    | Title                 | Solution                                 | Tag                             | Difficulty |
+|  ID  | 题单                                                         | Title                 | Solution                                 | Tag                             | Difficulty |
 | :--: | :--------------------------------------- | --------------------- | ---------------------------------------- | ------------------------------- | ---------- |
-| 001  | [Two Sum](https://leetcode.com/problems/two-sum/) | 2数之和                  | [C++](./Solution/001/twoSum.cpp)         | Hash/Array                      | Easy       |
-| 002  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 两个链表相加                | [C++](./Solution/002/addTwoNumbers.cpp)  | Linked List                     | Medium     |
-| 003  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |                       | [C++](./Solution/003/longestSubstringWithoutRepeatingCharacters.cpp) | Hash                            | Medium     |
-| 005  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | 最长回文子串                | [C++](./Solution/005/longestPalindrome.cpp) | String                          | Medium     |
+| 001  | Hot100                                                       | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | [C++](./Solution/001/twoSum.cpp)         | Hash/Array                      | Easy       |
+| 002  | Hot100                                                       | [两个链表相加](https://leetcode-cn.com/problems/add-two-numbers/) | [C++](./Solution/002/addTwoNumbers.cpp)  | Linked List                     | Medium     |
+| 003  | Hot100                                                       | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [C++](./Solution/003/longestSubstringWithoutRepeatingCharacters.cpp) | Hash                            | Medium     |
+| 005  | Hot100                                                       | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [C++](./Solution/005/longestPalindrome.cpp) | String                          | Medium     |
 | 006  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |                       | [C++](./Solution/006/convert.cpp)        | String                          | Easy       |
 | 007  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 整数翻转                  | [C++](./Solution/007/reverse.cpp)        | Math                            | Easy       |
 | 008  | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) |                       | [C++](./Solution/008/myAtoi.cpp)         | Math/String                     | Easy       |
 | 009  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 回文数                   | [C++](./Solution/009/isPalindrome.cpp)   | Math                            | Easy       |
-| 011  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 能装最多水的容器              | [C++](./Solution/011/maxArea.cpp)        | Array/TwoPoints                 | Medium     |
+| 011  | Hot100                                                       | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [C++](./Solution/011/maxArea.cpp)        | Array/TwoPoints                 | Medium     |
 | 014  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 字符串的最长公共前缀            | [C++](./Solution/014/longestCommonPrefix.cpp) | String                          | Easy       |
-| 015  | [3Sum](https://leetcode.com/problems/3sum/) | 3数之和                  | [C++](./Solution/015/threeSum.cpp)       | Array                           | Medium     |
-| 016  | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 最接近某个数的3数之和           | [C++](./Solution/016/threeSumClosest.cpp) | Array                           | Medium     |
-| 017  | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |                       | [C++](./Solution/017/letterCombinations.cpp) | String                          | Medium     |
+| 015  | Hot100                                                       | [三数之和](https://leetcode-cn.com/problems/3sum/) | [C++](./Solution/015/threeSum.cpp)       | Array                           | Medium     |
+| 016  | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 最接近某个数的3数之和   | [C++](./Solution/016/threeSumClosest.cpp) | Array                           | Medium     |
+| 017  | Hot100 | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [C++](./Solution/017/letterCombinations.cpp) | String                          | Medium     |
 | 018  | [4Sum](https://leetcode.com/problems/4sum/) | 4数之和                  | [C++](./Solution/018/fourSum.cpp)        | Hash/Array                      | Hard       |
-| 019  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 删除链表倒数第n个结点           | [C++](./Solution/019/removeNthFromEnd.cpp) | Linked List                     | Easy       |
-| 020  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 括号匹配                  | [C++](./Solution/020/isValid.cpp)        | String/Stack                    | Easy       |
-| 021  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 合并两个排序链表              | [C++](./Solution/021/mergeTwoLists.cpp)  | Linked List                     | Easy       |
-| 022  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | 打印n对括号的所有有效组合         | [C++](./Solution/022/generateParenthesis.cpp) | String                          | Medium     |
+| 019  | Hot100 | [ 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [C++](./Solution/019/removeNthFromEnd.cpp) | Linked List                     | Easy       |
+| 020  | Hot100 | [效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [C++](./Solution/020/isValid.cpp)        | String/Stack                    | Easy       |
+| 021  | Hot100 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [C++](./Solution/021/mergeTwoLists.cpp)  | Linked List                     | Easy       |
+| 022  | Hot100 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [C++](./Solution/022/generateParenthesis.cpp) | String                          | Medium     |
 | 023  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |                       | [C++](./Solution/023/mergeKLists.cpp)    | Linked List/heap                | Hard       |
 | 024  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 交换链表每一对相邻的元素          | [C++](./Solution/024/swapPairs.cpp)      | Linked List                     | Easy       |
 | 026  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | 删除排序数组的重复元素I          | [C++](./Solution/026/removeDuplicates.cpp) | Array                           | Easy       |
 | 027  | [Remove Element](https://leetcode.com/problems/remove-element/) | 删除数组元素                | [C++](./Solution/027/removeElement.cpp)  | Array                           | Easy       |
-| 031  | [Next Permutation](https://leetcode.com/problems/next-permutation) | 下一个排列                 | [C++](./Solution/031/nextPermutation.cpp) | Array                           | Medium     |
-| 033  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 旋转数组中查找元素(对比81题)      | [C++](./Solution/033/search.cpp)         | Array/BinarySearch              | Medium     |
-| 034  | [Search for a Range](https://leetcode.com/problems/search-for-a-range/) | 元素在有重复元素的排序数组中范围      | [C++](./Solution/034/searchRange.cpp)    | Array                           | Medium     |
+| 031  | Hot100 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [C++](./Solution/031/nextPermutation.cpp) | Array                           | Medium     |
+| 033  | Hot100 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) (对比81题) | [C++](./Solution/033/search.cpp)         | Array/BinarySearch              | Medium     |
+| 034  | Hot100 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](./Solution/034/searchRange.cpp)    | Array                           | Medium     |
 | 035  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 寻找插入位置                | [C++](./Solution/035/searchInsert.cpp)   | Array                           | Medium     |
 | 039  | [Combination Sum](https://leetcode.com/problems/combination-sum/) |                       | [C++](./Solution/039/combinationSum.cpp) | Array/Backtracking              | Medium     |
 | 040  | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) |                       | [C++](./Solution/040/combinationSum2.cpp) | Array/Backtracking              | Medium     |
@@ -149,6 +149,7 @@
 | 415  | [Add Strings](https://leetcode.com/problems/add-strings) | 两个字符串相加               | [C++](./Solution/415/addStrings.cpp)     | Math                            | Easy       |
 | 445  | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 两个链表相加II              | [C++](./Solution/445/addTwoNumbers.cpp)  | Linked List                     | Medium     |
 | 451  | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 按字符串频数排序              | [C++](./Solution/451/frequencySort.cpp)  | HashTable/Heap/Sort             | Medium     |
+| 461 | Hot100 | [汉明距离](https://leetcode-cn.com/problems/hamming-distance/) |  | 位运算 | Easy |
 | 524  | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) | 字典中最长的单词              | [C++](./Solution/524/findLongestWord.cpp) | TwoPoints/Sort                  | Medium     |
 
 
