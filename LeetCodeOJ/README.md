@@ -7,7 +7,7 @@
 | 001  | Hot100                                                       | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | [C++](./Solution/001/twoSum.cpp)         | Hash/Array                      | Easy       |
 | 002  | Hot100                                                       | [两个链表相加](https://leetcode-cn.com/problems/add-two-numbers/) | [C++](./Solution/002/addTwoNumbers.cpp)  | Linked List                     | Medium     |
 | 003  | Hot100                                                       | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [C++](./Solution/003/longestSubstringWithoutRepeatingCharacters.cpp) | Hash                            | Medium     |
-| 005  | Hot100                                                       | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [C++](./Solution/005/longestPalindrome.cpp) | String                          | Medium     |
+| 005  | Hot100,面试                                                  | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [C++](./Solution/005/longestPalindrome.cpp) | String                          | Medium     |
 | 006  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) |                       | [C++](./Solution/006/convert.cpp)        | String                          | Easy       |
 | 007  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 整数翻转                  | [C++](./Solution/007/reverse.cpp)        | Math                            | Easy       |
 | 008  | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) |                       | [C++](./Solution/008/myAtoi.cpp)         | Math/String                     | Easy       |
@@ -30,13 +30,14 @@
 | 033  | Hot100 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) (对比81题) | [C++](./Solution/033/search.cpp)         | Array/BinarySearch              | Medium     |
 | 034  | Hot100 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](./Solution/034/searchRange.cpp)    | Array                           | Medium     |
 | 035  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 寻找插入位置                | [C++](./Solution/035/searchInsert.cpp)   | Array                           | Medium     |
-| 039  | [Combination Sum](https://leetcode.com/problems/combination-sum/) |                       | [C++](./Solution/039/combinationSum.cpp) | Array/Backtracking              | Medium     |
+| 039  |  | [组合总和](https://leetcode-cn.com/problems/combination-sum/) | [C++](./Solution/039/combinationSum.cpp) | Array/Backtracking              | Medium     |
 | 040  | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) |                       | [C++](./Solution/040/combinationSum2.cpp) | Array/Backtracking              | Medium     |
 | 045  | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | 跳步游戏II                | [C++](./Solution/045/jump.cpp)           | Array/Greedy                    | Hard       |
-| 048  | [Rotate Image](https://leetcode.com/problems/rotate-image) | 矩阵旋转90°C              | [C++](./Solution/048/rotate.cpp)         | Array                           | Medium     |
-| 049  | [Group Anagrams](https://leetcode.com/problems/anagrams) | 回文分组                  | [C++](./Solution/049/groupAnagrams.cpp)  | HashTable/String                | Medium     |
+| 046 | Hot100 | [全排列](https://leetcode-cn.com/problems/permutations/) |  | Recursion | Medium |
+| 048  | Hot100 | [矩阵旋转90°C](https://leetcode-cn.com/problems/rotate-image/) | [C++](./Solution/048/rotate.cpp)         | Array                           | Medium     |
+| 049  | Hot100 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [C++](./Solution/049/groupAnagrams.cpp)  | HashTable/String                | Medium     |
 | 050  | [Pow(x, n)](https://leetcode.com/problems/powx-n) | Pow函数                 | [C++](./Solution/050/myPow.cpp)          | BinarySearch/Math               | Medium     |
-| 053  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | 连续子数组的最大和             | [C++](./Solution/053/maxSubArray.cpp)    | DP/Array                        | Medium     |
+| 053  | Hot100                                                       | [最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/) | [C++](./Solution/053/maxSubArray.cpp)    | DP/Array                        | Medium     |
 | 054  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/?tab=Description) | 螺旋式打印矩阵               | [C++](./Solution/054/spiralOrder.cpp)    | Array                           | Medium     |
 | 055  | [Jump Game](https://leetcode.com/problems/jump-game) | 跳步游戏I                 | [C++](./Solution/055/canJump.cpp)        | Array/Greedy                    | Medium     |
 | 056  | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 合并区间                  | [C++](./Solution/056/merge.cpp)          | Array/Sort                      | Medium     |
@@ -48,6 +49,7 @@
 | 064  | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | 最短路径和                 | [C++](./Solution/064/minPathSum.cpp)     | Array/DP                        | Medium     |
 | 066  | [Plus One](https://leetcode.com/problems/plus-one) | 加1                    | [C++](./Solution/066/plusOne.cpp)        | Array/Math                      | Easy       |
 | 067  | [Add Binary](https://leetcode.com/problems/add-binary/) | 二进制数相加                | [C++](./Solution/067/addBinary.cpp)      | Math/String                     | Easy       |
+| 069 | 面试 | [ x 的平方根 ](https://leetcode-cn.com/problems/sqrtx/) | [C++](./Solution/069/mySqrt.cpp) | Array/BinarySearch | Easy |
 | 070  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 爬楼梯                   | [C++](./Solution/070/climbStairs.cpp)    | DP                              | Easy       |
 | 071  | [Simplify Path](https://leetcode.com/problems/simplify-path/) |                       | [C++](./Solution/071/simplifyPath.cpp) [Python](./Solution/071/simplifyPath.py) | Stack/String                    | Medium     |
 | 072  | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 编辑距离                  | [C++](./Solution/072/minDistance.cpp)    | DP                              | Hard       |
@@ -137,7 +139,7 @@
 | 264  | [Ugly NumberII](https://leetcode.com/problems/ugly-number-ii) | 丑数II                  | [C++](./Solution/264/nthUglyNumber.cpp)  | Math                            | Medium     |
 | 268  | [Missing Number](https://leetcode.com/problems/missing-number) | 缺失的数                  | [C++](./Solution/268/missingNumber.cpp)  | Array/Math/BitManipulation      | Easy       |
 | 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 寻找数组中的重复元素            | [C++](./Solution/287/findDuplicate.cpp)  | BinarySearch/Array              | Medium     |
-| 300  |  | 最长递增子序列            | [C++](./Solution/300/lengthOfLIS.cpp)  | DP              | Medium     |
+| 300  | Hot100,面试 | [最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [C++](./Solution/300/lengthOfLIS.cpp)  | DP              | Medium     |
 | 328  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) | 奇数偶数链表                | [C++](./Solution/328/oddEvenList.cpp)    | LinkedList                      | Medium     |
 | 329  | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | 矩阵中的最长增长路径            | [C++](./Solution/329/longestIncreasingPath.cpp) | DFS/DP                          | Hard       |
 | 344  | [Reverse String](https://leetcode.com/problems/reverse-string) | 字符串翻转                 | [C++](./Solution/344/reverseString.cpp)  | String/Two Point                | Easy       |
@@ -150,9 +152,12 @@
 | 445  | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 两个链表相加II              | [C++](./Solution/445/addTwoNumbers.cpp)  | Linked List                     | Medium     |
 | 451  | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 按字符串频数排序              | [C++](./Solution/451/frequencySort.cpp)  | HashTable/Heap/Sort             | Medium     |
 | 461 | Hot100,面试 | [汉明距离](https://leetcode-cn.com/problems/hamming-distance/) | [C++](./Solution/461/hammingDistance.cpp) | Bit | Easy |
+| 477 | 面试 | [汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/) | [C++](./Solution/477/totalHammingDistance.cpp) | Bit | Medium |
 | 501 | 面试 | [二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/) | [C++](./Solution/501/findMode.cpp) | BinarySearch | Easy |
 | 524  | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) | 字典中最长的单词              | [C++](./Solution/524/findLongestWord.cpp) | TwoPoints/Sort                  | Medium     |
 | 538 | Hot100,面试 | [把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [C++](./Solution/538/convertBST.cpp) | Tree | Medium |
+| 542 | 面试 | [01 矩阵](https://leetcode-cn.com/problems/01-matrix/) | [C++](./Solution/542/updateMatrix.cpp) | BFS | Medium |
 | 543 | Hot100,面试 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | [C++](./Solution/543/diameterOfBinaryTree.cpp) | Tree | Easy |
+| 1143 | 面试 | [最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) | [C++](./Solution/1143/longestCommonSubsequence.cpp) | DP | Medium |
 
 
