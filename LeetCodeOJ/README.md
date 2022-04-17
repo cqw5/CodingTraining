@@ -149,7 +149,10 @@
 | 415  | [Add Strings](https://leetcode.com/problems/add-strings) | 两个字符串相加               | [C++](./Solution/415/addStrings.cpp)     | Math                            | Easy       |
 | 445  | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 两个链表相加II              | [C++](./Solution/445/addTwoNumbers.cpp)  | Linked List                     | Medium     |
 | 451  | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 按字符串频数排序              | [C++](./Solution/451/frequencySort.cpp)  | HashTable/Heap/Sort             | Medium     |
-| 461 | Hot100 | [汉明距离](https://leetcode-cn.com/problems/hamming-distance/) |  | 位运算 | Easy |
+| 461 | Hot100,面试 | [汉明距离](https://leetcode-cn.com/problems/hamming-distance/) | [C++](./Solution/461/hammingDistance.cpp) | Bit | Easy |
+| 501 | 面试 | [二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/) | [C++](./Solution/501/findMode.cpp) | BinarySearch | Easy |
 | 524  | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) | 字典中最长的单词              | [C++](./Solution/524/findLongestWord.cpp) | TwoPoints/Sort                  | Medium     |
+| 538 | Hot100,面试 | [把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [C++](./Solution/538/convertBST.cpp) | Tree | Medium |
+| 543 | Hot100,面试 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | [C++](./Solution/543/diameterOfBinaryTree.cpp) | Tree | Easy |
 
 
