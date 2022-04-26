@@ -19,6 +19,47 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
+
+/**
+ * 归并排序的思路（推荐）：https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/he-bing-kge-pai-xu-lian-biao-by-leetcode-solutio-2/
+ * 时间复杂度：k个链表合并，每一个链表平均长度n，大概需要合并log(k)次
+ *  第1轮合并 k/2 个链表，每一个合并时间复杂度为 2n
+ *  第2轮合并 k/4 个链表，每一个合并时间复杂度为 4n
+ *  第i轮合并 k/(i+1)个链表，每一个合并时间复杂度为 (i+1)n
+ *  总的时间复杂度为: k/2*2n + k/4*4n + ... + k/(i+1)*(i+1)n = kn + kn + ... + kn = kn * log(k)
+ * 空间复杂度：递归会使用到 O(logk) 空间代价的栈空间。
+ */
+class Solution {
+public:
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        return mergeSort(lists, 0, lists.size()-1);
+    }
+
+    ListNode* mergeSort(vector<ListNode*>& lists, int low, int high) {
+        if (low > high) return nullptr;
+        if (low == high) return lists[low];
+        int mid = (low + high) / 2;
+        ListNode* left = mergeSort(lists, low, mid);
+        ListNode* right = mergeSort(lists, mid+1, high);
+        return merge(left, right);
+    }
+
+    ListNode* merge(ListNode* list1, ListNode* list2) {
+        if (list1 == nullptr) return list2;
+        if (list2 == nullptr) return list1;
+        ListNode* p;
+        if (list1->val <= list2->val) {
+            p = list1;
+            p->next = merge(list1->next, list2);
+        } else {
+            p = list2;
+            p->next = merge(list1, list2->next);
+        }
+        return p;
+    }
+};
+
+
 /* 
  * 合并k个有序链表
  * 使用一个小顶堆来协助实现，小顶堆中保存每个有序链表中最小的元素: pair(链表的序号, 链表结点)

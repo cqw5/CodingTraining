@@ -22,8 +22,8 @@
 | 020  | Hot100 | [效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [C++](./Solution/020/isValid.cpp)        | String/Stack                    | Easy       |
 | 021  | Hot100 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [C++](./Solution/021/mergeTwoLists.cpp)  | Linked List                     | Easy       |
 | 022  | Hot100 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [C++](./Solution/022/generateParenthesis.cpp) | String                          | Medium     |
-| 023  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) |                       | [C++](./Solution/023/mergeKLists.cpp)    | Linked List/heap                | Hard       |
-| 024  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 交换链表每一对相邻的元素          | [C++](./Solution/024/swapPairs.cpp)      | Linked List                     | Easy       |
+| 023  | Hot100,面试 | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [C++](./Solution/023/mergeKLists.cpp)    | Linked List/Sort | Hard       |
+| 024  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 交换链表每一对相邻的元素  | [C++](./Solution/024/swapPairs.cpp)      | Linked List                     | Easy       |
 | 026  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | 删除排序数组的重复元素I          | [C++](./Solution/026/removeDuplicates.cpp) | Array                           | Easy       |
 | 027  | [Remove Element](https://leetcode.com/problems/remove-element/) | 删除数组元素                | [C++](./Solution/027/removeElement.cpp)  | Array                           | Easy       |
 | 031  | Hot100 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [C++](./Solution/031/nextPermutation.cpp) | Array                           | Medium     |
@@ -162,6 +162,7 @@
 | 542 | 面试 | [01 矩阵](https://leetcode-cn.com/problems/01-matrix/) | [C++](./Solution/542/updateMatrix.cpp) | BFS | Medium |
 | 543 | Hot100,面试 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | [C++](./Solution/543/diameterOfBinaryTree.cpp) | Tree | Easy |
 | 617 | Hot100 | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/) | [C++](./Solution/617/findDisappearedNumbers.cpp) | Tree | Easy |
+| 978 | Hot100 | [最长湍流子数组](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [C++](./Solution/978/maxTurbulenceSize.cpp) | Array | Medium |
 | **1143** | 面试 | [最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) | [C++](./Solution/1143/longestCommonSubsequence.cpp) | DP | Medium |
 
 
