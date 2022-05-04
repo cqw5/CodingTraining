@@ -32,6 +32,7 @@
 | 035  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 寻找插入位置                | [C++](./Solution/035/searchInsert.cpp)   | Array                           | Medium     |
 | 039  | Hot100 | [组合总和](https://leetcode-cn.com/problems/combination-sum/) | [C++](./Solution/039/combinationSum.cpp) | Array/Backtracking              | Medium     |
 | 040  | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) |                       | [C++](./Solution/040/combinationSum2.cpp) | Array/Backtracking              | Medium     |
+| 042 | Hot100 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) |  | DP | Hard |
 | 045  | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | 跳步游戏II                | [C++](./Solution/045/jump.cpp)           | Array/Greedy                    | Hard       |
 | 046 | Hot100 | [全排列](https://leetcode-cn.com/problems/permutations/) |  | Recursion | Medium |
 | 048  | Hot100 | [矩阵旋转90°C](https://leetcode-cn.com/problems/rotate-image/) | [C++](./Solution/048/rotate.cpp)         | Array                           | Medium     |
