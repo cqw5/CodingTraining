@@ -33,23 +33,24 @@
 | 039  | Hot100 | [组合总和](https://leetcode-cn.com/problems/combination-sum/) | [C++](./Solution/039/combinationSum.cpp) | Array/Backtracking              | Medium     |
 | 040  | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) |                       | [C++](./Solution/040/combinationSum2.cpp) | Array/Backtracking              | Medium     |
 | 042 | Hot100 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) |  | DP | Hard |
+| 043 | ACM面试官 | [大数乘法](https://leetcode.cn/problems/multiply-strings/) | [C++](./Solution/043/multiply.cpp) |  | Medium |
 | 045  | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | 跳步游戏II                | [C++](./Solution/045/jump.cpp)           | Array/Greedy                    | Hard       |
 | 046 | Hot100 | [全排列](https://leetcode-cn.com/problems/permutations/) |  | Recursion | Medium |
 | 048  | Hot100 | [矩阵旋转90°C](https://leetcode-cn.com/problems/rotate-image/) | [C++](./Solution/048/rotate.cpp)         | Array                           | Medium     |
 | 049  | Hot100 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [C++](./Solution/049/groupAnagrams.cpp)  | HashTable/String                | Medium     |
-| 050  | [Pow(x, n)](https://leetcode.com/problems/powx-n) | Pow函数                 | [C++](./Solution/050/myPow.cpp)          | BinarySearch/Math               | Medium     |
+| 050  | ACM面试官 | Pow函数                 | [C++](./Solution/050/myPow.cpp)          | BinarySearch/Math               | Medium     |
 | 053  | Hot100                                                       | [最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/) | [C++](./Solution/053/maxSubArray.cpp)    | DP/Array                        | Medium     |
-| 054  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/?tab=Description) | 螺旋式打印矩阵               | [C++](./Solution/054/spiralOrder.cpp)    | Array                           | Medium     |
+| 054  | Hot100 | 螺旋式打印矩阵               | [C++](./Solution/054/spiralOrder.cpp)    | Array                           | Medium     |
 | 055  | Hot100 | [跳步游戏I](https://leetcode-cn.com/problems/jump-game/) | [C++](./Solution/055/canJump.cpp)        | Array/Greedy                    | Medium     |
 | **056** | Hot100 | [合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [C++](./Solution/056/merge.cpp)          | Array/Sort                      | Medium     |
 | 058  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 字符串最后一个单词的长度          | [C++](./Solution/058/lengthOfLastWord.cpp) | String                          | Easy       |
-| 059  | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | 螺旋式填充矩阵               | [C++](./Solution/059/generateMatrix.cpp) | Array                           | Medium     |
+| 059  |                                                              | 螺旋式填充矩阵               | [C++](./Solution/059/generateMatrix.cpp) | Array                           | Medium     |
 | 061  | [Rotate List](https://leetcode.com/problems/rotate-list/) |                       | [C++](./Solution/061/rotateRight.cpp)    | Linked List                     | Medium     |
 | 062  | Hot100 | [机器人路径数(无障碍物)](https://leetcode-cn.com/problems/unique-paths/) | [C++](./Solution/062/uniquePaths.cpp)    | Array/DP                        | Medium     |
 | 063  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 机器人路径数II(有障碍物)        | [C++](./Solution/063/uniquePathsWithObstacles.cpp) | Array/DP                        | Medium     |
 | 064  | Hot100 | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [C++](./Solution/064/minPathSum.cpp)     | Array/DP                        | Medium     |
-| 066  | [Plus One](https://leetcode.com/problems/plus-one) | 加1            | [C++](./Solution/066/plusOne.cpp)        | Array/Math                      | Easy       |
-| 067  | [Add Binary](https://leetcode.com/problems/add-binary/) | 二进制数相加                | [C++](./Solution/067/addBinary.cpp)      | Math/String                     | Easy       |
+| 066  | 面试 | 加1            | [C++](./Solution/066/plusOne.cpp)        | Array/Math                      | Easy       |
+| 067  | 面试 | 二进制数相加                | [C++](./Solution/067/addBinary.cpp)      | Math/String                     | Easy       |
 | **069** | 面试 | [ x 的平方根 ](https://leetcode-cn.com/problems/sqrtx/) | [C++](./Solution/069/mySqrt.cpp) | Array/BinarySearch | Easy |
 | 070  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 爬楼梯                   | [C++](./Solution/070/climbStairs.cpp)    | DP                              | Easy       |
 | 071  | [Simplify Path](https://leetcode.com/problems/simplify-path/) |                       | [C++](./Solution/071/simplifyPath.cpp) [Python](./Solution/071/simplifyPath.py) | Stack/String                    | Medium     |
