@@ -26,7 +26,7 @@ public:
                 ans[i+j+1] += n1 * n2;
             }
         }
-        for (int i = m+n-1; i >= 0; i--) {
+        for (int i = m+n-1; i > 0; i--) {
             ans[i-1] += ans[i] / 10;
             ans[i] = ans[i] % 10;
         }
